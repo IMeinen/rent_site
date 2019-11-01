@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Fundo = styled.div`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
   flex-direction: column;
   margin-top: -15%;
@@ -47,8 +48,6 @@ export const QuadroVantagens = styled.div`
   z-index: 4;
 
   h1 {
-    @import url('//fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-
     color: #333;
     font-family: 'Be Vietnam';
     font-size: 35px;
@@ -144,8 +143,6 @@ export const DadosRodape = styled.div`
   background-color: #333;
 
   h1 {
-    @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-
     color: #fff;
     font-family: 'Be Vietnam';
     font-size: 16px;
@@ -174,8 +171,6 @@ export const DadosRodape2 = styled.div`
   height: 30%;
   background-color: #333;
   h1 {
-    @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-
     color: #777;
     font-family: 'Be Vietnam';
     font-size: 16px;
