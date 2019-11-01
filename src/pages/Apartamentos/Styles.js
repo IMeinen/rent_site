@@ -6,6 +6,7 @@ export const Fundo = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  margin-top: -5%;
   width: 100%;
   height: 260vh;
 `;

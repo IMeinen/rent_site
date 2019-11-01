@@ -47,7 +47,7 @@ export const QuadroVantagens = styled.div`
   z-index: 4;
 
   h1 {
-    @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+    @import url('//fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
     color: #333;
     font-family: 'Be Vietnam';

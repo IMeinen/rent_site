@@ -10,7 +10,8 @@ export default function Main() {
         <img src={logo} alt="logo" />
         <nav>
           <a href="/">HOME</a>
-          <a href="#vantagens">VANTAGENS</a>
+          <a href="/">SOBRE</a>
+          <a href="/">VANTAGENS</a>
           <a href="/">APARTAMENTOS</a>
           <a href="/">FALE CONOSCO</a>
         </nav>
