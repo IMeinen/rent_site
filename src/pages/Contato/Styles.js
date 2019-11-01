@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Fundo = styled.div`
   display: flex;
   flex-direction: column;
-
+  margin-top: -15%;
   width: 100%;
-  height: 90vh;
+  height: 180vh;
   background-color: #fff;
 `;
 
@@ -16,7 +16,7 @@ export const F1 = styled.div`
   justify-content: center;
 
   width: 100%;
-  height: 75%;
+  height: 85%;
   background-color: #fff;
 `;
 
@@ -27,7 +27,7 @@ export const F2 = styled.div`
   justify-content: center;
 
   width: 100%;
-  height: 25%;
+  height: 15%;
   background-color: #333;
 `;
 
@@ -65,6 +65,54 @@ export const QuadroVantagens = styled.div`
     form {
       display: flex;
       flex-direction: column;
+      margin-top: 2%;
+
+      input {
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: 1px solid #aaa;
+        height: 44px;
+        margin: 3px;
+        color: #333;
+        font-family: 'Be Vietnam';
+        font-size: 16px;
+        padding: 0 15px;
+      }
+
+      h2 {
+        margin-top: 30px;
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+        color: #333;
+        font-family: 'Be Vietnam';
+        font-size: 25px;
+      }
+
+      h3 {
+        margin-top: 30px;
+        width: 100%;
+        text-align: left;
+        color: #333;
+        font-family: 'Be Vietnam';
+        font-size: 20px;
+      }
+
+      button {
+        height: 44px;
+        width: 30%;
+        background: #f78f2d;
+        margin-left: 35%;
+        color: #fff;
+        font-weight: bold;
+        border: 0;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: 'Be Vietnam';
+        font-size: 20px;
+        margin-top: 10%;
+      }
     }
   }
 `;

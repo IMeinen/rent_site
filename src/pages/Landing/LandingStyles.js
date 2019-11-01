@@ -97,7 +97,7 @@ export const Filtro = styled.div`
   backface-visibility: hidden;
   -webkit-box-shadow: -6px 5px 13px 4px rgba(97, 97, 97, 0.65);
   box-shadow: -6px 5px 13px 4px rgba(97, 97, 97, 0.65);
-  background-color: rgba(255, 138, 36, 0.8); /* #f78f2d */
+  background-color: rgba(255, 138, 36, 0); /* #f78f2d */
   flex-wrap: wrap;
   position: relative;
   z-index: 2;
@@ -108,7 +108,7 @@ export const Filtro = styled.div`
     margin-left: 0px;
     padding-bottom: 60px;
 
-    color: #333333;
+    color: #fff;
   }
 
   nav {

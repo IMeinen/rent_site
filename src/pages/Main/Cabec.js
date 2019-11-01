@@ -12,7 +12,6 @@ export default function Main() {
           <a href="/">HOME</a>
           <a href="#vantagens">VANTAGENS</a>
           <a href="/">APARTAMENTOS</a>
-          <a href="/">GALERIA</a>
           <a href="/">FALE CONOSCO</a>
         </nav>
         <a href="/" className="menu">

@@ -21,7 +21,7 @@ export default function Main() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaFacebook color="#333333" size={46} />
+                <FaFacebook color="#fff" size={46} />
               </a>
               <a
                 href="https://www.instagram.com/rentcoliving/"
@@ -29,20 +29,20 @@ export default function Main() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaInstagram color="#333333" size={50} />
+                <FaInstagram color="#fff" size={50} />
               </a>
               <a
-                href="https://www.instagram.com/rentcoliving/"
+                href="https://wa.me/5551989092637"
                 className="menu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaWhatsapp color="#333333" size={50} />
+                <FaWhatsapp color="#fff" size={50} />
               </a>
             </nav>
             <LogoCama />
             <h1>Viva uma nova experiência!</h1>
-            <FaAngleDoubleDown color="#333333" size={80} />
+            <FaAngleDoubleDown color="#fff" size={80} />
           </Filtro>
         </Fundo>
       </Content>
