@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Content = styled.div`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +53,6 @@ export const Header = styled.div`
   background-color: #fff;
   z-index: 5;
   h1 {
-    @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
     color: #333;
     font-family: 'Be Vietnam';
     font-size: 40px;

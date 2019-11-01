@@ -3,7 +3,7 @@ import Fundo1 from '../Main/images/fundo1.jpg';
 import Fundo2 from '../Main/images/fundo2.jpg';
 import Fundo3 from '../Main/images/fundo3.jpg';
 
-import LogoC from '../Main/images/logo_so_cama.svg';
+import LogoC from '../Main/images/logo_vect.svg';
 
 export const Fundo = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');

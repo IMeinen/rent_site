@@ -70,7 +70,6 @@ export const Fundo = styled.div`
 `;
 
 export const Content = styled.div`
-  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -168,8 +167,6 @@ export const TextBox = styled.div`
   border-right: 1px solid #f78f2d;
 
   h1 {
-    @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-
     color: #000;
     font-family: 'Be Vietnam';
     font-size: 40px;
