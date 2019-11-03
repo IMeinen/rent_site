@@ -42,20 +42,17 @@ export const Cabec = styled.div`
   /* celular */
   @media only screen and (min-width: 240px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
     height: 60px;
-
+  }
     img {
-      width: 80px;
+      @media only screen and (min-width: 240px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
+      max-width: 100px;
       border-radius: 50%;
       margin-left: 8%;
       margin-right: 10%;
       margin-top: 55px;
+      }
     }
 
-    a {
-      margin-left: 45%;
-      margin-top: 2%;
-      margin-right: 5%;
-    }
   }
 
   /* tablet e celular grande */
@@ -82,49 +79,59 @@ export const Cabec = styled.div`
   }
 
   /* PC ou maior */
-  @media (min-width: 1200px) {
-    height: 80px;
-    a.menu {
+
+  a.menu {
+    @media (min-width: 1200px) {
       display: none;
     }
-    nav {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-self: center;
-      align-self: center;
-    }
 
-    a {
-      color: #ffffff;
-      font-family: 'Be Vietnam';
+    float: right;
+    margin-right: 7%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    @media only screen and (min-width: 1px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5) {
+      display: none;
+    }
+  }
+
+  a {
+    color: #ffffff;
+    font-family: 'Be Vietnam';
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  img {
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 10%;
+
+    margin-top: 75px;
+  }
+
+  div.login {
+    @media only screen and (min-width: 1px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5) {
+      display: none;
+    }
+    background-color: #ff8a24;
+    width: 8%;
+    height: 55%;
+    justify-self: flex-start;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
       font-size: 20px;
-      padding: 10px;
-      text-decoration: none;
-    }
-    img {
-      width: 140px;
-      border-radius: 50%;
-      margin-left: 10%;
-
-      margin-top: 75px;
-    }
-
-    div.login {
-      background-color: #ff8a24;
-      width: 8%;
-      height: 55%;
-      justify-self: flex-start;
-      margin-right: 10%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      h1 {
-        font-size: 20px;
-        font-family: 'Be Vietnam';
-        color: #fff;
-      }
+      font-family: 'Be Vietnam';
+      color: #fff;
     }
   }
 `;

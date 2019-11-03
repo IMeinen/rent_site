@@ -118,6 +118,12 @@ export const Filtro = styled.div`
     align-items: center;
     margin-right: 3%;
     display: flex;
+    @media only screen and (min-width: 558px) and (max-width: 1399px) and (-webkit-min-device-pixel-ratio: 1.5) {
+      margin-top: 20px;
+    }
+    @media only screen and (min-width: 200px) and (max-width: 557px) and (-webkit-min-device-pixel-ratio: 1.5) {
+      margin-top: 35px;
+    }
   }
 
   a {
