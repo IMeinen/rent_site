@@ -15,10 +15,9 @@ export const Fundo = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   backface-visibility: hidden;
-  -webkit-box-shadow: -6px 5px 13px 4px rgba(97, 97, 97, 0.65);
-  box-shadow: -6px 5px 13px 4px rgba(97, 97, 97, 0.65);
+
   background-image: url(${Fundo1});
-  position: relative;
+
   z-index: 2;
 
   @media (min-width: 1200px) {
@@ -76,12 +75,6 @@ export const Content = styled.div`
 
   height: 100vh;
   background-color: #fff;
-
-  h1 {
-    color: #fff;
-    font-family: 'Be Vietnam';
-    font-size: 20px;
-  }
 `;
 
 export const Filtro = styled.div`

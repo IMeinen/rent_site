@@ -1,144 +1,78 @@
 import styled from 'styled-components';
+import FundoDiagonal from '../Main/images/fundo_diagonal2.svg';
+import ImagemExemplo from '../Main/images/rent_riachuelo.jpg';
 
-import HG from '../Main/images/rent_riachuelo.jpg';
-
-export const Content = styled.div`
+export const Container = styled.div`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
+  flex-wrap: nowrap;
   width: 100%;
-  height: 100vh;
-  background-color: #fff;
-  z-index: 3;
+  height: 92vh;
+  background-image: url(${FundoDiagonal});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 90%;
 `;
 
-export const Content2 = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  width: 90%;
-  height: 80%;
-  background-color: #fff;
-  margin-top: 5%;
-  margin-left: 5%;
-  z-index: 3;
-`;
-
-export const TextBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+export const Centro = styled.div`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+  background-image: url(${ImagemExemplo});
+  border: 30px solid #333;
   width: 40%;
-  height: 80vh;
-  background-color: #fff;
+  height: 90%;
+  margin-left: 15%;
+`;
 
-  z-index: 3;
+export const Description = styled.div`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+
+  background-color: #fff;
+  width: 35%;
+  height: 45%;
+  margin-left: -5%;
+  margin-top: -10%;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
 
   h1 {
-    @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-
-    color: #000;
+    color: #333;
     font-family: 'Be Vietnam';
+    font-size: 40px;
 
-    padding-top: 5%;
-    padding-left: 5%;
-
-    @media (min-width: 1750px) {
-      font-size: 45px;
-    }
-
-    @media (min-width: 200px) and (max-width: 1749px) {
-      font-size: 35px;
-    }
+    margin-top: 5%;
+    margin-left: 10%;
   }
 
   p {
-    margin-top: 5%;
-    padding-left: 5%;
-    color: #000;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+    color: #333;
     font-family: 'Be Vietnam';
-
-    width: 70%;
-    @media (min-width: 1750px) {
-      font-size: 22px;
-    }
-
-    @media (min-width: 200px) and (max-width: 1749px) {
-      font-size: 18px;
-    }
+    text-align: left;
   }
 `;
 
-export const IMGBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 60%;
-  height: 80%;
-
-  border-left: 1px solid #f78f2d;
-
-  z-index: 3;
-  background-color: #fff;
-`;
-
-export const BotaoContato = styled.div`
-  width: 300px;
-  height: 100px;
-  align-self: center;
-  justify-self: center;
-
-  position: relative;
-  z-index: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+export const Botao = styled.div`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
   background-color: #f78f2d;
-
-  @media (min-width: 1750px) {
-    width: 300px;
-    height: 100px;
-    margin-top: 15%;
-  }
-
-  @media (min-width: 200px) and (max-width: 1749px) {
-    width: 250px;
-    height: 80px;
-    margin-top: 7%;
-  }
+  width: 16%;
+  height: 10%;
+  margin-left: -17%;
+  margin-top: 35%;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
-    padding: 0px;
-    text-align: center;
-
-    vertical-align: middle;
-    width: 60%;
-
-    @media (min-width: 1750px) {
-      font-size: 25px;
-    }
-
-    @media (min-width: 200px) and (max-width: 1749px) {
-      font-size: 21px;
-    }
+    font-size: 22px;
   }
-`;
-
-export const ContainerSlideShow = styled.div`
-  width: 90%;
-  height: 90%;
-  margin: 5%;
-  z-index: 3;
-  background-image: url(${HG});
-  background-repeat: no-repeat;
-  background-size: cover;
 `;

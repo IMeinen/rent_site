@@ -19,7 +19,7 @@ export default function Main() {
       <Fundo>
         <Content>
           <Header>
-            <h1>APARTAMENTOS</h1>
+            <h1>COLIVINGS</h1>
           </Header>
           <ContainerApart>
             <ContainerApartRightL>

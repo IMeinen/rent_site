@@ -8,7 +8,7 @@ export const Content = styled.div`
   justify-content: center;
   width: 100%;
   height: 100vh;
-  background-color: #fff;
+  background-color: rgba(46, 46, 46, 0);
   z-index: 3;
 `;
 
@@ -22,8 +22,8 @@ export const QuadroVantagens = styled.div`
   height: 103%;
   background-color: #fff;
   margin-left: -2%;
-  margin-top: -5%;
-  box-shadow: 5px 5px 22px -1px rgba(68, 68, 68, 0.75);
+  margin-top: -3%;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
 `;
 
@@ -38,7 +38,7 @@ export const QuadroVantagensSombra = styled.div`
   background-color: #f78f2d;
   margin-top: -12%;
   margin-left: 3%;
-  box-shadow: 5px 5px 22px -1px rgba(68, 68, 68, 0.75);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 3;
 `;
 
@@ -78,12 +78,12 @@ export const GridItem = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  width: 28%;
-  height: 28%;
+  width: 23%;
+  height: 27%;
   margin: 1%;
   background-color: #fff;
-  -webkit-box-shadow: 5px 5px 16px 5px rgba(46, 46, 46, 0.37);
-  box-shadow: 5px 5px 16px 5px rgba(46, 46, 46, 0.37);
+
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
   &:hover {
     background-color: #333;
@@ -98,7 +98,7 @@ export const GridItem = styled.div`
   h1 {
     color: #333;
     font-family: 'Be Vietnam';
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     vertical-align: middle;
     width: 60%;

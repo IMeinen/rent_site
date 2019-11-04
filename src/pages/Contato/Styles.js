@@ -44,7 +44,7 @@ export const QuadroVantagens = styled.div`
   margin-left: -2%;
   margin-top: -5%;
 
-  box-shadow: 5px 5px 22px -1px rgba(68, 68, 68, 0.75);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
 
   h1 {
@@ -128,7 +128,7 @@ export const QuadroVantagensSombra = styled.div`
   margin-top: -12%;
   margin-left: 3%;
   margin-bottom: 3%;
-  box-shadow: 5px 5px 22px -1px rgba(68, 68, 68, 0.75);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 3;
 `;
 

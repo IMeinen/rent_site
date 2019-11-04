@@ -11,7 +11,7 @@ import { Fundo, Content, Filtro, LogoCama } from './LandingStyles';
 export default function Main() {
   return (
     <>
-      <Content>
+
         <Fundo>
           <Filtro>
             <nav>
@@ -45,7 +45,7 @@ export default function Main() {
             <FaAngleDoubleDown color="#fff" size={80} />
           </Filtro>
         </Fundo>
-      </Content>
+
     </>
   );
 }

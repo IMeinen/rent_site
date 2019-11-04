@@ -7,9 +7,12 @@ import {
   FaHandshake,
   FaSignInAlt,
   FaGlassMartiniAlt,
-  FaBalanceScale,
+  FaQuidditch,
   FaWrench,
   FaParachuteBox,
+  FaWifi,
+  FaCouch,
+  FaFileInvoiceDollar,
 } from 'react-icons/fa';
 
 import {
@@ -38,7 +41,19 @@ export default function Main() {
               </GridItem>
               <GridItem>
                 <FaMapMarkerAlt size={46} className="Item" />
-                <h1>Localização</h1>
+                <h1>Localização privilegiada</h1>
+              </GridItem>
+              <GridItem>
+                <FaWifi size={46} className="Item" />
+                <h1>Internet wi-fi de alta velocidade</h1>
+              </GridItem>
+              <GridItem>
+                <FaCouch size={46} className="Item" />
+                <h1>Apartamentos mobiliados</h1>
+              </GridItem>
+              <GridItem>
+                <FaFileInvoiceDollar size={46} className="Item" />
+                <h1>Única conta para pagar</h1>
               </GridItem>
               <GridItem>
                 <FaHandHoldingHeart size={46} className="Item" />
@@ -53,8 +68,8 @@ export default function Main() {
                 <h1>Suporte</h1>
               </GridItem>
               <GridItem>
-                <FaBalanceScale size={46} className="Item" />
-                <h1>Regras</h1>
+                <FaQuidditch size={46} className="Item" />
+                <h1>Faxina semanal inclusa</h1>
               </GridItem>
               <GridItem>
                 <FaParachuteBox size={46} className="Item" />
