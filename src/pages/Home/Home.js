@@ -8,15 +8,24 @@ export default function Main() {
       <Container>
         <Centro />
         <Description>
-          <h1>Viva de um novo jeito</h1>
+          <h1>Sobre nós</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            viverra sem iaculis metus porta rhoncus. Etiam faucibus quam ac nisl
-            dictum, vitae tincidunt lorem posuere. Donec sed velit eget orci
-            convallis viverra. Nulla facilisi. Praesent id nisl ullamcorper,
-            ullamcorper mauris ut, convallis velit. Vivamus non arcu ut nisl
-            tincidunt pharetra. Proin in nunc ut enim accumsan iaculis sed nec
-            lacus.
+            Somos um casal dedicados a proporcionar uma melhor qualidade de vida
+            a estudantes e profissionais em Porto Alegre via nossos colivings.
+            Queremos fazer de nossos colivings a casa de pessoas que prezam o
+            bom senso e respeito pelo próximo para viver bem em coletivo.
+            Começamos neste negócio com o objetivo de melhorar nossas vidas
+            através de um trabalho que criasse um diferencial em nossa
+            comunidade, agindo de forma independente e responsável. Sendo que
+            durante este processo nossa maior inspiração tem sido ser um
+            facilitador para nossos colivers alcançarem seus objetivos e
+            renovando seu jeito de viver com conveniência e flexibilidade.
+            Gostamos de ser “mãos-a-obra” em todos os aspectos de
+            desenvolvimento e gestão de nossos colivings. Desde a busca por
+            prédios antigos, reformando com layouts práticos, com decoração
+            moderna resgatando suas originalidades até a prestação de todos os
+            serviços de moradia. Na RENT COLIVING conte sempre conosco. Se
+            quiser saber um pouco mais sobre nós entre em contato!
           </p>
         </Description>
         <Botao>

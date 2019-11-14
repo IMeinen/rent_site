@@ -21,7 +21,7 @@ export default function Main() {
           <Header>
             <h1>COLIVINGS</h1>
           </Header>
-          <ContainerApart>
+          <ContainerApart Right>
             <ContainerApartRightL>
               <Efeitotransparente>
                 <h1>RIACHUELO</h1>
@@ -35,7 +35,7 @@ export default function Main() {
               </Descript>
             </ContainerApartRightR>
           </ContainerApart>
-          <ContainerApart>
+          <ContainerApart Left>
             <ContainerApartRightR>
               <Descript />
             </ContainerApartRightR>
@@ -43,37 +43,13 @@ export default function Main() {
               <Efeitotransparente />
             </ContainerApartRightL>
           </ContainerApart>
-          <ContainerApart>
+          <ContainerApart Right>
             <ContainerApartRightL>
               <Efeitotransparente />
             </ContainerApartRightL>
             <ContainerApartRightR>
               <Descript />
             </ContainerApartRightR>
-          </ContainerApart>
-          <ContainerApart>
-            <ContainerApartRightR>
-              <Descript />
-            </ContainerApartRightR>
-            <ContainerApartRightL>
-              <Efeitotransparente />
-            </ContainerApartRightL>
-          </ContainerApart>
-          <ContainerApart>
-            <ContainerApartRightL>
-              <Efeitotransparente />
-            </ContainerApartRightL>
-            <ContainerApartRightR>
-              <Descript />
-            </ContainerApartRightR>
-          </ContainerApart>
-          <ContainerApart>
-            <ContainerApartRightR>
-              <Descript />
-            </ContainerApartRightR>
-            <ContainerApartRightL>
-              <Efeitotransparente />
-            </ContainerApartRightL>
           </ContainerApart>
         </Content>
       </Fundo>

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import FormLabel from '@material-ui/core/FormLabel';
 
 export const Fundo = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
@@ -6,7 +7,7 @@ export const Fundo = styled.div`
   flex-direction: column;
   margin-top: -15%;
   width: 100%;
-  height: 180vh;
+  height: 220vh;
   background-color: #fff;
 `;
 
@@ -112,6 +113,21 @@ export const QuadroVantagens = styled.div`
         font-size: 20px;
         margin-top: 10%;
       }
+
+      .Options {
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        font-family: 'Be Vietnam';
+        color: #333;
+        margin-top: 2%;
+      }
+
+      .label {
+        font-size: 16px;
+        font-family: 'Be Vietnam';
+        color: #333;
+      }
     }
   }
 `;
@@ -175,4 +191,11 @@ export const DadosRodape2 = styled.div`
     font-family: 'Be Vietnam';
     font-size: 16px;
   }
+`;
+
+export const StyledLegend = styled(FormLabel)`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+  color: #333;
+  font-family: 'Be Vietnam';
+  font-size: 312px;
 `;

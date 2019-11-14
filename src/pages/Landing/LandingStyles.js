@@ -124,6 +124,9 @@ export const Filtro = styled.div`
     align-items: center;
     margin: 3px;
   }
+
+
+  }
 `;
 
 export const LogoCama = styled.div`

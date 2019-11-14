@@ -7,9 +7,9 @@ export const Fundo = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: -5%;
+
   width: 100%;
-  height: 260vh;
+  height: 150vh;
 `;
 
 export const Content = styled.div`
@@ -20,8 +20,11 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   height: 90%;
+  border: 20px solid #333;
+  box-shadow: 5px 5px 50px 0 rgba(0, 0, 0, 0.2);
+  z-index: 4;
 
   /* @media (min-width: 1200px) {
     margin-top: 5%;
@@ -48,7 +51,7 @@ export const Header = styled.div`
   align-items: center;
   justify-content: center;
   height: 5%;
-
+  margin-bottom: 40px;
   h1 {
     color: #333;
     font-family: 'Be Vietnam';
@@ -164,11 +167,13 @@ export const Header = styled.div`
 
 export const ContainerApart = styled.div`
   width: 60%;
-  height: 13%;
+  height: 28%;
   display: flex;
   flex-direction: row;
-
+  z-index: 3;
   background-color: #fff;
+  margin: 10px;
+  margin-left: ${props => (props.Right ? '-30%' : '30%')};
 `;
 
 export const ContainerApartRightL = styled.div`

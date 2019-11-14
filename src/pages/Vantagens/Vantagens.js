@@ -3,9 +3,9 @@ import React from 'react';
 import {
   FaDollarSign,
   FaMapMarkerAlt,
-  FaHandHoldingHeart,
+  FaBed,
   FaHandshake,
-  FaSignInAlt,
+  FaSave,
   FaGlassMartiniAlt,
   FaQuidditch,
   FaWrench,
@@ -31,7 +31,7 @@ export default function Main() {
         <QuadroVantagensSombra>
           <QuadroVantagens>
             <Header>
-              <h1>VANTAGENS</h1>
+              <h1>Diferenciais</h1>
             </Header>
             <VantagensGrid>
               <GridItem>
@@ -56,16 +56,16 @@ export default function Main() {
                 <h1>Única conta para pagar</h1>
               </GridItem>
               <GridItem>
-                <FaHandHoldingHeart size={46} className="Item" />
-                <h1>Conforto</h1>
+                <FaBed size={46} className="Item" />
+                <h1>Studios e quartos individuais</h1>
               </GridItem>
               <GridItem>
                 <FaHandshake size={46} className="Item" />
-                <h1>Networking</h1>
+                <h1>Área de convivência</h1>
               </GridItem>
               <GridItem>
                 <FaWrench size={46} className="Item" />
-                <h1>Suporte</h1>
+                <h1>Equipe de manutenção</h1>
               </GridItem>
               <GridItem>
                 <FaQuidditch size={46} className="Item" />
@@ -80,8 +80,8 @@ export default function Main() {
                 <h1>Eventos</h1>
               </GridItem>
               <GridItem>
-                <FaSignInAlt size={46} className="Item" />
-                <h1>Sem burocracia</h1>
+                <FaSave size={46} className="Item" />
+                <h1>Lavanderia</h1>
               </GridItem>
             </VantagensGrid>
           </QuadroVantagens>

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import FundoDiagonal from '../Main/images/fundo_diagonal.svg';
 
 export const Content = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
@@ -7,9 +8,14 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-color: rgba(46, 46, 46, 0);
   z-index: 3;
+  margin-top: -2%;
+  background-image: url(${FundoDiagonal});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 25%;
 `;
 
 export const QuadroVantagens = styled.div`
@@ -36,7 +42,7 @@ export const QuadroVantagensSombra = styled.div`
   width: 60%;
   height: 80%;
   background-color: #f78f2d;
-  margin-top: -12%;
+  margin-top: -2%;
   margin-left: 3%;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 3;

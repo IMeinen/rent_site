@@ -35,7 +35,6 @@ export default function Main() {
               </Missao>
               <Missao valores>
                 <h1>Nossos valores</h1>
-
               </Missao>
             </Meio>
           </ContentInt>

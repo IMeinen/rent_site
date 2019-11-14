@@ -11,7 +11,7 @@ export default function Main() {
         <nav>
           <a href="/">HOME</a>
           <a href="/">SOBRE</a>
-          <a href="/">VANTAGENS</a>
+          <a href="/">DIFERENCIAIS</a>
           <a href="/">COLIVINGS</a>
           <a href="/">FALE CONOSCO</a>
         </nav>
