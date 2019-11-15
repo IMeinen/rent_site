@@ -9,6 +9,10 @@ export const Fundo = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+
   width: 100%;
   height: 100vh;
   background-position: center center;
@@ -82,15 +86,10 @@ export const Filtro = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100vh;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  backface-visibility: hidden;
-  -webkit-box-shadow: -6px 5px 13px 4px rgba(97, 97, 97, 0.65);
-  box-shadow: -6px 5px 13px 4px rgba(97, 97, 97, 0.65);
-  background-color: rgba(255, 138, 36, 0); /* #f78f2d */
+  width: 90%;
+  height: 90%;
+  border: 2px solid #f78f2d;
+
   flex-wrap: wrap;
   position: relative;
   z-index: 2;

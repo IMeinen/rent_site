@@ -11,7 +11,7 @@ export const Container = styled.div`
   flex-wrap: nowrap;
   width: 100%;
   height: 92vh;
-  background-image: url(${FundoDiagonal});
+  background: linear-gradient(to right, #f78f2d, #f7532c);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 90%;

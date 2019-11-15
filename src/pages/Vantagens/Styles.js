@@ -9,13 +9,13 @@ export const Content = styled.div`
   justify-content: center;
   width: 100%;
   height: 110vh;
-  background-color: rgba(46, 46, 46, 0);
+  background: linear-gradient(to right, #f78f2d, #f7532c);
   z-index: 3;
   margin-top: -2%;
-  background-image: url(${FundoDiagonal});
+  /* background-image: url(${FundoDiagonal});
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 25%;
+  background-position: 0% 25%; */
 `;
 
 export const QuadroVantagens = styled.div`

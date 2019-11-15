@@ -19,7 +19,7 @@ export const F1 = styled.div`
 
   width: 100%;
   height: 85%;
-  background-color: #fff;
+  background: linear-gradient(to right, #f78f2d, #f7532c);
 `;
 
 export const F2 = styled.div`

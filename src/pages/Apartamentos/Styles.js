@@ -12,13 +12,13 @@ export const Fundo = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
+  background: linear-gradient(to right, #f78f2d, #f7532c);
   width: 100%;
   height: 155vh;
 `;
 
 export const Content = styled.div`
-  border: 20px solid #f78f2d;
+  /* border: 20px solid #f78f2d; */
   width: 80%;
   padding-bottom: 0px;
   margin-bottom: 0px;
