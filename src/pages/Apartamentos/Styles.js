@@ -1,6 +1,11 @@
 import styled from 'styled-components';
-import Fundoimg from '../Main/images/rent_riachuelo.jpg';
 
+import { FaMousePointer } from 'react-icons/fa';
+import Col1 from '../Main/images/rent_riachuelo.jpg';
+import Col2 from '../Main/images/coliving_vigario.jpg';
+import Col3 from '../Main/images/coliving_universitario.jpg';
+
+const Imagens = [Col1, Col1, Col2, Col3];
 export const Fundo = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
@@ -9,20 +14,20 @@ export const Fundo = styled.div`
   justify-content: flex-start;
 
   width: 100%;
-  height: 150vh;
+  height: 155vh;
 `;
 
 export const Content = styled.div`
   width: 80%;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  background-color: #fff;
+  background-color: #333;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   height: 90%;
-  border: 20px solid #333;
+
   box-shadow: 5px 5px 50px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
 
@@ -60,187 +65,113 @@ export const Header = styled.div`
   }
 `;
 
-// export const Ape1 = styled.div`
-//   @media (min-width: 1200px) {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     margin-left: 3%;
-//     margin-right: 3%;
-//     width: 20%;
-//     height: 42%;
-//     z-index: 3;
-//     background-color: #f7f7f7;
-//   }
-
-//   text-align: center;
-//   h1 {
-//     @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-//     font-family: 'Be Vietnam';
-//     font-size: 36px;
-//     margin-top: 10%;
-
-//     color: #000;
-//   }
-// `;
-// export const Ape2 = styled.div`
-//   @media (min-width: 1200px) {
-//     -webkit-box-shadow: 5px 14px 20px 3px rgba(58, 58, 58, 0.74);
-//     box-shadow: 5px 14px 20px 3px rgba(58, 58, 58, 0.74);
-//     width: 20%;
-//     height: 42%;
-//     margin-left: 1%;
-//     margin-right: 1%;
-//     margin-top: 2%;
-//     margin-bottom: 2%;
-//     background-color: #f7f7f7;
-//   }
-
-//   text-align: center;
-//   h1 {
-//     @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
-//     font-family: 'Amatic SC', cursive;
-//     font-size: 36px;
-//     margin-top: 10%;
-
-//     color: #000;
-//   }
-// `;
-
-// export const Ape3 = styled.div`
-//   @media (min-width: 1200px) {
-//     -webkit-box-shadow: 5px 14px 20px 3px rgba(58, 58, 58, 0.74);
-//     box-shadow: 5px 14px 20px 3px rgba(58, 58, 58, 0.74);
-//     width: 20%;
-//     height: 42%;
-//     margin-left: 1%;
-//     margin-right: 15%;
-//     margin-top: 2%;
-//     margin-bottom: 2%;
-//     background-color: #f7f7f7;
-//   }
-//   vertical-align: text-top;
-//   text-align: center;
-
-//   text-align: center;
-//   h1 {
-//     @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
-//     font-family: 'Amatic SC', cursive;
-//     font-size: 36px;
-//     margin-top: 10%;
-
-//     color: #000;
-//   }
-// `;
-
-// export const Colv = styled.div`
-//   @media (min-width: 1200px) {
-//     width: 88%;
-//     height: 65%;
-//     margin-left: 6%;
-//     margin-right: 6%;
-//     margin-top: 6%;
-//     margin-bottom: 2%;
-//     display: flex;
-//     align-items: flex-start;
-//     justify-content: flex-start;
-
-//     background-color: #222;
-//     background-size: cover;
-//     z-index: 7;
-
-//     background-image: url(${Fundoimg});
-//   }
-// `;
-
-// export const MyPin = styled.div`
-//   @media (min-width: 1200px) {
-//     width: 100%;
-//     height: 65%;
-//     margin-left: 40%;
-//     margin-top: -10%;
-//     background-image: url(${Pin});
-//     background-repeat: no-repeat;
-//   }
-// `;
-
-export const ContainerApart = styled.div`
-  width: 60%;
-  height: 28%;
+export const ColivingIMG = styled.div`
+  width: 100%;
+  background-color: #333;
   display: flex;
-  flex-direction: row;
-  z-index: 3;
-  background-color: #fff;
-  margin: 10px;
-  margin-left: ${props => (props.Right ? '-30%' : '30%')};
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
 `;
 
-export const ContainerApartRightL = styled.div`
+// COMPONENTES DE ITEMS
+
+export const ContainerImg = styled.div`
   width: 60%;
   height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
 
-  background-image: url(${Fundoimg});
+`;
+export const Imagem = styled.div`
+  width: 50%;
+  height: 100%;
+  background-image: ${props => `url(${Imagens[props.Col]}) `};
   background-repeat: no-repeat;
   background-size: cover;
-  &:hover {
-    transform: scale(1.01);
+  border-radius: 2%;
+
+  div {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    img {
+      width: 80px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
   }
 `;
-export const ContainerApartRightR = styled.div`
-  width: 40%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
+export const Descricao = styled.div`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+  width: 50%;
+  height: 85%;
   background-color: #fff;
-`;
-
-export const Descript = styled.div`
-  width: 100%;
-  height: 60%;
-
-  background-color: #333;
-
-  h1 {
-    color: #fff;
-    font-family: 'Be Vietnam';
-    font-size: 20px;
-    padding-left: 3%;
-    padding-top: 3%;
-  }
-
-  h2 {
-    color: #fff;
-    font-family: 'Be Vietnam';
-    font-size: 16px;
-    padding-left: 3%;
-    padding-top: 1%;
-  }
-`;
-
-export const Efeitotransparente = styled.div`
-  width: 100%;
-  height: 100%;
-
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(51, 51, 51, 1) 100%
-  );
-
+  border-radius: 1%;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-end;
-  padding-left: 3%;
-  padding-bottom: 3%;
+  justify-content: flex-start;
+
+  img {
+    width: 80px;
+  }
+
+  h1,
+  h2 {
+    color: #333;
+    font-family: 'Be Vietnam';
+    margin-left: 3%;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #bbb;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 1%;
+  }
+`;
+export const StyledPointer = styled(FaMousePointer)`
+  color: #fff;
+  font-size: 46px;
+`;
+
+export const Botao = styled.button`
+  width: 50%;
+  height: 20%;
+  margin-top: auto;
+  margin-bottom: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #f78f2d;
+  align-self: center;
+  border: none;
 
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
-    font-size: 35px;
+    font-size: 18px;
+    border: none;
   }
 `;

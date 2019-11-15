@@ -1,16 +1,7 @@
 import React from 'react';
 
-import {
-  Fundo,
-  Content,
-  Header,
-  ContainerApart,
-  ContainerApartRightL,
-  ContainerApartRightR,
-  Descript,
-  Efeitotransparente,
-} from './Styles';
-
+import { Fundo, Content, Header, ColivingIMG } from './Styles';
+import ColivingItem from './ColivingItem';
 // import { Container } from './styles';
 
 export default function Main() {
@@ -21,36 +12,15 @@ export default function Main() {
           <Header>
             <h1>COLIVINGS</h1>
           </Header>
-          <ContainerApart Right>
-            <ContainerApartRightL>
-              <Efeitotransparente>
-                <h1>RIACHUELO</h1>
-              </Efeitotransparente>
-            </ContainerApartRightL>
-            <ContainerApartRightR>
-              <Descript>
-                <h1>Rua Riachuelo, 714</h1>
-                <h2>Total de quartos: 16</h2>
-                <h2>Quartos disponíveis: 3</h2>
-              </Descript>
-            </ContainerApartRightR>
-          </ContainerApart>
-          <ContainerApart Left>
-            <ContainerApartRightR>
-              <Descript />
-            </ContainerApartRightR>
-            <ContainerApartRightL>
-              <Efeitotransparente />
-            </ContainerApartRightL>
-          </ContainerApart>
-          <ContainerApart Right>
-            <ContainerApartRightL>
-              <Efeitotransparente />
-            </ContainerApartRightL>
-            <ContainerApartRightR>
-              <Descript />
-            </ContainerApartRightR>
-          </ContainerApart>
+          <ColivingIMG Col={1}>
+            <ColivingItem Col={1} />
+          </ColivingIMG>
+          <ColivingIMG Col={2}>
+            <ColivingItem Col={2} />
+          </ColivingIMG>
+          <ColivingIMG Col={3}>
+            <ColivingItem Col={3} />
+          </ColivingIMG>
         </Content>
       </Fundo>
     </>
