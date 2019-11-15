@@ -18,6 +18,7 @@ export const Fundo = styled.div`
 `;
 
 export const Content = styled.div`
+  border: 20px solid #f78f2d;
   width: 80%;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -25,7 +26,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 90%;
 
   box-shadow: 5px 5px 50px 0 rgba(0, 0, 0, 0.2);
@@ -50,15 +51,15 @@ export const Content = styled.div`
 export const Header = styled.div`
   width: 100%;
 
-  background-color: #fff;
+  background-color: #333;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 5%;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   h1 {
-    color: #333;
+    color: #fff;
     font-family: 'Be Vietnam';
     font-size: 40px;
     border-bottom: 1px solid #f78f2d;
@@ -84,7 +85,6 @@ export const ContainerImg = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-
 `;
 export const Imagem = styled.div`
   width: 50%;
