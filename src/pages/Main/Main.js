@@ -15,12 +15,12 @@ export default function Main() {
     <>
       <Cabec />
       <Landing />
-      <Home />
+      {/* <Home />
 
       <Vantagens />
       <Apartamentos />
-      {/* <Depoimentos /> */}
-      <Contato />
+
+      <Contato /> */}
     </>
   );
 }

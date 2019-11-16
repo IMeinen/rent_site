@@ -22,14 +22,13 @@ export const Content = styled.div`
   width: 80%;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   height: 90%;
 
-  box-shadow: 5px 5px 50px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
 
   /* @media (min-width: 1200px) {
@@ -51,7 +50,7 @@ export const Content = styled.div`
 export const Header = styled.div`
   width: 100%;
 
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -68,7 +67,7 @@ export const Header = styled.div`
 
 export const ColivingIMG = styled.div`
   width: 100%;
-  background-color: #333;
+  background-color: rgba(0, 0, 0, 0);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -99,7 +98,8 @@ export const Imagem = styled.div`
     height: 90%;
     margin-top: 5%;
     margin-left: 5%;
-    border: 5px solid #fff;
+    border: ${props =>
+      props.Estilizar ? '5px solid #f78f2d' : '5px solid #fff'};
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -151,7 +151,7 @@ export const Descricao = styled.div`
   }
 `;
 export const StyledPointer = styled(FaMousePointer)`
-  color: #fff;
+  color: ${props => (props.Estilizar ? '#f78f2d' : '#fff')};
   font-size: 46px;
 `;
 

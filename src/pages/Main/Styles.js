@@ -4,8 +4,6 @@ import Fundo2 from './images/fundo2.jpg';
 import Fundo3 from './images/fundo3.jpg';
 import HG from './images/hostel_gen.jpg';
 
-import LogoC from './images/logo_so_cama.svg';
-
 export const Fundo = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;

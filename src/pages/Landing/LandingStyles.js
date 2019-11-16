@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FaAngleDoubleDown } from 'react-icons/fa';
 import Fundo1 from '../Main/images/fundo1.jpg';
 import Fundo2 from '../Main/images/fundo2.jpg';
 import Fundo3 from '../Main/images/fundo3.jpg';
@@ -40,27 +41,9 @@ export const Fundo = styled.div`
       }
     }
   }
-  h1 {
-    align-items: center;
-    align-self: center;
-    color: #fff;
-    font-family: 'Be Vietnam';
-    font-size: 80px;
-    margin-left: 23%;
-  }
-
-  h3 {
-    align-items: center;
-    align-self: center;
-    text-align: center;
-    color: #fff;
-    font-family: 'Be Vietnam';
-    font-size: 20px;
-    margin-left: 23%;
-  }
 
   /* celular */
-  @media only screen and (min-width: 240px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  @media only screen and (min-width: 240px) and (max-width: 767px) {
     background-image: url(${Fundo1});
   }
 
@@ -71,16 +54,6 @@ export const Fundo = styled.div`
   }
 `;
 
-export const Content = styled.div`
-  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-
-  height: 100vh;
-  background-color: #fff;
-`;
-
 export const Filtro = styled.div`
   display: flex;
   flex-direction: column;
@@ -89,32 +62,39 @@ export const Filtro = styled.div`
   width: 90%;
   height: 90%;
   border: 2px solid #f78f2d;
+  position: relative;
 
   flex-wrap: wrap;
-  position: relative;
+
   z-index: 2;
 
   h1 {
     font-family: 'Be Vietnam';
     font-size: 40px;
     margin-left: 0px;
-    padding-bottom: 60px;
-
     color: #fff;
+
+    @media only screen and (min-width: 558px) and (max-width: 1399px)  {
+      font-size: 34px;
+    }
+    @media only screen and (min-width: 200px) and (max-width: 557px) {
+      font-size: 18px;
+    }
   }
 
   nav {
-    align-self: flex-end;
-    justify-self: flex-start;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     justify-content: center;
     align-items: center;
     margin-right: 3%;
     display: flex;
-    @media only screen and (min-width: 558px) and (max-width: 1399px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    @media only screen and (min-width: 558px) and (max-width: 1399px)  {
       margin-top: 20px;
     }
-    @media only screen and (min-width: 200px) and (max-width: 557px) and (-webkit-min-device-pixel-ratio: 1.5) {
-      margin-top: 35px;
+    @media only screen and (min-width: 200px) and (max-width: 557px) {
+      margin-top: 12px;
     }
   }
 
@@ -141,17 +121,12 @@ export const LogoCama = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
 
-  position: relative;
   z-index: 3;
 `;
-
-export const Teste = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
-  height: 70vh;
-
-  z-index: 3;
+export const StyledSeta = styled(FaAngleDoubleDown)`
+  color: #fff;
+  font-size: 80px;
+  @media only screen and (min-width: 200px) and (max-width: 1199px) {
+    font-size: 40px;
+  }
 `;

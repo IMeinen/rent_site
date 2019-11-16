@@ -6,7 +6,7 @@ import {
   FaWhatsapp,
 } from 'react-icons/fa';
 
-import { Fundo, Filtro, LogoCama } from './LandingStyles';
+import { Fundo, Filtro, LogoCama, StyledSeta } from './LandingStyles';
 
 export default function Main() {
   return (
@@ -40,8 +40,9 @@ export default function Main() {
             </a>
           </nav>
           <LogoCama />
+
           <h1>Viver bem sempre!</h1>
-          <FaAngleDoubleDown color="#fff" size={80} className="seta" />
+          <StyledSeta />
         </Filtro>
       </Fundo>
     </>
