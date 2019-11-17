@@ -22,10 +22,49 @@ export const Centro = styled.div`
   background-image: url(${ImagemExemplo});
   background-repeat: no-repeat;
   background-size: cover;
-  border: 30px solid #333;
-  width: 40%;
-  height: 90%;
   margin-left: 15%;
+
+  @media only screen and (min-width: 1700px) {
+    border: 30px solid #333;
+    width: 40%;
+    height: 90%;
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1699px) {
+    border: 25px solid #333;
+    width: 40%;
+    height: 90%;
+    margin-left: 12%;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
+    border: 20px solid #333;
+    width: 40%;
+    height: 80%;
+    margin-left: 12%;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+    border: 18px solid #333;
+    width: 50%;
+    height: 50%;
+    margin-left: 8%;
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+    border: 15px solid #333;
+    width: 50%;
+    height: 50%;
+    margin-left: 8%;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 479px) and (orientation: portrait) {
+    border: 10px solid #333;
+    width: 70%;
+    height: 50%;
+    margin-left: 4%;
+    margin-top: 30%;
+  }
 `;
 
 export const Description = styled.div`
@@ -38,23 +77,57 @@ export const Description = styled.div`
   margin-top: -10%;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
 
-  h1 {
-    color: #333;
-    font-family: 'Be Vietnam';
-    font-size: 40px;
+  @media only screen and (min-width: 200px) and (max-width: 699px) and (orientation: portrait) {
+    margin-left: -65%;
+    margin-top: -75%;
+    width: 85%;
+    height: 45%;
+  }
 
-    margin-top: 5%;
-    margin-left: 10%;
+  h1 {
+    color: #111;
+    font-family: 'Be Vietnam';
+
+    margin-top: 2%;
+    margin-left: 5%;
+
+    @media only screen and (min-width: 1700px) {
+      font-size: 40px;
+    }
+
+    @media only screen and (min-width: 1200px) and (max-width: 1699px) {
+      font-size: 36px;
+    }
   }
 
   p {
     margin-top: 1%;
-    margin-left: 10%;
-    width: 80%;
-    font-size: 18px;
-    color: #333;
+    margin-left: 5%;
+    width: 85%;
+
+    color: #111;
     font-family: 'Be Vietnam';
     text-align: left;
+
+    @media only screen and (min-width: 1700px) and (orientation: landscape) {
+      font-size: 18px;
+    }
+
+    @media only screen and (min-width: 1200px) and (max-width: 1699px) and (orientation: landscape) {
+      font-size: 12px;
+    }
+
+    @media only screen and (min-width: 800px) and (max-width: 1199px) and (orientation: landscape) {
+      font-size: 10px;
+    }
+
+    @media only screen and (min-width: 700px) and (max-width: 1000px) and (orientation: portrait) {
+      font-size: 12px;
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 699px) and (orientation: portrait) {
+      font-size: 7px;
+    }
   }
 `;
 
@@ -75,6 +148,11 @@ export const Botao = styled.div`
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
-    font-size: 22px;
+    @media only screen and (min-width: 1700px) {
+      font-size: 22px;
+    }
+    @media only screen and (min-width: 1200px) and (max-width: 1699px) {
+      font-size: 18px;
+    }
   }
 `;

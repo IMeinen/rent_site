@@ -14,12 +14,16 @@ export default function Main() {
             a estudantes e profissionais em Porto Alegre via nossos colivings.
             Queremos fazer de nossos colivings a casa de pessoas que prezam o
             bom senso e respeito pelo próximo para viver bem em coletivo.
+            <br />
+            <br />
             Começamos neste negócio com o objetivo de melhorar nossas vidas
             através de um trabalho que criasse um diferencial em nossa
             comunidade, agindo de forma independente e responsável. Sendo que
             durante este processo nossa maior inspiração tem sido ser um
             facilitador para nossos colivers alcançarem seus objetivos e
             renovando seu jeito de viver com conveniência e flexibilidade.
+            <br />
+            <br />
             Gostamos de ser “mãos-a-obra” em todos os aspectos de
             desenvolvimento e gestão de nossos colivings. Desde a busca por
             prédios antigos, reformando com layouts práticos, com decoração
@@ -28,9 +32,9 @@ export default function Main() {
             quiser saber um pouco mais sobre nós entre em contato!
           </p>
         </Description>
-        <Botao>
+        {/* <Botao>
           <h1>Agende já sua visita!</h1>
-        </Botao>
+        </Botao> */}
       </Container>
     </>
   );
