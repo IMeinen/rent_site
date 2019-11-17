@@ -57,7 +57,7 @@ export const QuadroVantagensSombra = styled.div`
 
   @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
     width: 85%;
-    height: 50%;
+    height: 90%;
   }
 `;
 
@@ -114,8 +114,8 @@ export const GridItem = styled.div`
   }
 
   @media only screen and (min-width: 200px) and (max-width: 767px) {
-    width: 30%;
-    height: 22%;
+    width: 45%;
+    height: 15%;
   }
 
   &:hover {
@@ -150,11 +150,8 @@ export const GridItem = styled.div`
   }
   .Item {
     color: #333;
-  }
-
-  .item {
     font-size: 46px;
-    @media only screen and (min-width: 558px) and (max-width: 1200px) {
+    @media only screen and (min-width: 200px) and (max-width: 1200px) {
       font-size: 12px;
     }
   }
