@@ -63,7 +63,7 @@ export const Centro = styled.div`
     width: 70%;
     height: 50%;
     margin-left: 4%;
-    margin-top: 30%;
+    margin-top: 35%;
   }
 `;
 
@@ -79,7 +79,7 @@ export const Description = styled.div`
 
   @media only screen and (min-width: 200px) and (max-width: 699px) and (orientation: portrait) {
     margin-left: -65%;
-    margin-top: -75%;
+    margin-top: -70%;
     width: 85%;
     height: 45%;
   }
@@ -126,7 +126,7 @@ export const Description = styled.div`
     }
 
     @media only screen and (min-width: 200px) and (max-width: 699px) and (orientation: portrait) {
-      font-size: 7px;
+      font-size: 7.5px;
     }
   }
 `;
