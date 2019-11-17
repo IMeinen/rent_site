@@ -1,12 +1,14 @@
 import React from 'react';
-import {
-  FaAngleDoubleDown,
-  FaFacebook,
-  FaInstagram,
-  FaWhatsapp,
-} from 'react-icons/fa';
 
-import { Fundo, Filtro, LogoCama, StyledSeta } from './LandingStyles';
+import {
+  Fundo,
+  Filtro,
+  LogoCama,
+  StyledSeta,
+  StyledFaInstagram,
+  StyledFaWhatsapp,
+  StyledFaFacebook,
+} from './LandingStyles';
 
 export default function Main() {
   return (
@@ -20,7 +22,7 @@ export default function Main() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook color="#fff" size={46} />
+              <StyledFaFacebook />
             </a>
             <a
               href="https://www.instagram.com/rentcoliving/"
@@ -28,7 +30,7 @@ export default function Main() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram color="#fff" size={50} />
+              <StyledFaInstagram />
             </a>
             <a
               href="https://wa.me/5551989092637"
@@ -36,7 +38,7 @@ export default function Main() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaWhatsapp color="#fff" size={50} />
+              <StyledFaWhatsapp />
             </a>
           </nav>
           <LogoCama />

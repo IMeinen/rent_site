@@ -1,5 +1,10 @@
 import styled from 'styled-components';
-import { FaAngleDoubleDown } from 'react-icons/fa';
+import {
+  FaAngleDoubleDown,
+  FaFacebook,
+  FaInstagram,
+  FaWhatsapp,
+} from 'react-icons/fa';
 import Fundo1 from '../Main/images/fundo1.jpg';
 import Fundo2 from '../Main/images/fundo2.jpg';
 import Fundo3 from '../Main/images/fundo3.jpg';
@@ -74,7 +79,7 @@ export const Filtro = styled.div`
     margin-left: 0px;
     color: #fff;
 
-    @media only screen and (min-width: 558px) and (max-width: 1399px)  {
+    @media only screen and (min-width: 558px) and (max-width: 1399px) {
       font-size: 34px;
     }
     @media only screen and (min-width: 200px) and (max-width: 557px) {
@@ -90,7 +95,10 @@ export const Filtro = styled.div`
     align-items: center;
     margin-right: 3%;
     display: flex;
-    @media only screen and (min-width: 558px) and (max-width: 1399px)  {
+    @media only screen and (min-width: 1400px) {
+      margin-top: 25px;
+    }
+    @media only screen and (min-width: 558px) and (max-width: 1399px) {
       margin-top: 20px;
     }
     @media only screen and (min-width: 200px) and (max-width: 557px) {
@@ -103,9 +111,6 @@ export const Filtro = styled.div`
     align-items: center;
     margin: 3px;
   }
-
-
-  }
 `;
 
 export const LogoCama = styled.div`
@@ -114,19 +119,57 @@ export const LogoCama = styled.div`
   align-items: center;
 
   justify-content: center;
-  width: 20%;
-  height: 50vh;
+
   background-image: url(${LogoC});
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-
   z-index: 3;
+
+  @media only screen and (min-width: 1200px) {
+    width: 20%;
+    height: 50vh;
+  }
+
+  @media only screen and (min-width: 558px) and (max-width: 1199px) {
+    width: 22%;
+    height: 54vh;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 557px) {
+    width: 30%;
+    height: 56vh;
+  }
 `;
 export const StyledSeta = styled(FaAngleDoubleDown)`
+  margin-top: 15px;
   color: #fff;
   font-size: 80px;
   @media only screen and (min-width: 200px) and (max-width: 1199px) {
     font-size: 40px;
+  }
+`;
+
+export const StyledFaFacebook = styled(FaFacebook)`
+  color: #fff;
+  font-size: 46px;
+  @media only screen and (min-width: 200px) and (max-width: 1199px) {
+    font-size: 32px;
+  }
+`;
+
+export const StyledFaInstagram = styled(FaInstagram)`
+  color: #fff;
+  font-size: 46px;
+  @media only screen and (min-width: 200px) and (max-width: 1199px) {
+    font-size: 32px;
+  }
+`;
+
+export const StyledFaWhatsapp = styled(FaWhatsapp)`
+  color: #fff;
+  font-size: 46px;
+  @media only screen and (min-width: 200px) and (max-width: 1199px) {
+    font-size: 32px;
   }
 `;
