@@ -121,6 +121,10 @@ export const Description = styled.div`
       font-size: 10px;
     }
 
+    @media only screen and (min-width: 640px) and (max-width: 799px) and (orientation: landscape) {
+      font-size: 8px;
+    }
+
     @media only screen and (min-width: 700px) and (max-width: 1000px) and (orientation: portrait) {
       font-size: 12px;
     }
@@ -145,6 +149,26 @@ export const Botao = styled.div`
   align-items: center;
   justify-content: center;
 
+  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
+    margin-left: -17%;
+    margin-top: 55%;
+
+    height: 8%;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1100px) and (orientation: portrait) {
+    margin-left: -49%;
+    margin-top: 100%;
+
+    height: 6%;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    margin-left: -55%;
+    margin-top: 145%;
+    width: 24%;
+    height: 6%;
+  }
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
@@ -153,6 +177,18 @@ export const Botao = styled.div`
     }
     @media only screen and (min-width: 1200px) and (max-width: 1699px) {
       font-size: 18px;
+    }
+
+    @media only screen and (min-width: 950px) and (max-width: 1199px) {
+      font-size: 15px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 949px) {
+      font-size: 12px;
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      font-size: 8px;
     }
   }
 `;

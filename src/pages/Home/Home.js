@@ -32,9 +32,9 @@ export default function Main() {
             quiser saber um pouco mais sobre nós entre em contato!
           </p>
         </Description>
-        {/* <Botao>
+        <Botao>
           <h1>Agende já sua visita!</h1>
-        </Botao> */}
+        </Botao>
       </Container>
     </>
   );
