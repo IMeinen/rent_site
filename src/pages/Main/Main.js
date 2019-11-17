@@ -16,8 +16,9 @@ export default function Main() {
       <Cabec />
       <Landing />
       <Home />
-      {/* }
+
       <Vantagens />
+      {/* }
       <Apartamentos />
 
       <Contato /> */}

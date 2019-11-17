@@ -46,6 +46,19 @@ export const QuadroVantagensSombra = styled.div`
   margin-left: 3%;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 3;
+  @media only screen and (min-width: 1000px) and (max-width: 1500px) {
+    width: 65%;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1100px) and (orientation: portrait) {
+    width: 75%;
+    height: 60%;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    width: 85%;
+    height: 50%;
+  }
 `;
 
 export const Header = styled.div`
@@ -61,8 +74,12 @@ export const Header = styled.div`
   h1 {
     color: #333;
     font-family: 'Be Vietnam';
-    font-size: 40px;
+
     border-bottom: 1px solid #f78f2d;
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+      font-size: 22px;
+    }
   }
 `;
 
@@ -91,6 +108,16 @@ export const GridItem = styled.div`
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
+
+  @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+    height: 23%;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    width: 30%;
+    height: 22%;
+  }
+
   &:hover {
     background-color: #333;
     color: #fff;
@@ -107,9 +134,28 @@ export const GridItem = styled.div`
     font-size: 16px;
     text-align: center;
     vertical-align: middle;
+
     width: 60%;
+    @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+      font-size: 12px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 999px) {
+      font-size: 10px;
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      font-size: 7.2px;
+    }
   }
   .Item {
     color: #333;
+  }
+
+  .item {
+    font-size: 46px;
+    @media only screen and (min-width: 558px) and (max-width: 1200px) {
+      font-size: 12px;
+    }
   }
 `;

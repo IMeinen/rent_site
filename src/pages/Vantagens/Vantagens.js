@@ -35,52 +35,52 @@ export default function Main() {
             </Header>
             <VantagensGrid>
               <GridItem>
-                <FaDollarSign size={46} className="Item" />
+                <FaDollarSign className="Item" />
 
                 <h1>Economia</h1>
               </GridItem>
               <GridItem>
-                <FaMapMarkerAlt size={46} className="Item" />
+                <FaMapMarkerAlt className="Item" />
                 <h1>Localização privilegiada</h1>
               </GridItem>
               <GridItem>
-                <FaWifi size={46} className="Item" />
+                <FaWifi className="Item" />
                 <h1>Internet wi-fi de alta velocidade</h1>
               </GridItem>
               <GridItem>
-                <FaCouch size={46} className="Item" />
+                <FaCouch className="Item" />
                 <h1>Apartamentos mobiliados</h1>
               </GridItem>
               <GridItem>
-                <FaFileInvoiceDollar size={46} className="Item" />
+                <FaFileInvoiceDollar className="Item" />
                 <h1>Única conta para pagar</h1>
               </GridItem>
               <GridItem>
-                <FaBed size={46} className="Item" />
+                <FaBed className="Item" />
                 <h1>Studios e quartos individuais</h1>
               </GridItem>
               <GridItem>
-                <FaHandshake size={46} className="Item" />
+                <FaHandshake className="Item" />
                 <h1>Área de convivência</h1>
               </GridItem>
               <GridItem>
-                <FaWrench size={46} className="Item" />
+                <FaWrench className="Item" />
                 <h1>Equipe de manutenção</h1>
               </GridItem>
               <GridItem>
-                <FaQuidditch size={46} className="Item" />
+                <FaQuidditch className="Item" />
                 <h1>Faxina semanal inclusa</h1>
               </GridItem>
               <GridItem>
-                <FaParachuteBox size={46} className="Item" />
+                <FaParachuteBox className="Item" />
                 <h1>Melhoria contínua</h1>
               </GridItem>
               <GridItem>
-                <FaGlassMartiniAlt size={46} className="Item" />
+                <FaGlassMartiniAlt className="Item" />
                 <h1>Eventos</h1>
               </GridItem>
               <GridItem>
-                <FaSave size={46} className="Item" />
+                <FaSave className="Item" />
                 <h1>Lavanderia</h1>
               </GridItem>
             </VantagensGrid>
