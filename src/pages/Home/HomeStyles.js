@@ -126,7 +126,7 @@ export const Description = styled.div`
     }
 
     @media only screen and (min-width: 200px) and (max-width: 699px) and (orientation: portrait) {
-      font-size: 7.5px;
+      font-size: 7.2px;
     }
   }
 `;
