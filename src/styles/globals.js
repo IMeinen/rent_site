@@ -40,16 +40,26 @@ export const Cabec = styled.div`
   height: 80px;
 
   /* celular */
-  @media only screen and (min-width: 240px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  @media only screen and (min-width: 240px) and (max-width: 767px) {
     height: 60px;
   }
     img {
-      @media only screen and (min-width: 240px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
-      max-width: 100px;
       border-radius: 50%;
+
+      @media only screen and (min-width: 920px) and (max-width: 1199px) {
+        max-width: 120px;
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 919px) {
+        max-width: 110px;
+        margin-bottom: 20px;
+
+      }
+      @media only screen and (min-width: 240px) and (max-width: 767px) {
+      max-width: 80px;
       margin-left: 8%;
       margin-right: 10%;
-      margin-top: 55px;
+      margin-bottom: 20px;
       }
     }
 

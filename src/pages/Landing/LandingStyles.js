@@ -7,7 +7,6 @@ import {
 } from 'react-icons/fa';
 import Fundo1 from '../Main/images/fundo1.jpg';
 import Fundo2 from '../Main/images/fundo2.jpg';
-import Fundo3 from '../Main/images/fundo3.jpg';
 
 import LogoC from '../Main/images/logo_vect.svg';
 
@@ -26,24 +25,19 @@ export const Fundo = styled.div`
   background-repeat: no-repeat;
   backface-visibility: hidden;
 
-  background-image: url(${Fundo1});
+  background-image: url(${Fundo2});
 
   z-index: 2;
 
-  @media (min-width: 1200px) {
-    animation: slideBG 8s linear infinite 0s;
-    animation-timing-function: ease-in-out;
+  animation: slideBG 10s linear infinite 0s;
+  animation-timing-function: ease-in-out;
 
-    @keyframes slideBG {
-      20% {
-        background-image: url(${Fundo1});
-      }
-      66% {
-        background-image: url(${Fundo2});
-      }
-      99% {
-        background-image: url(${Fundo3});
-      }
+  @keyframes slideBG {
+    50% {
+      background-image: url(${Fundo2});
+    }
+    100% {
+      background-image: url(${Fundo1});
     }
   }
 
