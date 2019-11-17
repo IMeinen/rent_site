@@ -136,9 +136,66 @@ export const LogoCama = styled.div`
   }
 `;
 export const StyledSeta = styled(FaAngleDoubleDown)`
-  margin-top: 15px;
+  margin-top: 20px;
   color: #fff;
-  font-size: 80px;
+  font-size: 70px;
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+
+  @media only screen and (min-width: 1200px) {
+    @keyframes bounce {
+      0%,
+      20%,
+      50%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-25px);
+      }
+      60% {
+        transform: translateY(-12px);
+      }
+    }
+  }
+
+  @media only screen and (min-width: 558px) and (max-width: 1199px) {
+    @keyframes bounce {
+      0%,
+      20%,
+      50%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-20px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
+    }
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 557px) {
+    @keyframes bounce {
+      0%,
+      20%,
+      50%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-15px);
+      }
+      60% {
+        transform: translateY(-6px);
+      }
+    }
+  }
   @media only screen and (min-width: 200px) and (max-width: 1199px) {
     font-size: 40px;
   }
