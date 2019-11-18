@@ -84,6 +84,7 @@ export const QuadroVantagens = styled.div`
         font-family: 'Be Vietnam';
         font-size: 16px;
         padding: 0 15px;
+        resize: vertical;
 
         @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
           height: 20px;
