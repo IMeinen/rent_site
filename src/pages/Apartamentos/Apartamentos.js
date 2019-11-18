@@ -9,18 +9,13 @@ export default function Main() {
     <>
       <Fundo>
         <Content>
-          <Header>
+          {/* <Header>
             <h1>COLIVINGS</h1>
-          </Header>
-          <ColivingIMG Col={1}>
-            <ColivingItem Col={1} />
-          </ColivingIMG>
-          <ColivingIMG Col={2}>
-            <ColivingItem Col={2} />
-          </ColivingIMG>
-          <ColivingIMG Col={3}>
-            <ColivingItem Col={3} />
-          </ColivingIMG>
+          </Header> */}
+
+          <ColivingItem Col={1} />
+          <ColivingItem Col={2} />
+          <ColivingItem Col={3} />
         </Content>
       </Fundo>
     </>

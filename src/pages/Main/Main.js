@@ -18,10 +18,10 @@ export default function Main() {
       <Home />
 
       <Vantagens />
-      {/* }
+
       <Apartamentos />
 
-      <Contato /> */}
+      {/* <Contato /> */}
     </>
   );
 }

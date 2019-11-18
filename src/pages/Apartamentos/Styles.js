@@ -14,7 +14,14 @@ export const Fundo = styled.div`
   justify-content: flex-start;
   background: linear-gradient(to right, #f78f2d, #f7532c);
   width: 100%;
-  height: 155vh;
+  height: 90vh;
+  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+    height: 50vh;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    height: 200vh;
+  }
 `;
 
 export const Content = styled.div`
@@ -24,7 +31,8 @@ export const Content = styled.div`
   margin-bottom: 0px;
   background-color: rgba(0, 0, 0, 0);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   height: 90%;
@@ -81,18 +89,32 @@ export const ContainerImg = styled.div`
   width: 60%;
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-start;
+  @media only screen and (min-width: 200px) and (max-width: 768px) and (orientation: portrait) {
+    width: 90%;
+    height: 32%;
+  }
 `;
 export const Imagem = styled.div`
-  width: 50%;
-  height: 100%;
+  width: 90%;
+  height: 50%;
   background-image: ${props => `url(${Imagens[props.Col]}) `};
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2%;
 
+  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+    width: 90%;
+    height: 35%;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    width: 100%;
+    height: 70%;
+  }
   div {
     width: 90%;
     height: 90%;
@@ -117,8 +139,8 @@ export const Imagem = styled.div`
 
 export const Descricao = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-  width: 50%;
-  height: 85%;
+  width: 70%;
+  height: 40%;
   background-color: #fff;
   border-radius: 1%;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
@@ -128,6 +150,10 @@ export const Descricao = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
 
+  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+    width: 70%;
+    height: 30%;
+  }
   img {
     width: 80px;
   }
@@ -144,10 +170,43 @@ export const Descricao = styled.div`
     margin-top: 3%;
     padding-bottom: 3%;
     border-bottom: 1px solid #bbb;
+    @media only screen and (min-width: 1320px) and (max-width: 1500px) {
+      font-size: 34px;
+    }
+    @media only screen and (min-width: 1200px) and (max-width: 1319px) {
+      font-size: 30px;
+    }
+
+    @media only screen and (min-width: 1000px) and (max-width: 1119px) {
+      font-size: 26px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1119px) and (orientation: portrait) {
+      font-size: 20px;
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+      font-size: 18px;
+    }
   }
   h2 {
     font-size: 18px;
     margin-top: 1%;
+    @media only screen and (min-width: 1320px) and (max-width: 1500px) {
+      font-size: 16px;
+    }
+    @media only screen and (min-width: 1200px) and (max-width: 1319px) {
+      font-size: 14px;
+    }
+    @media only screen and (min-width: 1000px) and (max-width: 1199px) {
+      font-size: 12px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1119px) and (orientation: portrait) {
+      font-size: 10px;
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+      font-size: 8px;
+    }
   }
 `;
 export const StyledPointer = styled(FaMousePointer)`
@@ -173,5 +232,22 @@ export const Botao = styled.button`
     font-family: 'Be Vietnam';
     font-size: 18px;
     border: none;
+
+    @media only screen and (min-width: 1320px) and (max-width: 1500px) {
+      font-size: 16px;
+    }
+    @media only screen and (min-width: 1200px) and (max-width: 1319px) {
+      font-size: 13px;
+    }
+    @media only screen and (min-width: 1000px) and (max-width: 1199px) {
+      font-size: 11px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1119px) and (orientation: portrait) {
+      font-size: 10px;
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+      font-size: 9px;
+    }
   }
 `;
