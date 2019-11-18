@@ -98,7 +98,7 @@ export const QuadroVantagens = styled.div`
 
         @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
           height: 20px;
-          font-size: 8px;
+
           padding: 0px;
         }
       }
