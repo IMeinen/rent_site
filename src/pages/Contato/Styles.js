@@ -85,7 +85,16 @@ export const QuadroVantagens = styled.div`
         font-size: 16px;
         padding: 0 15px;
 
-        max-width: 100%;
+        box-sizing: border-box;
+        -webkit-writing-mode: horizontal-tb !important;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
 
         @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
           height: 20px;
