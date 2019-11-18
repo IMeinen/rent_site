@@ -9,6 +9,9 @@ export const Fundo = styled.div`
   width: 100%;
   height: 220vh;
   background-color: #fff;
+  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    height: 320vh;
+  }
 `;
 
 export const F1 = styled.div`
@@ -54,6 +57,9 @@ export const QuadroVantagens = styled.div`
     font-size: 35px;
     border-bottom: 1px solid #f78f2d;
     margin-top: 10px;
+    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+      font-size: 18px;
+    }
   }
 
   div {
@@ -78,6 +84,12 @@ export const QuadroVantagens = styled.div`
         font-family: 'Be Vietnam';
         font-size: 16px;
         padding: 0 15px;
+
+        @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+          height: 20px;
+          font-size: 8px;
+          padding: 0px;
+        }
       }
 
       h2 {
@@ -88,6 +100,9 @@ export const QuadroVantagens = styled.div`
         color: #333;
         font-family: 'Be Vietnam';
         font-size: 25px;
+        @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+          font-size: 16px;
+        }
       }
 
       h3 {
@@ -97,6 +112,9 @@ export const QuadroVantagens = styled.div`
         color: #333;
         font-family: 'Be Vietnam';
         font-size: 20px;
+        @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+          font-size: 14px;
+        }
       }
 
       button {
@@ -112,6 +130,9 @@ export const QuadroVantagens = styled.div`
         font-family: 'Be Vietnam';
         font-size: 20px;
         margin-top: 10%;
+        @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+          font-size: 14px;
+        }
       }
 
       .Options {
@@ -146,6 +167,10 @@ export const QuadroVantagensSombra = styled.div`
   margin-bottom: 3%;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 3;
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    width: 90%;
+  }
 `;
 
 export const DadosRodape = styled.div`
@@ -157,11 +182,17 @@ export const DadosRodape = styled.div`
   width: 60%;
   height: 70%;
   background-color: #333;
+  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    flex-direction: column;
+  }
 
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
     font-size: 16px;
+    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+      font-size: 8px;
+    }
   }
 
   div {
@@ -186,10 +217,14 @@ export const DadosRodape2 = styled.div`
   width: 60%;
   height: 30%;
   background-color: #333;
+
   h1 {
     color: #777;
     font-family: 'Be Vietnam';
     font-size: 16px;
+    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+      font-size: 4px;
+    }
   }
 `;
 

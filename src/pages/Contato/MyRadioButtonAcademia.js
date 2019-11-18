@@ -61,86 +61,12 @@ const StyledLabel = styled(FormLabel)`
     font-family: 'Be Vietnam';
     font-size: 20px;
     border: none;
+
+    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+      font-size: 14px;
+    }
   }
 `;
-// export const Container = styled.form`
-//   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-//   height: auto;
-//   width: 100%;
-//   padding: 0px 16px 24px 16px;
-//   box-sizing: border-box;
-// `;
-
-// const Item = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   align-items: flex-start;
-//   height: 48px;
-//   position: relative;
-// `;
-
-// const RadioButton = styled.input`
-//   opacity: 1;
-//   z-index: 1;
-//   border-radius: 50%;
-//   width: 18px;
-//   height: 18px;
-//   margin-right: 10px;
-//   outline: none;
-
-//   margin: 0;
-
-//   &::after {
-//     display: inline-block;
-//     text-align: center;
-//     width: 1em;
-//   }
-// `;
-
-// class MyRadio extends Component {
-//   constructor(props) {
-//     super(props);
-
-//     this.state = {
-//       opcao_escolhida: 'opcao1',
-//     };
-
-//     this.handleOptionChange = this.handleOptionChange.bind(this);
-//   }
-
-//   handleOptionChange(e) {
-//     this.setState({
-//       opcao_escolhida: e.target.value,
-//     });
-//   }
-
-//   render() {
-//     return (
-//       <Container>
-//         <Item>
-//           <RadioButton
-//             type="radio"
-//             name="opcao1"
-//             value="opcao1"
-//             checked={this.state.opcao_escolhida === 'opcao1'}
-//             onChange={this.handleOptionChange}
-//           />
-//         </Item>
-//         <Item>
-//           <RadioButton
-//             type="radio"
-//             name="opcao2"
-//             value="opcao2"
-//             checked={this.state.opcao_escolhida === 'opcao2'}
-//             onChange={this.handleOptionChange}
-//           />
-//         </Item>
-//       </Container>
-//     );
-//   }
-// }
-
-// export default MyRadio;
 
 // Inspired by blueprintjs
 function StyledRadio(props) {
