@@ -67,11 +67,13 @@ export const QuadroVantagens = styled.div`
     height: 90%;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 
     form {
       display: flex;
       flex-direction: column;
       margin-top: 2%;
+      box-sizing: border-box;
 
       input {
         border-left: none;
@@ -94,7 +96,6 @@ export const QuadroVantagens = styled.div`
         display: inline-block;
         text-align: start;
         -webkit-rtl-ordering: logical;
-
 
         @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
           height: 20px;
