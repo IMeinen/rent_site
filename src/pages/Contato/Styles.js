@@ -9,7 +9,6 @@ export const Fundo = styled.div`
   width: 100%;
   height: 220vh;
   background-color: #fff;
-  box-sizing: border-box;
   @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
     height: 320vh;
   }
@@ -20,7 +19,6 @@ export const F1 = styled.div`
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
-  box-sizing: border-box;
 
   width: 100%;
   height: 85%;
@@ -36,7 +34,6 @@ export const F2 = styled.div`
   width: 100%;
   height: 15%;
   background-color: #333;
-  box-sizing: border-box;
 `;
 
 export const QuadroVantagens = styled.div`
@@ -50,7 +47,6 @@ export const QuadroVantagens = styled.div`
   background-color: #fff;
   margin-left: -2%;
   margin-top: -5%;
-  box-sizing: border-box;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;

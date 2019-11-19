@@ -19,7 +19,8 @@ import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 export default function Main() {
   return (
     <Fundo>
-      <F1>
+      <input name="Nome" placeholder="Nome completo" />
+      {/* <F1>
         <QuadroVantagensSombra>
           <QuadroVantagens>
             <h1>FALE CONOSCO</h1>
@@ -32,8 +33,8 @@ export default function Main() {
                 </h2>
                 <input name="Nome" placeholder="Nome completo" />
                 <input name="Email" placeholder="Email" />
-                {/* <input name="Phone" placeholder="Telefone" />
-                <MyRadioButtonAcademia /> */}
+                <input name="Phone" placeholder="Telefone" />
+                <MyRadioButtonAcademia />
                 <h3>Onde você mora atualmente?</h3>
                 <input
                   name="Moradia atual"
@@ -64,7 +65,7 @@ export default function Main() {
             Artur Meinen
           </h1>
         </DadosRodape2>
-      </F2>
+      </F2> */}
     </Fundo>
   );
 }
