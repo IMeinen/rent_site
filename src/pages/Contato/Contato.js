@@ -32,8 +32,8 @@ export default function Main() {
                 </h2>
                 <input name="Nome" placeholder="Nome completo" />
                 <input name="Email" placeholder="Email" />
-                <input name="Phone" placeholder="Telefone" />
-                {/* <MyRadioButtonAcademia /> */}
+                {/* <input name="Phone" placeholder="Telefone" />
+                <MyRadioButtonAcademia /> */}
                 <h3>Onde você mora atualmente?</h3>
                 <input
                   name="Moradia atual"
