@@ -19,7 +19,28 @@ import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 export default function Main() {
   return (
     <Fundo>
-      <input name="Nome" placeholder="Nome completo" />
+      <QuadroVantagens>
+        <h1>FALE CONOSCO</h1>
+        <div>
+          <form className="Meuform">
+            <h2>
+              Entre em contato para nos conhecermos melhor! E responda este
+              breve questionário para melhor entender suas intenções de moradia
+              e poder oferecer as opções ideais!
+            </h2>
+            <input name="Nome" placeholder="Nome completo" />
+            <input name="Email" placeholder="Email" />
+            <input name="Phone" placeholder="Telefone" />
+            <MyRadioButtonAcademia />
+            <h3>Onde você mora atualmente?</h3>
+            <input
+              name="Moradia atual"
+              placeholder="Onde você mora atualmente?"
+            />
+            <button type="submit"> ENVIAR</button>
+          </form>
+        </div>
+      </QuadroVantagens>
       {/* <F1>
         <QuadroVantagensSombra>
           <QuadroVantagens>
