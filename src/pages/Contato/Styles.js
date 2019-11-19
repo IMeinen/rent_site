@@ -68,7 +68,7 @@ export const QuadroVantagens = styled.div`
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-
+    float: none;
     form {
       display: flex;
       flex-direction: column;
