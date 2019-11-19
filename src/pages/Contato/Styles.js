@@ -94,11 +94,11 @@ export const QuadroVantagens = styled.div`
         display: inline-block;
         text-align: start;
         -webkit-rtl-ordering: logical;
-        cursor: text;
+
 
         @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
           height: 20px;
-
+          font-size: 8px;
           padding: 0px;
         }
       }
