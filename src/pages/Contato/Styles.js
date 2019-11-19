@@ -87,7 +87,7 @@ export const QuadroVantagens = styled.div`
         font-size: 16px;
         padding: 0 15px;
         max-width: 80%;
-
+        overflow-wrap: break-word;
         box-sizing: border-box;
         -webkit-writing-mode: horizontal-tb !important;
         word-spacing: normal;
