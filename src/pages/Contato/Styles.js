@@ -8,6 +8,7 @@ export const Fundo = styled.div`
   width: 100%;
   height: 220vh;
   background-color: #fff;
+  position: relative;
   @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
     height: 320vh;
   }
