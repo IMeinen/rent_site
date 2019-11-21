@@ -19,6 +19,11 @@ export const Fundo = styled.div`
 `;
 
 export const F1 = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 85%;
   background: linear-gradient(to right, #f78f2d, #f7532c);
@@ -67,7 +72,8 @@ export const QuadroVantagens = styled.div`
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    float: none;
+    position: relative;
+
     form {
       display: flex;
       flex-direction: column;
