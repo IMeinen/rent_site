@@ -17,6 +17,7 @@ export const F1 = styled.div`
   width: 100%;
   height: 85%;
   background: linear-gradient(to right, #f78f2d, #f7532c);
+  position: relative;
 `;
 
 export const F2 = styled.div`
@@ -35,10 +36,11 @@ export const QuadroVantagens = styled.div`
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   width: 300px;
   height: 1500px;
   background-color: #fff;
+  position: relative;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
