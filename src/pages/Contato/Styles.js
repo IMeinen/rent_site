@@ -3,8 +3,7 @@ import FormLabel from '@material-ui/core/FormLabel';
 
 export const Fundo = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-  display: flex;
-  flex-direction: column;
+
   margin-top: -15%;
   width: 100%;
   height: 220vh;
@@ -15,11 +14,6 @@ export const Fundo = styled.div`
 `;
 
 export const F1 = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-
   width: 100%;
   height: 85%;
   background: linear-gradient(to right, #f78f2d, #f7532c);

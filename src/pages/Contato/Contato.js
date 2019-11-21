@@ -65,7 +65,7 @@ export default function Main() {
           </div>
         </QuadroVantagens>
       </F1>
-      <F2>
+      {/* <F2>
         <DadosRodape>
           <h1>Vigário José Inácio 827 - Centro Histórico - Porto Alegre</h1>
           <div>
@@ -84,7 +84,7 @@ export default function Main() {
             Artur Meinen
           </h1>
         </DadosRodape2>
-      </F2>
+      </F2> */}
     </Fundo>
   );
 }
