@@ -16,8 +16,8 @@ export const Fundo = styled.div`
 
 export const F1 = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 
   width: 100%;
@@ -39,14 +39,12 @@ export const F2 = styled.div`
 export const QuadroVantagens = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: nowrap;
   width: 98%;
-  height: 103%;
+  height: 85%;
   background-color: #fff;
-  margin-left: -2%;
-  margin-top: -5%;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
