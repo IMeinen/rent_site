@@ -42,8 +42,8 @@ export const QuadroVantagens = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: nowrap;
-  width: 98%;
-  height: 85%;
+  width: 300px;
+  height: 1500px;
   background-color: #fff;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
