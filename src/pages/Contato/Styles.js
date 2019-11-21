@@ -7,8 +7,12 @@ export const Fundo = styled.div`
   margin-top: -15%;
   width: 100%;
   height: 220vh;
-  background-color: #fff;
+  background: linear-gradient(to right, #f78f2d, #f7532c);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
     height: 320vh;
   }
