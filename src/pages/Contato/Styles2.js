@@ -50,13 +50,6 @@ export const FirstSection = styled.section`
       display: inline-block;
       text-align: start;
       -webkit-rtl-ordering: logical;
-
-      @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
-        height: 20px;
-        font-size: 8px;
-        padding: 0px;
-        background-color: #fff;
-      }
     }
   }
 `;
