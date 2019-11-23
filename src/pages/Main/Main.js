@@ -13,15 +13,15 @@ import Depoimentos from '../Depoimentos/Depoimentos';
 export default function Main() {
   return (
     <>
-      <Cabec />
+      {/* <Cabec />
       <Landing />
       <Home />
 
       <Vantagens />
 
-      <Apartamentos />
-      {/*
-      <Contato /> */}
+      <Apartamentos /> */}
+
+      <Contato />
     </>
   );
 }
