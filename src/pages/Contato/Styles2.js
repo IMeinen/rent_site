@@ -21,4 +21,11 @@ export const FirstSection = styled.section`
 
   border-width: 70px 0 0 99vw;
   vertical-align: baseline;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    box-sizing: border-box;
+  }
 `;
