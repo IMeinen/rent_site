@@ -73,12 +73,6 @@ export default function Main() {
     <Footer>
       <FirstSection>
         <form className="Meuform">
-          <h2>
-            Entre em contato para nos conhecermos melhor! E responda este breve
-            questionário para melhor entender suas intenções de moradia e poder
-            oferecer as opções ideais!
-          </h2>
-
           <input name="Nome" placeholder="Nome completo" />
           <input name="Email" placeholder="Email" />
           <input name="Phone" placeholder="Telefone" />
