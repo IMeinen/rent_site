@@ -27,5 +27,29 @@ export const FirstSection = styled.section`
     flex-direction: column;
     margin-top: 2%;
     box-sizing: border-box;
+
+    input {
+      border-left: none;
+      border-top: none;
+      border-right: none;
+      border-bottom: 1px solid #aaa;
+      height: 44px;
+      margin: 3px;
+      color: #333;
+      font-family: 'Be Vietnam';
+      font-size: 16px;
+      padding: 0 15px;
+      max-width: 80%;
+      overflow-wrap: break-word;
+      box-sizing: border-box;
+
+      word-spacing: normal;
+      text-transform: none;
+      text-indent: 0px;
+      text-shadow: none;
+      display: inline-block;
+      text-align: start;
+      -webkit-rtl-ordering: logical;
+    }
   }
 `;
