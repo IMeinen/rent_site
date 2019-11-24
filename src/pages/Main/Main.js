@@ -15,9 +15,9 @@ export default function Main() {
     <>
       {/* <Cabec />
       <Landing />
-      <Home />
+      <Home /> */}
 
-      <Vantagens /> */}
+      <Vantagens />
 
       <Apartamentos />
 

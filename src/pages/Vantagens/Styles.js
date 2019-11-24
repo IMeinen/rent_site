@@ -50,12 +50,12 @@ export const QuadroVantagensSombra = styled.div`
     width: 65%;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1100px) and (orientation: portrait) {
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {
     width: 75%;
     height: 60%;
   }
 
-  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
     width: 85%;
     height: 90%;
   }
@@ -77,7 +77,7 @@ export const Header = styled.div`
 
     border-bottom: 1px solid #f78f2d;
 
-    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
       font-size: 22px;
     }
   }
