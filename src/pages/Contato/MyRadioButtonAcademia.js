@@ -56,6 +56,7 @@ const StyledLabel = styled(FormLabel)`
   @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
   margin-top: 10px;
   margin-bottom: 10px;
+
   h1 {
     color: #333;
     font-family: 'Be Vietnam';
@@ -64,7 +65,7 @@ const StyledLabel = styled(FormLabel)`
 
     max-width: 90%;
 
-    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
       font-size: 14px;
     }
   }

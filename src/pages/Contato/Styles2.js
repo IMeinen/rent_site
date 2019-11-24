@@ -14,16 +14,11 @@ export const FirstSection = styled.section`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
   background: #fff;
-  width: 100%;
-
+  width: 90%;
+  margin-left: 5%;
   position: relative;
   z-index: 3;
-  @media only screen and (min-width: 200px) and (orientation: portrait) {
-    background: #fff;
-  }
-  @media only screen and (min-width: 200px) and (orientation: landscape) {
-    background: #faf;
-  }
+
   vertical-align: baseline;
 
   form {
@@ -31,14 +26,14 @@ export const FirstSection = styled.section`
     flex-direction: column;
     margin-top: 2%;
     box-sizing: border-box;
-    transform: translateX(10%);
-
+    align-items: center;
     input {
       border-left: none;
       border-top: none;
       border-right: none;
       border-bottom: 1px solid #aaa;
       height: 44px;
+      width: 90%;
       margin: 3px;
       color: #333;
       font-family: 'Be Vietnam';
@@ -47,14 +42,6 @@ export const FirstSection = styled.section`
       max-width: 80%;
       overflow-wrap: break-word;
       box-sizing: border-box;
-
-      word-spacing: normal;
-      text-transform: none;
-      text-indent: 0px;
-      text-shadow: none;
-      display: inline-block;
-      text-align: start;
-      -webkit-rtl-ordering: logical;
     }
   }
 `;
