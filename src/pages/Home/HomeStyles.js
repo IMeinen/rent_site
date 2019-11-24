@@ -37,28 +37,28 @@ export const Centro = styled.div`
     margin-left: 12%;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
+  /* @media only screen and (min-width: 768px) and (max-width: 1199px)  {
     border: 20px solid #333;
     width: 40%;
     height: 80%;
     margin-left: 12%;
-  }
+  } */
 
-  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
     border: 18px solid #333;
     width: 50%;
     height: 50%;
     margin-left: 8%;
   }
 
-  @media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: portrait) {
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
     border: 15px solid #333;
     width: 50%;
     height: 50%;
     margin-left: 8%;
   }
 
-  @media only screen and (min-width: 200px) and (max-width: 479px) and (orientation: portrait) {
+  @media only screen and (min-width: 200px) and (max-width: 479px) {
     border: 10px solid #333;
     width: 70%;
     height: 50%;
@@ -77,7 +77,7 @@ export const Description = styled.div`
   margin-top: -10%;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
 
-  @media only screen and (min-width: 200px) and (max-width: 699px) and (orientation: portrait) {
+  @media only screen and (min-width: 200px) and (max-width: 699px) {
     margin-left: -65%;
     margin-top: -70%;
     width: 85%;
@@ -109,27 +109,27 @@ export const Description = styled.div`
     font-family: 'Be Vietnam';
     text-align: left;
 
-    @media only screen and (min-width: 1700px) and (orientation: landscape) {
+    @media only screen and (min-width: 1700px) {
       font-size: 18px;
     }
 
-    @media only screen and (min-width: 1200px) and (max-width: 1699px) and (orientation: landscape) {
+    @media only screen and (min-width: 1200px) and (max-width: 1699px) {
       font-size: 12px;
     }
 
-    @media only screen and (min-width: 800px) and (max-width: 1199px) and (orientation: landscape) {
+    @media only screen and (min-width: 800px) and (max-width: 1199px) {
       font-size: 10px;
     }
 
-    @media only screen and (min-width: 640px) and (max-width: 799px) and (orientation: landscape) {
+    @media only screen and (min-width: 640px) and (max-width: 799px) {
       font-size: 8px;
     }
 
-    @media only screen and (min-width: 700px) and (max-width: 1000px) and (orientation: portrait) {
+    @media only screen and (min-width: 700px) and (max-width: 1000px) {
       font-size: 12px;
     }
 
-    @media only screen and (min-width: 200px) and (max-width: 699px) and (orientation: portrait) {
+    @media only screen and (min-width: 200px) and (max-width: 699px) {
       font-size: 7.2px;
     }
   }
@@ -149,21 +149,21 @@ export const Botao = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: landscape) {
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: -17%;
     margin-top: 55%;
 
     height: 8%;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1100px) and (orientation: portrait) {
+  @media only screen and (min-width: 768px) and (max-width: 1100px) {
     margin-left: -49%;
     margin-top: 100%;
 
     height: 6%;
   }
 
-  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
     margin-left: -55%;
     margin-top: 145%;
     width: 24%;

@@ -14,8 +14,8 @@ export default function Main() {
   return (
     <>
       {/* <Cabec />
-      <Landing />
-      <Home /> */}
+      <Landing /> */}
+      <Home />
 
       <Vantagens />
 
