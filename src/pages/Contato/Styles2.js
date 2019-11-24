@@ -18,7 +18,12 @@ export const FirstSection = styled.section`
 
   position: relative;
   z-index: 3;
-
+  @media only screen and (min-width: 200px) and (orientation: portrait) {
+    background: #fff;
+  }
+  @media only screen and (min-width: 200px) and (orientation: landscape) {
+    background: #faf;
+  }
   vertical-align: baseline;
 
   form {
