@@ -50,15 +50,25 @@ export const FirstSection = styled.section`
       margin-top: 5%;
     }
 
+    h4 {
+      color: #333;
+      font-family: 'Be Vietnam';
+      margin-top: 5%;
+      border-bottom: 1px solid #f78f2d;
+
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        font-size: 22px;
+      }
+    }
+
     h2,
     h3 {
       color: #333;
       font-family: 'Be Vietnam';
       font-size: 14px;
-      margin: 2px 0px 4px 0px;
+      margin: 7px 0px 4px 0px;
       width: 80%;
       text-align: center;
-      margin: 10% 0px 5px 0px;
     }
 
     h3 {

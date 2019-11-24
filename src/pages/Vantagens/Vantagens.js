@@ -31,7 +31,7 @@ export default function Main() {
         <QuadroVantagensSombra>
           <QuadroVantagens>
             <Header>
-              <h1>Diferenciais</h1>
+              <h1>DIFERENCIAIS</h1>
             </Header>
             <VantagensGrid>
               <GridItem>

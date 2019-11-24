@@ -3,14 +3,6 @@ import React from 'react';
 import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 import {
-  Fundo,
-  F1,
-  F2,
-  QuadroVantagens,
-  QuadroVantagensSombra,
-} from './Styles';
-
-import {
   Footer,
   FirstSection,
   SecondSection,
@@ -75,6 +67,7 @@ export default function Main() {
     <Footer>
       <FirstSection>
         <form className="Meuform">
+          <h4>CONTATO</h4>
           <h2>
             Entre em contato para nos conhecermos melhor! E responda este breve
             questionário para melhor entender suas intenções de moradia e poder
