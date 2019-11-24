@@ -117,8 +117,8 @@ export const Imagem = styled.div`
   }
 
   @media only screen and (min-width: 200px) and (max-width: 767px) {
-    width: 100%;
-    height: 70%;
+    width: 300px;
+    height: 300px;
   }
   div {
     width: 90%;
@@ -159,21 +159,30 @@ export const Descricao = styled.div`
     width: 70%;
     height: 30%;
   }
+
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
   img {
     width: 80px;
   }
-
   h1,
-  h2 {
+  h2,
+  h3 {
     color: #333;
     font-family: 'Be Vietnam';
     margin-left: 3%;
   }
-
   h1 {
-    font-size: 40px;
+    font-size: 18px;
     margin-top: 3%;
-    padding-bottom: 3%;
+  }
+  h2 {
+    font-size: 30px;
+
+    padding-bottom: 2%;
     border-bottom: 1px solid #bbb;
     @media only screen and (min-width: 1320px) and (max-width: 1500px) {
       font-size: 34px;
@@ -190,10 +199,10 @@ export const Descricao = styled.div`
     }
 
     @media only screen and (min-width: 200px) and (max-width: 767px) {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
-  h2 {
+  h3 {
     font-size: 18px;
     margin-top: 1%;
     @media only screen and (min-width: 1320px) and (max-width: 1500px) {
