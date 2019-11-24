@@ -10,6 +10,7 @@ export const Container = styled.div`
   justify-content: center;
   flex-wrap: nowrap;
   width: 100%;
+  text-align: center;
 
   background: linear-gradient(to right, #f78f2d, #f7532c);
 `;
@@ -70,6 +71,7 @@ export const Description = styled.div`
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   margin-top: 5%;
+
   @media only screen and (min-width: 200px) and (max-width: 699px) {
     width: 90%;
   }
@@ -78,8 +80,7 @@ export const Description = styled.div`
     color: #111;
     font-family: 'Be Vietnam';
     font-size: 20px;
-    margin-top: 2%;
-    margin-left: 5%;
+    display: inline-block;
 
     @media only screen and (min-width: 1700px) {
       font-size: 40px;
@@ -129,56 +130,18 @@ export const Botao = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
   background-color: #f78f2d;
-  width: 16%;
-  height: 10%;
-  margin-left: -17%;
-  margin-top: 35%;
+  width: 200px;
+
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  display: inline-block;
   justify-content: center;
+  margin-bottom: 5%;
+  text-align: center;
 
-  @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-left: -17%;
-    margin-top: 55%;
-
-    height: 8%;
-  }
-
-  @media only screen and (min-width: 768px) and (max-width: 1100px) {
-    margin-left: -49%;
-    margin-top: 100%;
-
-    height: 6%;
-  }
-
-  @media only screen and (min-width: 200px) and (max-width: 767px) {
-    margin-left: -55%;
-    margin-top: 145%;
-    width: 24%;
-    height: 6%;
-  }
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
-    @media only screen and (min-width: 1700px) {
-      font-size: 22px;
-    }
-    @media only screen and (min-width: 1200px) and (max-width: 1699px) {
-      font-size: 18px;
-    }
-
-    @media only screen and (min-width: 950px) and (max-width: 1199px) {
-      font-size: 15px;
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 949px) {
-      font-size: 12px;
-    }
-
-    @media only screen and (min-width: 200px) and (max-width: 767px) {
-      font-size: 8px;
-    }
+    font-size: 14px;
+    margin: 10px;
   }
 `;

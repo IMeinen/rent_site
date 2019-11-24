@@ -31,6 +31,9 @@ export default function Main() {
             quiser saber um pouco mais sobre nós entre em contato!
           </p>
           <Centro />
+          <Botao>
+            <h1>Agende já sua visita!</h1>
+          </Botao>
         </Description>
       </Container>
     </>
