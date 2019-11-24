@@ -14,8 +14,8 @@ export const FirstSection = styled.section`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
   background: #fff;
-  width: 90%;
-  margin-left: 5%;
+  width: 100%;
+
   position: relative;
   z-index: 3;
 
