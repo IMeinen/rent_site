@@ -21,7 +21,7 @@ export default function Main() {
 
       <Apartamentos />
 
-      <Contato />
+      {/* <Contato /> */}
     </>
   );
 }
