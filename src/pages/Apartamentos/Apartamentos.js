@@ -8,15 +8,13 @@ export default function Main() {
   return (
     <>
       <Fundo>
-        <Content>
-          {/* <Header>
-            <h1>COLIVINGS</h1>
-          </Header> */}
+        <Header>
+          <h1>COLIVINGS</h1>
+        </Header>
 
-          <ColivingItem Col={1} />
-          <ColivingItem Col={2} />
-          <ColivingItem Col={3} />
-        </Content>
+        <ColivingItem Col={1} />
+        <ColivingItem Col={2} />
+        <ColivingItem Col={3} />
       </Fundo>
     </>
   );

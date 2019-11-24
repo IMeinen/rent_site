@@ -59,20 +59,22 @@ export const Content = styled.div`
 `;
 
 export const Header = styled.div`
-  width: 100%;
+  width: 80%;
 
-  background-color: rgba(0, 0, 0, 0);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  height: 5%;
+  background-color: #f78f2d;
+  display: block;
+
+  height: 4%;
   margin-bottom: 20px;
+  border: 1px solid #fff;
+  text-align: center;
+
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
-    font-size: 40px;
-    border-bottom: 1px solid #f78f2d;
+    font-size: 26px;
+    vertical-align: center;
+    position: inline-block;
   }
 `;
 
