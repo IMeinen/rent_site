@@ -37,7 +37,7 @@ export const FirstSection = styled.section`
       margin: 3px;
       color: #333;
       font-family: 'Be Vietnam';
-      font-size: 16px;
+      font-size: 14px;
       padding: 0 15px;
       max-width: 80%;
       overflow-wrap: break-word;
@@ -50,10 +50,6 @@ export const FirstSection = styled.section`
       display: inline-block;
       text-align: start;
       -webkit-rtl-ordering: logical;
-
-      @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
-        font-size: 14px;
-      }
     }
   }
 `;
