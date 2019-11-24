@@ -120,7 +120,7 @@ export const Description = styled.div`
     }
 
     @media only screen and (min-width: 200px) and (max-width: 699px) {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 `;
