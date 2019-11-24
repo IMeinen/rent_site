@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Footer = styled.footer`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
-  background: linear-gradient(to right, #f78f2d, #f7532c);
+  background: linear-gradient(to right, #aaaa2d, #f7532c);
   width: 100%;
   position: relative;
   z-index: 3;
