@@ -15,11 +15,11 @@ export const Fundo = styled.div`
   background: linear-gradient(to right, #f78f2d, #f7532c);
   width: 100%;
   height: 90vh;
-  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
     height: 50vh;
   }
 
-  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
     height: 200vh;
   }
 `;
@@ -32,7 +32,7 @@ export const Content = styled.div`
   background-color: rgba(0, 0, 0, 0);
   display: flex;
   flex-direction: row;
-  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
     flex-wrap: wrap;
   }
 
@@ -96,7 +96,7 @@ export const ContainerImg = styled.div`
   flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-start;
-  @media only screen and (min-width: 200px) and (max-width: 768px) and (orientation: portrait) {
+  @media only screen and (min-width: 200px) and (max-width: 768px) {
     width: 90%;
     height: 32%;
   }
@@ -109,12 +109,12 @@ export const Imagem = styled.div`
   background-size: cover;
   border-radius: 2%;
 
-  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
     width: 90%;
     height: 35%;
   }
 
-  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
     width: 100%;
     height: 70%;
   }
@@ -153,7 +153,7 @@ export const Descricao = styled.div`
   align-items: flex-start;
   justify-content: flex-start;
 
-  @media only screen and (min-width: 768px) and (max-width: 1199px) and (orientation: portrait) {
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
     width: 70%;
     height: 30%;
   }
@@ -183,11 +183,11 @@ export const Descricao = styled.div`
     @media only screen and (min-width: 1000px) and (max-width: 1119px) {
       font-size: 26px;
     }
-    @media only screen and (min-width: 768px) and (max-width: 1119px) and (orientation: portrait) {
+    @media only screen and (min-width: 768px) and (max-width: 1119px) {
       font-size: 20px;
     }
 
-    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
       font-size: 18px;
     }
   }
@@ -203,11 +203,11 @@ export const Descricao = styled.div`
     @media only screen and (min-width: 1000px) and (max-width: 1199px) {
       font-size: 12px;
     }
-    @media only screen and (min-width: 768px) and (max-width: 1119px) and (orientation: portrait) {
+    @media only screen and (min-width: 768px) and (max-width: 1119px) {
       font-size: 10px;
     }
 
-    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
       font-size: 8px;
     }
   }
@@ -245,11 +245,11 @@ export const Botao = styled.button`
     @media only screen and (min-width: 1000px) and (max-width: 1199px) {
       font-size: 11px;
     }
-    @media only screen and (min-width: 768px) and (max-width: 1119px) and (orientation: portrait) {
+    @media only screen and (min-width: 768px) and (max-width: 1119px) {
       font-size: 10px;
     }
 
-    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
       font-size: 9px;
     }
   }

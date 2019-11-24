@@ -17,9 +17,9 @@ export default function Main() {
       <Landing />
       <Home />
 
-      <Vantagens />
+      <Vantagens /> */}
 
-      <Apartamentos /> */}
+      <Apartamentos />
 
       <Contato />
     </>
