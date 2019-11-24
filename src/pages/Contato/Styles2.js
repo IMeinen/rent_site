@@ -43,5 +43,11 @@ export const FirstSection = styled.section`
       overflow-wrap: break-word;
       box-sizing: border-box;
     }
+
+    div {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
   }
 `;
