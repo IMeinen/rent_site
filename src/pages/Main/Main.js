@@ -13,8 +13,8 @@ import Depoimentos from '../Depoimentos/Depoimentos';
 export default function Main() {
   return (
     <>
-      {/* <Cabec />
-      <Landing /> */}
+      <Cabec />
+      <Landing />
       <Home />
 
       <Vantagens />
