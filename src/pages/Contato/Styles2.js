@@ -19,7 +19,6 @@ export const FirstSection = styled.section`
   position: relative;
   z-index: 3;
 
-  border-width: 70px 0 0 99vw;
   vertical-align: baseline;
 
   form {
