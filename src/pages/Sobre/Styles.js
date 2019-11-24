@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import FundoDiagonal from '../Main/images/fundo_diagonal.svg';
 
 export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
@@ -10,7 +9,7 @@ export const Container = styled.div`
   flex-wrap: nowrap;
   width: 100%;
   height: 110vh;
-  background-image: url(${FundoDiagonal});
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 25%;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import FundoDiagonal from '../Main/images/fundo_diagonal2.svg';
-import ImagemExemplo from '../Main/images/foto_sobre.jpg';
+
+import ImagemExemplo from '../Main/images/foto_sobre1.jpg';
 
 export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');

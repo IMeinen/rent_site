@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import FundoDiagonal from '../Main/images/fundo_diagonal.svg';
 
 export const Content = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
@@ -12,7 +11,7 @@ export const Content = styled.div`
   background: linear-gradient(to right, #f78f2d, #f7532c);
   z-index: 3;
   margin-top: -2%;
-  /* background-image: url(${FundoDiagonal});
+  /*
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 25%; */
