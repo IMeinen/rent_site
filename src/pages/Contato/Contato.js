@@ -69,7 +69,14 @@ import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 export default function Main() {
   return (
     <Footer>
-      <FirstSection />
+      <FirstSection>
+        <form className="Meuform">
+          <input name="Nome" placeholder="Nome completo" />
+          <input name="Email" placeholder="Email" />
+          <input name="Phone" placeholder="Telefone" />
+          <MyRadioButtonAcademia />
+        </form>
+      </FirstSection>
     </Footer>
   );
 }
