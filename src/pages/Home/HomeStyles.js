@@ -70,17 +70,18 @@ export const Description = styled.div`
   background-color: #fff;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
-  margin-top: 5%;
 
   @media only screen and (min-width: 200px) and (max-width: 699px) {
-    width: 90%;
+    width: 100%;
   }
 
   h1 {
     color: #111;
     font-family: 'Be Vietnam';
-    font-size: 20px;
+    font-size: 24px;
     display: inline-block;
+    margin-top: 4%;
+    margin-bottom: 4%;
 
     @media only screen and (min-width: 1700px) {
       font-size: 40px;
