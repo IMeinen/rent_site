@@ -49,6 +49,39 @@ export const FirstSection = styled.section`
       margin-left: 5%;
       margin-top: 5%;
     }
+
+    h2,
+    h3 {
+      color: #333;
+      font-family: 'Be Vietnam';
+      font-size: 14px;
+      margin: 2px 0px 4px 0px;
+      width: 80%;
+      text-align: center;
+      margin: 10% 0px 5px 0px;
+    }
+
+    h3 {
+      text-align: left;
+    }
+
+    button {
+      height: 44px;
+      width: 30%;
+      background: #f78f2d;
+      margin: 20px;
+      color: #fff;
+      font-weight: bold;
+      border: 0;
+      border-radius: 4px;
+      font-size: 16px;
+      font-family: 'Be Vietnam';
+      font-size: 20px;
+
+      @media only screen and (min-width: 200px) and (max-width: 767px) {
+        font-size: 14px;
+      }
+    }
   }
 `;
 
@@ -110,6 +143,7 @@ export const DadosRodape2 = styled.div`
     color: #777;
     font-family: 'Be Vietnam';
     font-size: 16px;
+    padding: 2px 0px 4px 0px;
     @media only screen and (min-width: 200px) and (max-width: 767px) {
       font-size: 8px;
     }
