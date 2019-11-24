@@ -5,16 +5,13 @@ import ImagemExemplo from '../Main/images/foto_sobre.jpg';
 export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: nowrap;
   width: 100%;
-  height: 92vh;
+
   background: linear-gradient(to right, #f78f2d, #f7532c);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% 90%;
 `;
 
 export const Centro = styled.div`
@@ -22,7 +19,8 @@ export const Centro = styled.div`
   background-image: url(${ImagemExemplo});
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 15%;
+  transform: translateX(5.5%);
+  margin-bottom: 20px;
 
   @media only screen and (min-width: 1700px) {
     border: 30px solid #333;
@@ -53,17 +51,15 @@ export const Centro = styled.div`
 
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     border: 15px solid #333;
-    width: 50%;
+    width: 90%;
     height: 50%;
     margin-left: 8%;
   }
 
   @media only screen and (min-width: 200px) and (max-width: 479px) {
     border: 10px solid #333;
-    width: 70%;
-    height: 50%;
-    margin-left: 4%;
-    margin-top: 35%;
+    width: 90%;
+    height: 60vh;
   }
 `;
 
@@ -71,23 +67,17 @@ export const Description = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
   background-color: #fff;
-  width: 35%;
-  height: 75%;
-  margin-left: -5%;
-  margin-top: -10%;
-  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
 
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 5%;
   @media only screen and (min-width: 200px) and (max-width: 699px) {
-    margin-left: -65%;
-    margin-top: -70%;
-    width: 85%;
-    height: 45%;
+    width: 90%;
   }
 
   h1 {
     color: #111;
     font-family: 'Be Vietnam';
-
+    font-size: 20px;
     margin-top: 2%;
     margin-left: 5%;
 
@@ -103,8 +93,8 @@ export const Description = styled.div`
   p {
     margin-top: 1%;
     margin-left: 5%;
-    width: 85%;
-
+    width: 90%;
+    padding-bottom: 14px;
     color: #111;
     font-family: 'Be Vietnam';
     text-align: left;
@@ -130,7 +120,7 @@ export const Description = styled.div`
     }
 
     @media only screen and (min-width: 200px) and (max-width: 699px) {
-      font-size: 7.2px;
+      font-size: 10px;
     }
   }
 `;

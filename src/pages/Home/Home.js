@@ -6,7 +6,6 @@ export default function Main() {
   return (
     <>
       <Container>
-        <Centro />
         <Description>
           <h1>Sobre nós</h1>
           <p>
@@ -31,10 +30,8 @@ export default function Main() {
             serviços de moradia. Na RENT COLIVING conte sempre conosco. Se
             quiser saber um pouco mais sobre nós entre em contato!
           </p>
+          <Centro />
         </Description>
-        <Botao>
-          <h1>Agende já sua visita!</h1>
-        </Botao>
       </Container>
     </>
   );
