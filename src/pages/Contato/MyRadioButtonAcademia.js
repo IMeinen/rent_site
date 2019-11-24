@@ -59,12 +59,10 @@ const StyledLabel = styled(FormLabel)`
   h1 {
     color: #333;
     font-family: 'Be Vietnam';
-    font-size: 20px;
+    font-size: 14px;
     border: none;
 
     max-width: 90%;
-    display: inline-block;
-    position: relative;
 
     @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
       font-size: 14px;
