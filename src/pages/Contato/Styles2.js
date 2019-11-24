@@ -26,7 +26,7 @@ export const FirstSection = styled.section`
     flex-direction: column;
     margin-top: 2%;
     box-sizing: border-box;
-    transform: translateX(20%);
+    transform: translateX(10%);
     input {
       border-left: none;
       border-top: none;
