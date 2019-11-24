@@ -69,7 +69,7 @@ export default function Main() {
               </GridItem>
               <GridItem>
                 <FaQuidditch className="Item" />
-                <h1>Faxina semanal inclusa</h1>
+                <h1>Limpeza semanal inclusa</h1>
               </GridItem>
               <GridItem>
                 <FaParachuteBox className="Item" />
