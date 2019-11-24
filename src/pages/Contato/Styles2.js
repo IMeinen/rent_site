@@ -51,3 +51,67 @@ export const FirstSection = styled.section`
     }
   }
 `;
+
+export const SecondSection = styled.section`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+
+  background: #333;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+  z-index: 3;
+
+  vertical-align: baseline;
+`;
+
+export const DadosRodape = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  background-color: #333;
+  padding-top: 20px;
+
+}
+
+  h1 {
+    color: #fff;
+    font-family: 'Be Vietnam';
+    font-size: 10px;
+    margin: 2px 0px 4px 0px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .icone {
+    margin-top: 3px;
+    margin-left: 15px;
+  }
+`;
+
+export const DadosRodape2 = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 100%;
+  padding: 2px 0px 4px 0px;
+  background-color: #333;
+
+  h1 {
+    color: #777;
+    font-family: 'Be Vietnam';
+    font-size: 16px;
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
+      font-size: 8px;
+    }
+  }
+`;

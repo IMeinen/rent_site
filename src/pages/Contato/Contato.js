@@ -8,11 +8,15 @@ import {
   F2,
   QuadroVantagens,
   QuadroVantagensSombra,
-  DadosRodape,
-  DadosRodape2,
 } from './Styles';
 
-import { Footer, FirstSection } from './Styles2';
+import {
+  Footer,
+  FirstSection,
+  SecondSection,
+  DadosRodape,
+  DadosRodape2,
+} from './Styles2';
 import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 
 // export default function Main() {
@@ -43,24 +47,24 @@ import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 //         </QuadroVantagens>
 //       </F1>
 //       {/* <F2>
-//         <DadosRodape>
-//           <h1>Vigário José Inácio 827 - Centro Histórico - Porto Alegre</h1>
-//           <div>
-//             <FaWhatsapp color="#fff" size={22} className="icone" />
-//             <h1>(51) 99999-9999</h1>
-//           </div>
-//           <h1>rentcoliving@gmail.com </h1>
-//           <div>
-//             <FaFacebook color="#fff" size={22} className="icone" />
-//             <FaInstagram color="#fff" size={22} className="icone" />
-//           </div>
-//         </DadosRodape>
-//         <DadosRodape2>
-//           <h1>
-//             Todos os direitos reservados - RENTCOLIVING - 2019 - Feito por:
-//             Artur Meinen
-//           </h1>
-//         </DadosRodape2>
+// <DadosRodape>
+//   <h1>Vigário José Inácio 827 - Centro Histórico - Porto Alegre</h1>
+//   <div>
+//     <FaWhatsapp color="#fff" size={22} className="icone" />
+//     <h1>(51) 99999-9999</h1>
+//   </div>
+//   <h1>rentcoliving@gmail.com </h1>
+//   <div>
+//     <FaFacebook color="#fff" size={22} className="icone" />
+//     <FaInstagram color="#fff" size={22} className="icone" />
+//   </div>
+// </DadosRodape>
+// <DadosRodape2>
+//   <h1>
+//     Todos os direitos reservados - RENTCOLIVING - 2019 - Feito por:
+//     Artur Meinen
+//   </h1>
+// </DadosRodape2>
 //       </F2> */}
 //     </Fundo>
 //   );
@@ -79,6 +83,26 @@ export default function Main() {
           </div>
         </form>
       </FirstSection>
+      <SecondSection>
+        <DadosRodape>
+          <h1>Vigário José Inácio 827 - Centro Histórico - Porto Alegre</h1>
+          <div>
+            <FaWhatsapp color="#fff" size={14} className="icone" />
+            <h1>(51) 99999-9999</h1>
+          </div>
+          <h1>rentcoliving@gmail.com </h1>
+          <div>
+            <FaFacebook color="#fff" size={14} className="icone" />
+            <FaInstagram color="#fff" size={14} className="icone" />
+          </div>
+        </DadosRodape>
+        <DadosRodape2>
+          <h1>
+            Todos os direitos reservados - RENTCOLIVING - 2019 - Feito por:
+            Artur Meinen
+          </h1>
+        </DadosRodape2>
+      </SecondSection>
     </Footer>
   );
 }

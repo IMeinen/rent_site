@@ -194,14 +194,13 @@ export const DadosRodape = styled.div`
   width: 60%;
   height: 70%;
   background-color: #333;
-  @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
-    flex-direction: column;
-  }
+  padding-top: 14px;
 
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
-    font-size: 16px;
+    font-size: 14px;
+
     @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
       font-size: 8px;
     }
@@ -225,16 +224,15 @@ export const DadosRodape2 = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  margin-top: 14px;
 
-  width: 60%;
-  height: 30%;
   background-color: #333;
 
   h1 {
     color: #777;
     font-family: 'Be Vietnam';
     font-size: 16px;
-    @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
+    @media only screen and (min-width: 200px) and (max-width: 767px) {
       font-size: 4px;
     }
   }
