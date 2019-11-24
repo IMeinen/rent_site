@@ -62,6 +62,8 @@ const StyledLabel = styled(FormLabel)`
     font-size: 20px;
     border: none;
 
+    max-width: 90%;
+
     @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
       font-size: 14px;
     }
