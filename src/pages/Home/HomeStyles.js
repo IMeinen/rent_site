@@ -94,7 +94,8 @@ export const Description = styled.div`
     margin-left: 5%;
     width: 90%;
     padding-bottom: 14px;
-    color: #111;
+    color: #222;
+    font-weight: bolder;
     font-family: 'Be Vietnam';
 
     text-align: left;
