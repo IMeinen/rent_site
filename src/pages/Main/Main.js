@@ -7,7 +7,7 @@ import Sobre from '../Sobre/Sobre';
 import Apartamentos from '../Apartamentos/Apartamentos';
 import Vantagens from '../Vantagens/Vantagens';
 import Contato from '../Contato/Contato';
-import Depoimentos from '../Depoimentos/Depoimentos';
+
 // import { Container } from './styles';
 
 export default function Main() {
