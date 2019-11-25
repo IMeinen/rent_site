@@ -94,9 +94,9 @@ export const Description = styled.div`
     margin-left: 5%;
     width: 90%;
     padding-bottom: 14px;
-    color: #222;
+    color: #111;
     font-family: 'Be Vietnam';
-    font-weight: bolder;
+
     text-align: left;
 
     @media only screen and (min-width: 1700px) {
@@ -104,7 +104,7 @@ export const Description = styled.div`
     }
 
     @media only screen and (min-width: 1200px) and (max-width: 1699px) {
-      font-size: 13px;
+      font-size: 12px;
     }
 
     @media only screen and (min-width: 800px) and (max-width: 1199px) {
