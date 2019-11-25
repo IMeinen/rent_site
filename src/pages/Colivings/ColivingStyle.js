@@ -57,15 +57,45 @@ export const Fundo = styled.div`
     background-color: #333;
     opacity: 0.9;
   }
-  h1 {
-    width: 100%;
+  h1,
+  h2 {
+    width: 95%;
     color: #fff;
     font-family: 'Be Vietnam';
-    font-size: 18px;
     vertical-align: center;
-
     margin-left: 2%;
-
     background-color: transparent;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 14px;
+    margin-top: 4%;
+  }
+`;
+
+export const FirstSection = styled.section`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+
+  background: #fff;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  z-index: 3;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  vertical-align: center;
+  p {
+    color: #222;
+    font-family: 'Be Vietnam';
+    font-size: 14px;
+    margin: 5%;
+    width: 80%;
+    text-align: left;
+    font-weight: bolder;
+    display: inline-block;
   }
 `;
