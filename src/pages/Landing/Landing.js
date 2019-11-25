@@ -33,7 +33,7 @@ export default function Main() {
               <StyledFaInstagram />
             </a>
             <a
-              href="https://wa.me/5551989092637"
+              href="https://wa.me/5551996607940"
               className="menu"
               target="_blank"
               rel="noopener noreferrer"

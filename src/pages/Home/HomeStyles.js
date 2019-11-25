@@ -12,8 +12,6 @@ export const Container = styled.div`
   width: 90%;
   margin-left: 5%;
   text-align: center;
-
-  background: linear-gradient(to right, #f78f2d, #f7532c);
 `;
 
 export const Centro = styled.div`
@@ -130,7 +128,7 @@ export const Description = styled.div`
 export const Botao = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
-  background-color: #f78f2d;
+  background-color: #f7532c;
   width: 200px;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
