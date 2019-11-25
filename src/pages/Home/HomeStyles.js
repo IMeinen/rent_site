@@ -104,7 +104,7 @@ export const Description = styled.div`
     }
 
     @media only screen and (min-width: 1200px) and (max-width: 1699px) {
-      font-size: 12px;
+      font-size: 11px;
     }
 
     @media only screen and (min-width: 800px) and (max-width: 1199px) {
