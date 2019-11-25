@@ -20,6 +20,7 @@ export const Centro = styled.div`
   background-image: url(${ImagemExemplo});
   background-repeat: no-repeat;
   background-size: cover;
+
   transform: translateX(5.5%);
   margin-bottom: 20px;
 
@@ -44,10 +45,10 @@ export const Centro = styled.div`
   } */
 
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    border: 18px solid #333;
-    width: 50%;
-    height: 50%;
-    margin-left: 8%;
+    border: 10px solid #333;
+    width: 90%;
+    height: 60vh;
+    background-position-y: 90%;
   }
 
   @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -70,10 +71,6 @@ export const Description = styled.div`
   background-color: #fff;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
-
-  @media only screen and (min-width: 200px) and (max-width: 699px) {
-    width: 100%;
-  }
 
   h1 {
     color: #111;

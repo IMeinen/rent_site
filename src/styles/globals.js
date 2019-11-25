@@ -57,8 +57,9 @@ export const Cabec = styled.div`
       }
       @media only screen and (min-width: 240px) and (max-width: 767px) {
       max-width: 80px;
-      margin-left: 8%;
+      margin-left: 4%;
       margin-right: 10%;
+
       margin-bottom: 20px;
       }
     }

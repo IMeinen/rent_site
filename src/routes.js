@@ -3,8 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Main from './pages/Main/Main';
 
-import Apartamentos from './pages/Apartamentos/Apartamentos';
-import Contato from './pages/Contato/Contato';
+import Colivings from './pages/Colivings/Colivings';
 
 export default function Routes() {
   return (
@@ -12,8 +11,7 @@ export default function Routes() {
       <Switch>
         <Route path="/" exact component={Main} />
 
-        <Route path="/apartamentos" component={Apartamentos} />
-        <Route path="/contato" component={Contato} />
+        <Route path="/colivings/:id" children={<Colivings />} />
       </Switch>
     </BrowserRouter>
   );

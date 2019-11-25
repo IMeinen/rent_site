@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import { Link } from 'react-router-dom';
 import {
   ContainerImg,
   Imagem,
@@ -51,7 +52,9 @@ class ColivingItem extends React.Component {
             <h3>Centro Histórico</h3>
             <h3>{Endereço[this.props.Col - 1]}</h3>
             <Botao>
-              <h1>Saiba Mais + </h1>
+              <Link className="link" to="colivings/2">
+                Saiba Mais +
+              </Link>
             </Botao>
           </Descricao>
         </ContainerImg>

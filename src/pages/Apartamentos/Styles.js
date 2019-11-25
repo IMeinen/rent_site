@@ -6,6 +6,7 @@ import Col2 from '../Main/images/coliving_vigario.jpg';
 import Col3 from '../Main/images/coliving_universitario.jpg';
 
 const Imagens = [Col1, Col1, Col2, Col3];
+
 export const Fundo = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
@@ -22,40 +23,6 @@ export const Fundo = styled.div`
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     height: 200vh;
   }
-`;
-
-export const Content = styled.div`
-  /* border: 20px solid #f78f2d; */
-  width: 80%;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  background-color: rgba(0, 0, 0, 0);
-  display: flex;
-  flex-direction: row;
-  @media only screen and (min-width: 200px) and (max-width: 767px) {
-    flex-wrap: wrap;
-  }
-
-  align-items: center;
-  justify-content: space-around;
-  height: 90%;
-
-  z-index: 4;
-
-  /* @media (min-width: 1200px) {
-    margin-top: 5%;
-  } */
-
-  /* tablet*/
-  /*
-  @media only screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    margin-top: 10%;
-  }*/
-  /* celular */
-  /*
-  @media only screen and (min-width: 240px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    margin-top: 15%;
-  } */
 `;
 
 export const Header = styled.div`
@@ -76,16 +43,11 @@ export const Header = styled.div`
     vertical-align: center;
     position: inline-block;
   }
-`;
 
-export const ColivingIMG = styled.div`
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  height: 30%;
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    width: 30%;
+    height: 8%;
+  }
 `;
 
 // COMPONENTES DE ITEMS
@@ -98,9 +60,14 @@ export const ContainerImg = styled.div`
   flex-wrap: nowrap;
   align-items: center;
   justify-content: flex-start;
-  @media only screen and (min-width: 200px) and (max-width: 768px) {
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
     width: 90%;
     height: 32%;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    width: 30%;
+    height: 32%;
+    flex-direction: row;
   }
 `;
 export const Imagem = styled.div`
@@ -112,8 +79,8 @@ export const Imagem = styled.div`
   border-radius: 2%;
 
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
-    width: 90%;
-    height: 35%;
+    width: 200px;
+    height: 200px;
   }
 
   @media only screen and (min-width: 200px) and (max-width: 767px) {
@@ -241,11 +208,12 @@ export const Botao = styled.button`
   align-self: center;
   border: none;
 
-  h1 {
+  .link {
     color: #fff;
     font-family: 'Be Vietnam';
     font-size: 18px;
     border: none;
+    text-decoration: none;
 
     @media only screen and (min-width: 1320px) and (max-width: 1500px) {
       font-size: 16px;

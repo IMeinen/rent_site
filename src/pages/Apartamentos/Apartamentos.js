@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Fundo, Content, Header, ColivingIMG } from './Styles';
 import ColivingItem from './ColivingItem';
+
 // import { Container } from './styles';
 
 export default function Main() {
