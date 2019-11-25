@@ -17,19 +17,21 @@ export const Fundo = styled.div`
   align-items: center;
   justify-content: center;
   padding-top: 80px;
-
+  padding-top: 15%;
   width: 100%;
   height: 100vh;
-  background-position: center center;
+
+  background-color: transparent;
+  /* background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   backface-visibility: hidden;
 
-  background-image: url(${Fundo2});
+  background-image: url(${Fundo2}); */
 
   z-index: 2;
 
-  animation: slideBG 10s linear infinite 0s;
+  /* animation: slideBG 10s linear infinite 0s;
   animation-timing-function: ease-in-out;
 
   @keyframes slideBG {
@@ -39,12 +41,12 @@ export const Fundo = styled.div`
     100% {
       background-image: url(${Fundo1});
     }
-  }
+  } */
 
   /* celular */
-  @media only screen and (min-width: 240px) and (max-width: 767px) {
+  /* @media only screen and (min-width: 240px) and (max-width: 767px) {
     background-image: url(${Fundo1});
-  }
+  } */
 
   img {
     position: relative;
@@ -60,9 +62,9 @@ export const Filtro = styled.div`
   justify-content: center;
   width: 90%;
   height: 90%;
-  border: 2px solid #f78f2d;
+  border: 2px solid #fff;
   position: relative;
-
+  background-color: #333;
   flex-wrap: wrap;
 
   z-index: 2;
@@ -131,7 +133,7 @@ export const LogoCama = styled.div`
   }
 
   @media only screen and (min-width: 200px) and (max-width: 557px) {
-    width: 30%;
+    width: 40%;
     height: 56vh;
   }
 `;

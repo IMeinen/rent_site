@@ -20,7 +20,7 @@ export default createGlobalStyle`
       0.03,
       '#ff8a24'
     )},#ffba24); */
-    background: linear-gradient(to right, #f78f2d, #f7532c);
+    background: #f7532c;
     -webkit-font-smoothing: antialiesed !important;
   }
 
