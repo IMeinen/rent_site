@@ -9,7 +9,8 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
   text-align: center;
 
   background: linear-gradient(to right, #f78f2d, #f7532c);
