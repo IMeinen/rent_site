@@ -8,7 +8,7 @@ export const Content = styled.div`
   justify-content: center;
   width: 100%;
   height: 110vh;
-  background-color: #e74d29;
+  background-color: #f7532c;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     height: 100vh;
   }
@@ -73,6 +73,7 @@ export const Header = styled.div`
   height: 20%;
   background-color: #fff;
   z-index: 5;
+  margin-top: 5%;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     height: 10%;
   }

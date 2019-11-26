@@ -13,9 +13,10 @@ export const Fundo = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background: linear-gradient(to right, #f78f2d, #f7532c);
-  width: 100%;
+  background: #333;
+  width: 90%;
   height: 90vh;
+  margin-left: 5%;
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
     height: 50vh;
   }
@@ -28,13 +29,14 @@ export const Fundo = styled.div`
 export const Header = styled.div`
   width: 80%;
 
-  background-color: #f78f2d;
+  background-color: #f7532c;
   display: block;
 
   height: 4%;
   margin-bottom: 20px;
   border: 1px solid #fff;
   text-align: center;
+  margin-top: 5%;
 
   h1 {
     color: #fff;
@@ -121,7 +123,7 @@ export const Descricao = styled.div`
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
-
+  font-weight: bolder;
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
     width: 70%;
     height: 30%;
@@ -129,7 +131,7 @@ export const Descricao = styled.div`
 
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     width: 250px;
-    height: 200px;
+    height: 150px;
     margin-bottom: 20px;
   }
   img {
@@ -141,6 +143,7 @@ export const Descricao = styled.div`
     color: #333;
     font-family: 'Be Vietnam';
     margin-left: 3%;
+    font-weight: bold;
   }
   h1 {
     font-size: 18px;
