@@ -27,14 +27,14 @@ export const Fundo = styled.div`
 `;
 
 export const Header = styled.div`
-  width: 80%;
+  width: 60%;
 
   background-color: #f7532c;
   display: block;
 
-  height: 4%;
+  height: 3%;
   margin-bottom: 20px;
-  border: 1px solid #fff;
+
   text-align: center;
   margin-top: 5%;
 
@@ -64,7 +64,7 @@ export const ContainerImg = styled.div`
   justify-content: flex-start;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     width: 90%;
-    height: 32%;
+    height: 24%;
   }
   @media only screen and (min-width: 768px) and (max-width: 1200px) {
     width: 30%;
@@ -115,24 +115,24 @@ export const Descricao = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   width: 70%;
   height: 40%;
-  background-color: #fff;
+  background-color: #333;
   border-radius: 1%;
-  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
   font-weight: bolder;
+
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
     width: 70%;
     height: 30%;
   }
 
   @media only screen and (min-width: 200px) and (max-width: 767px) {
-    width: 250px;
-    height: 150px;
-    margin-bottom: 20px;
+    width: 300px;
+    height: 100px;
   }
   img {
     width: 80px;
@@ -140,7 +140,7 @@ export const Descricao = styled.div`
   h1,
   h2,
   h3 {
-    color: #333;
+    color: #fff;
     font-family: 'Be Vietnam';
     margin-left: 3%;
     font-weight: bold;
@@ -189,7 +189,7 @@ export const Descricao = styled.div`
     }
 
     @media only screen and (min-width: 200px) and (max-width: 767px) {
-      font-size: 8px;
+      font-size: 10px;
     }
   }
 `;
@@ -200,7 +200,7 @@ export const StyledPointer = styled(FaMousePointer)`
 
 export const Botao = styled.button`
   width: 50%;
-  height: 20%;
+  height: 25%;
   margin-top: auto;
   margin-bottom: 4%;
   display: flex;

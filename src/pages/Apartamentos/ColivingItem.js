@@ -48,14 +48,15 @@ class ColivingItem extends React.Component {
           >
             <h1>RENT COLIVING - {Nomes[this.props.Col - 1]}</h1>
 
-            <h3>Porto Alegre</h3>
-            <h3>Centro Histórico</h3>
-            <h3>{Endereço[this.props.Col - 1]}</h3>
-            <Botao>
+            <h3>
+              Porto Alegre - Centro Histórico - {Endereço[this.props.Col - 1]}{' '}
+            </h3>
+
+            {/* <Botao>
               <Link className="link" to="colivings/2">
                 Saiba Mais +
               </Link>
-            </Botao>
+            </Botao> */}
           </Descricao>
         </ContainerImg>
       </>
