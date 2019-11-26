@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
@@ -36,7 +36,7 @@ const useStyles = makeStyles({
     },
   },
   checkedIcon: {
-    backgroundColor: '#f78f2d',
+    backgroundColor: '#f7532c',
     backgroundImage:
       'linear-gradient(180deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,0))',
     '&:before': {
@@ -47,7 +47,7 @@ const useStyles = makeStyles({
       content: '""',
     },
     'input:hover ~ &': {
-      backgroundColor: '#f78f2d',
+      backgroundColor: '#f7532c',
     },
   },
 });

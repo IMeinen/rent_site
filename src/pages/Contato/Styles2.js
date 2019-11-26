@@ -54,7 +54,7 @@ export const FirstSection = styled.section`
       color: #333;
       font-family: 'Be Vietnam';
       margin-top: 5%;
-      border-bottom: 1px solid #f78f2d;
+      border-bottom: 1px solid #f7532c;
 
       @media only screen and (min-width: 200px) and (max-width: 767px) {
         font-size: 22px;
@@ -78,7 +78,7 @@ export const FirstSection = styled.section`
     button {
       height: 44px;
       width: 30%;
-      background: #f78f2d;
+      background: #f7532c;
       margin: 20px;
       color: #fff;
       font-weight: bold;

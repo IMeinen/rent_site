@@ -75,15 +75,12 @@ export default function Main() {
           </h2>
           <input name="Nome" placeholder="Nome completo" />
           <input name="Email" placeholder="Email" />
+          <input name="Instragam" placeholder="Instagram" />
           <input name="Phone" placeholder="Telefone" />
           <div>
             <MyRadioButtonAcademia />
           </div>
-          <h3>Onde você mora atualmente?</h3>
-          <input
-            name="Moradia atual"
-            placeholder="Onde você mora atualmente?"
-          />
+
           <button type="submit"> ENVIAR</button>
         </form>
       </FirstSection>
