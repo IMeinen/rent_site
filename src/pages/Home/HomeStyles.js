@@ -128,7 +128,7 @@ export const Description = styled.div`
 export const Botao = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
-  background-color: #f7532c;
+  background-color: #333;
   width: 200px;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);

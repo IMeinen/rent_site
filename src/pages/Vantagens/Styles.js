@@ -8,6 +8,7 @@ export const Content = styled.div`
   justify-content: center;
   width: 100%;
   height: 110vh;
+  background-color: #e74d29;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     height: 100vh;
   }
@@ -42,7 +43,7 @@ export const QuadroVantagensSombra = styled.div`
   flex-wrap: nowrap;
   width: 60%;
   height: 80%;
-  background-color: #f78f2d;
+  background-color: #e74d29;
   margin-top: -2%;
   margin-left: 3%;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
