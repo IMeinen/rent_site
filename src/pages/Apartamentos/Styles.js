@@ -29,9 +29,9 @@ export const Fundo = styled.div`
 export const Header = styled.div`
   width: 60%;
 
-  background-color: #f7532c;
+  background-color: #333;
   display: block;
-
+  font-weight: bolder;
   height: 3%;
   margin-bottom: 20px;
 
