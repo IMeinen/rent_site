@@ -55,6 +55,7 @@ export const FirstSection = styled.section`
       font-family: 'Be Vietnam';
       margin-top: 5%;
       border-bottom: 1px solid #f7532c;
+      font-size: 36px;
 
       @media only screen and (min-width: 200px) and (max-width: 767px) {
         font-size: 22px;
@@ -69,6 +70,9 @@ export const FirstSection = styled.section`
       margin: 7px 0px 4px 0px;
       width: 80%;
       text-align: center;
+      @media only screen and (min-width: 768px) {
+        font-size: 22px;
+      }
     }
 
     h3 {

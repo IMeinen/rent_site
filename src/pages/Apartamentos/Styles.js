@@ -22,6 +22,21 @@ export const Fundo = styled.section`
   }
 `;
 
+export const Colivings = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #333;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  width: 100%;
+
+  @media only screen and (min-width: 800px) {
+    flex-direction: row;
+  }
+`;
+
 export const Header = styled.div`
   width: 60%;
 
@@ -37,9 +52,13 @@ export const Header = styled.div`
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';
-    font-size: 26px;
+    font-size: 40px;
     vertical-align: center;
     position: inline-block;
+
+    @media only screen and (min-width: 1px) and (max-width: 768px) {
+      font-size: 26px;
+    }
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1200px) {
