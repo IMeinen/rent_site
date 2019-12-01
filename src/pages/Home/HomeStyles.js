@@ -20,20 +20,16 @@ export const Centro = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
 
-  transform: translateX(5.5%);
   margin-bottom: 20px;
 
-  @media only screen and (min-width: 1700px) {
-    border: 30px solid #333;
-    width: 40%;
-    height: 90%;
-  }
-
-  @media only screen and (min-width: 1200px) and (max-width: 1699px) {
-    border: 25px solid #333;
-    width: 40%;
-    height: 90%;
-    margin-left: 12%;
+  @media only screen and (min-width: 1200px) {
+    border: 20px solid #333;
+    width: 50%;
+    height: 800px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3%;
+    background-position-y: 80%;
   }
 
   /* @media only screen and (min-width: 768px) and (max-width: 1199px)  {
@@ -66,7 +62,10 @@ export const Centro = styled.div`
 
 export const Description = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
 
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
@@ -81,10 +80,14 @@ export const Description = styled.div`
 
     @media only screen and (min-width: 1700px) {
       font-size: 40px;
+      margin-top: 1%;
+      margin-bottom: 1%;
     }
 
     @media only screen and (min-width: 1200px) and (max-width: 1699px) {
       font-size: 36px;
+      margin-top: 1%;
+      margin-bottom: 1%;
     }
   }
 
@@ -131,6 +134,10 @@ export const Botao = styled.div`
   background-color: #333;
   width: 200px;
 
+  @media only screen and (min-width: 800px) {
+    width: 300px;
+    margin-top: 3%;
+  }
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   display: inline-block;
   justify-content: center;
@@ -142,5 +149,10 @@ export const Botao = styled.div`
     font-family: 'Be Vietnam';
     font-size: 14px;
     margin: 10px;
+
+    @media only screen and (min-width: 800px) {
+      font-size: 18px;
+      margin: 15px;
+    }
   }
 `;

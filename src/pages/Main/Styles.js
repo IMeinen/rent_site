@@ -119,10 +119,6 @@ export const LogoCama = styled.div`
   justify-content: center;
   width: 20%;
   height: 50vh;
-  background-image: url(${LogoC});
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
 
   position: relative;
   z-index: 3;

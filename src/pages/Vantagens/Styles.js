@@ -7,8 +7,9 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 110vh;
+  height: 90vh;
   background-color: #f7532c;
+
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     height: 100vh;
   }
@@ -26,11 +27,11 @@ export const QuadroVantagens = styled.div`
   align-items: center;
   justify-content: flex-start;
   flex-wrap: nowrap;
-  width: 98%;
-  height: 103%;
+  width: 90%;
+  height: 95%;
+
   background-color: #fff;
-  margin-left: -2%;
-  margin-top: -3%;
+
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
 `;
@@ -70,13 +71,14 @@ export const Header = styled.div`
   justify-content: center;
   flex-wrap: nowrap;
   width: 100%;
-  height: 20%;
+  height: 15%;
   background-color: #fff;
   z-index: 5;
-  margin-top: 5%;
+  margin-top: 1%;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     height: 10%;
   }
+
   h1 {
     color: #333;
     font-family: 'Be Vietnam';
@@ -115,6 +117,10 @@ export const GridItem = styled.div`
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
   z-index: 4;
 
+  @media only screen and (min-width: 1301px) {
+    height: 28%;
+  }
+
   @media only screen and (min-width: 1000px) and (max-width: 1300px) {
     height: 23%;
   }
@@ -142,6 +148,9 @@ export const GridItem = styled.div`
     vertical-align: middle;
 
     width: 60%;
+    @media only screen and (min-width: 1301px) {
+      font-size: 16px;
+    }
     @media only screen and (min-width: 1000px) and (max-width: 1300px) {
       font-size: 12px;
     }

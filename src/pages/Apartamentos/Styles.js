@@ -69,8 +69,8 @@ export const ContainerImg = styled.div`
   }
 `;
 export const Imagem = styled.div`
-  width: 90%;
-  height: 50%;
+  width: 400px;
+  height: 400px;
   background-image: ${props => `url(${Imagens[props.Col]}) `};
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,7 +91,7 @@ export const Imagem = styled.div`
     margin-top: 5%;
     margin-left: 5%;
     border: ${props =>
-      props.Estilizar ? '5px solid #f78f2d' : '5px solid #fff'};
+      props.Estilizar ? '5px solid #f7532c' : '5px solid #fff'};
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -199,7 +199,7 @@ export const Descricao = styled.div`
   }
 `;
 export const StyledPointer = styled(FaMousePointer)`
-  color: ${props => (props.Estilizar ? '#f78f2d' : '#fff')};
+  color: ${props => (props.Estilizar ? '#f7532c' : '#fff')};
   font-size: 46px;
 `;
 
@@ -212,7 +212,7 @@ export const Botao = styled.button`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #f78f2d;
+  background-color: #f7532c;
   align-self: center;
   border: none;
 

@@ -16,8 +16,7 @@ export const Fundo = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
-  padding-top: 15%;
+  padding-top: 5%;
   width: 100%;
   height: 100vh;
 
@@ -44,9 +43,10 @@ export const Fundo = styled.div`
   } */
 
   /* celular */
-  /* @media only screen and (min-width: 240px) and (max-width: 767px) {
-    background-image: url(${Fundo1});
-  } */
+  @media only screen and (min-width: 240px) and (max-width: 767px) {
+    padding-top: 80px;
+    padding-top: 15%;
+  }
 
   img {
     position: relative;
