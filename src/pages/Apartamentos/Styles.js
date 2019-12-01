@@ -7,7 +7,7 @@ import Col3 from '../Main/images/coliving_universitario.jpg';
 
 const Imagens = [Col1, Col1, Col2, Col3];
 
-export const Fundo = styled.div`
+export const Fundo = styled.section`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
   flex-direction: column;
@@ -15,14 +15,10 @@ export const Fundo = styled.div`
   justify-content: flex-start;
   background: #333;
   width: 90%;
-  height: 90vh;
+
   margin-left: 5%;
   @media only screen and (min-width: 768px) and (max-width: 1199px) {
     height: 50vh;
-  }
-
-  @media only screen and (min-width: 200px) and (max-width: 767px) {
-    height: 200vh;
   }
 `;
 
@@ -136,6 +132,15 @@ export const Descricao = styled.div`
   }
   img {
     width: 80px;
+  }
+
+  div {
+    width: 95%;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    align-self: center;
+    padding-bottom: 15px;
   }
   h1,
   h2,

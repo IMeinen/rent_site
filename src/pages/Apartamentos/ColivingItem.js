@@ -46,12 +46,13 @@ class ColivingItem extends React.Component {
             onMouseEnter={this.HandleHover}
             onMouseLeave={this.HandleHover}
           >
-            <h1>RENT COLIVING - {Nomes[this.props.Col - 1]}</h1>
+            <div>
+              <h1>RENT COLIVING - {Nomes[this.props.Col - 1]}</h1>
 
-            <h3>
-              Porto Alegre - Centro Histórico - {Endereço[this.props.Col - 1]}{' '}
-            </h3>
-
+              <h3>
+                Porto Alegre - Centro Histórico - {Endereço[this.props.Col - 1]}{' '}
+              </h3>
+            </div>
             {/* <Botao>
               <Link className="link" to="colivings/2">
                 Saiba Mais +
