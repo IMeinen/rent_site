@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { Element } from 'react-scroll';
+
 import { Fundo, Colivings, Header, ColivingIMG } from './Styles';
 import ColivingItem from './ColivingItem';
-
 // import { Container } from './styles';
 
 export default function Main() {

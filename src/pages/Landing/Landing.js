@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Link } from 'react-scroll';
 import {
   Fundo,
   Filtro,
@@ -44,7 +45,9 @@ export default function Main() {
           <LogoCama />
 
           <h1>Viver bem sempre!</h1>
-          <StyledSeta />
+          <Link to="Home" className="bm-item" spy smooth duration={500}>
+            <StyledSeta />
+          </Link>
         </Filtro>
       </Fundo>
     </>

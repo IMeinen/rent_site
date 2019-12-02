@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBars } from 'react-icons/fa';
+
 import { Link } from 'react-scroll';
 import { Cabec } from '../../styles/globals';
 import logo from './images/logo_192.png';

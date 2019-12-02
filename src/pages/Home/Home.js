@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Element } from 'react-scroll';
+import { Link, Element } from 'react-scroll';
+
 import { Container, Centro, Description, Botao } from './HomeStyles';
 
 export default function Main() {
@@ -37,9 +38,11 @@ export default function Main() {
             quiser saber um pouco mais sobre nós entre em contato!
           </p>
           <Centro />
-          <Botao>
-            <h1>Agende já sua visita!</h1>
-          </Botao>
+          <Link to="Contato" spy smooth duration={500}>
+            <Botao>
+              <h1>Agende já sua visita!</h1>
+            </Botao>
+          </Link>
         </Description>
       </Container>
     </Element>

@@ -29,37 +29,40 @@ class ColivingItem extends React.Component {
   render() {
     return (
       <>
-        <ContainerImg>
-          <Imagem
-            Col={this.props.Col}
-            Estilizar={this.state.hovered}
-            onMouseEnter={this.HandleHover}
-            onMouseLeave={this.HandleHover}
-          >
-            <div>
-              <StyledPointer Estilizar={this.state.hovered} />
-              <img src={this.state.hovered ? Logo2 : Logo} alt="logo" />
-            </div>
-          </Imagem>
-          <Descricao
-            Col={this.props.Col}
-            onMouseEnter={this.HandleHover}
-            onMouseLeave={this.HandleHover}
-          >
-            <div>
-              <h1>RENT COLIVING - {Nomes[this.props.Col - 1]}</h1>
+        <Link to={`colivings/${this.props.Col}`} style={{ width: '0px' }}>
+          <ContainerImg>
+            <Imagem
+              Col={this.props.Col}
+              Estilizar={this.state.hovered}
+              onMouseEnter={this.HandleHover}
+              onMouseLeave={this.HandleHover}
+            >
+              <div>
+                <StyledPointer Estilizar={this.state.hovered} />
+                <img src={this.state.hovered ? Logo2 : Logo} alt="logo" />
+              </div>
+            </Imagem>
+            <Descricao
+              Col={this.props.Col}
+              onMouseEnter={this.HandleHover}
+              onMouseLeave={this.HandleHover}
+            >
+              <div>
+                <h1>RENT COLIVING - {Nomes[this.props.Col - 1]}</h1>
 
-              <h3>
-                Porto Alegre - Centro Histórico - {Endereço[this.props.Col - 1]}{' '}
-              </h3>
-            </div>
-            {/* <Botao>
+                <h3>
+                  Porto Alegre - Centro Histórico -{' '}
+                  {Endereço[this.props.Col - 1]}{' '}
+                </h3>
+              </div>
+              {/* <Botao>
               <Link className="link" to="colivings/2">
                 Saiba Mais +
               </Link>
             </Botao> */}
-          </Descricao>
-        </ContainerImg>
+            </Descricao>
+          </ContainerImg>
+        </Link>
       </>
     );
   }
