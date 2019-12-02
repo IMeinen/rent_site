@@ -1,10 +1,16 @@
 import React from 'react';
 
+import { Element } from 'react-scroll';
 import { Container, Centro, Description, Botao } from './HomeStyles';
 
 export default function Main() {
   return (
-    <>
+    <Element
+      name="Home"
+      style={{
+        paddingTop: '100px',
+      }}
+    >
       <Container>
         <Description>
           <h1>Sobre nós</h1>
@@ -36,6 +42,6 @@ export default function Main() {
           </Botao>
         </Description>
       </Container>
-    </>
+    </Element>
   );
 }

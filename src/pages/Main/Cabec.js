@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 import { Cabec } from '../../styles/globals';
 import logo from './images/logo_192.png';
+import MyMenuAcademia from './MyMenuAcademia';
 
 export default function Main() {
   return (
@@ -9,15 +11,25 @@ export default function Main() {
       <Cabec>
         <img src={logo} alt="logo" />
         <nav>
-          <a href="/">HOME</a>
-          <a href="/">SOBRE</a>
-          <a href="/">DIFERENCIAIS</a>
-          <a href="/">COLIVINGS</a>
-          <a href="/">FALE CONOSCO</a>
+          <Link to="Home" spy smooth duration={500}>
+            HOME
+          </Link>
+          <Link to="Home" spy smooth duration={500}>
+            SOBRE
+          </Link>
+          <Link to="Vantagens" spy smooth duration={500}>
+            DIFERENCIAIS
+          </Link>
+          <Link to="Apartamentos" spy smooth duration={500}>
+            COLIVINGS
+          </Link>
+          <Link to="Contato" spy smooth duration={500}>
+            CONTATO
+          </Link>
         </nav>
-        <a href="/" className="menu">
-          <FaBars color="#fff" size={28} />
-        </a>
+
+        <MyMenuAcademia />
+
         <div className="login">
           <h1>LOGIN</h1>
         </div>

@@ -121,8 +121,6 @@ export const DadosRodape = styled.div`
   background-color: #333;
   padding-top: 20px;
 
-}
-
   h1 {
     color: #fff;
     font-family: 'Be Vietnam';

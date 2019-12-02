@@ -14,11 +14,10 @@ import {
   FaCouch,
   FaFileInvoiceDollar,
 } from 'react-icons/fa';
-
+import { Element } from 'react-scroll';
 import {
   Content,
   QuadroVantagens,
-  QuadroVantagensSombra,
   Header,
   VantagensGrid,
   GridItem,
@@ -26,7 +25,12 @@ import {
 
 export default function Main() {
   return (
-    <>
+    <Element
+      name="Vantagens"
+      style={{
+        paddingTop: '80px',
+      }}
+    >
       <Content>
         <QuadroVantagens>
           <Header>
@@ -85,6 +89,6 @@ export default function Main() {
           </VantagensGrid>
         </QuadroVantagens>
       </Content>
-    </>
+    </Element>
   );
 }

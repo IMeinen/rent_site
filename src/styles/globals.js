@@ -106,6 +106,8 @@ export const Cabec = styled.div`
     align-items: center;
     justify-self: center;
     align-self: center;
+    left: 50%;
+    right: 50%;
     @media only screen and (min-width: 1px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5) {
       display: none;
     }
@@ -130,7 +132,7 @@ export const Cabec = styled.div`
     @media only screen and (min-width: 1px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1.5) {
       display: none;
     }
-    background-color: #ff8a24;
+    background-color: #333;
     width: 8%;
     height: 55%;
     justify-self: flex-start;
@@ -142,7 +144,7 @@ export const Cabec = styled.div`
     h1 {
       font-size: 20px;
       font-family: 'Be Vietnam';
-      color: #fff;
+      color: #333;
     }
   }
 `;

@@ -2,6 +2,7 @@ import React from 'react';
 
 import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa';
 
+import { Element } from 'react-scroll';
 import {
   Footer,
   FirstSection,
@@ -64,46 +65,53 @@ import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 
 export default function Main() {
   return (
-    <Footer>
-      <FirstSection>
-        <form className="Meuform">
-          <h4>CONTATO</h4>
-          <h2>
-            Entre em contato para nos conhecermos melhor! E responda este breve
-            questionário para melhor entender suas intenções de moradia e poder
-            oferecer as opções ideais!
-          </h2>
-          <input name="Nome" placeholder="Nome completo" />
-          <input name="Email" placeholder="Email" />
-          <input name="Instragam" placeholder="Instagram" />
-          <input name="Phone" placeholder="Telefone" />
-          <div>
-            <MyRadioButtonAcademia />
-          </div>
+    <Element
+      name="Contato"
+      style={{
+        paddingTop: '80px',
+      }}
+    >
+      <Footer>
+        <FirstSection>
+          <form className="Meuform">
+            <h4>CONTATO</h4>
+            <h2>
+              Entre em contato para nos conhecermos melhor! E responda este
+              breve questionário para melhor entender suas intenções de moradia
+              e poder oferecer as opções ideais!
+            </h2>
+            <input name="Nome" placeholder="Nome completo" />
+            <input name="Email" placeholder="Email" />
+            <input name="Instragam" placeholder="Instagram" />
+            <input name="Phone" placeholder="Telefone" />
+            <div>
+              <MyRadioButtonAcademia />
+            </div>
 
-          <button type="submit"> ENVIAR</button>
-        </form>
-      </FirstSection>
-      <SecondSection>
-        <DadosRodape>
-          <h1>Vigário José Inácio 827 - Centro Histórico - Porto Alegre</h1>
-          <div>
-            <FaWhatsapp color="#fff" size={14} className="icone" />
-            <h1>(51) 99999-9999</h1>
-          </div>
-          <h1>rentcoliving@gmail.com </h1>
-          <div>
-            <FaFacebook color="#fff" size={14} className="icone" />
-            <FaInstagram color="#fff" size={14} className="icone" />
-          </div>
-        </DadosRodape>
-        <DadosRodape2>
-          <h1>
-            Todos os direitos reservados - RENTCOLIVING - 2019 - Feito por:
-            Artur Meinen
-          </h1>
-        </DadosRodape2>
-      </SecondSection>
-    </Footer>
+            <button type="submit"> ENVIAR</button>
+          </form>
+        </FirstSection>
+        <SecondSection>
+          <DadosRodape>
+            <h1>Vigário José Inácio 827 - Centro Histórico - Porto Alegre</h1>
+            <div>
+              <FaWhatsapp color="#fff" size={14} className="icone" />
+              <h1>(51) 99999-9999</h1>
+            </div>
+            <h1>rentcoliving@gmail.com </h1>
+            <div>
+              <FaFacebook color="#fff" size={14} className="icone" />
+              <FaInstagram color="#fff" size={14} className="icone" />
+            </div>
+          </DadosRodape>
+          <DadosRodape2>
+            <h1>
+              Todos os direitos reservados - RENTCOLIVING - 2019 - Feito por:
+              Artur Meinen
+            </h1>
+          </DadosRodape2>
+        </SecondSection>
+      </Footer>
+    </Element>
   );
 }

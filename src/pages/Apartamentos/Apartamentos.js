@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Element } from 'react-scroll';
 import { Fundo, Colivings, Header, ColivingIMG } from './Styles';
 import ColivingItem from './ColivingItem';
 
@@ -7,7 +8,12 @@ import ColivingItem from './ColivingItem';
 
 export default function Main() {
   return (
-    <>
+    <Element
+      name="Apartamentos"
+      style={{
+        paddingTop: '90px',
+      }}
+    >
       <Fundo>
         <Header>
           <h1>COLIVINGS</h1>
@@ -18,6 +24,6 @@ export default function Main() {
           <ColivingItem Col={3} />
         </Colivings>
       </Fundo>
-    </>
+    </Element>
   );
 }
