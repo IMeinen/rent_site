@@ -23,11 +23,11 @@ class Slide extends React.Component {
       if (ImagemAtual > 0) {
         this.setState({ imagem: ImagemAtual - 1 });
       } else if (ImagemAtual === 0) {
-        this.setState({ imagem: 5 });
+        this.setState({ imagem: 4 });
       }
-    } else if (ImagemAtual < 5) {
+    } else if (ImagemAtual < 4) {
       this.setState({ imagem: ImagemAtual + 1 });
-    } else if (ImagemAtual === 5) {
+    } else if (ImagemAtual === 4) {
       this.setState({ imagem: 0 });
     }
   };
