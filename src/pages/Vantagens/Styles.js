@@ -143,7 +143,7 @@ export const GridItem = styled.div`
   h1 {
     color: #333;
     font-family: 'Be Vietnam';
-    font-size: 22 px;
+    font-size: 22px;
     text-align: center;
     vertical-align: middle;
 
@@ -166,6 +166,7 @@ export const GridItem = styled.div`
   .Item {
     color: #333;
     font-size: 46px;
+
     @media only screen and (min-width: 200px) and (max-width: 1200px) {
       font-size: 16px;
     }

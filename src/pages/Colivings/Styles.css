@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+
+.Header, .Descricao {
+  color: #222;
+    font-family: 'Be Vietnam';
+    font-size: 16px;
+    margin: 15px;
+    width: 80%;
+    text-align: left;
+    font-weight: bolder;
+    display: inline-block;
+    font-weight: bolder;
+    align-self: flex-start;
+}
+.Descricao {
+  font-size: 14px;
+
+}
+
+.ImagemPrincipal {
+  margin-top: 40px;
+  width: 300px;
+  height: 300px;
+  border: 3px solid #333;
+}
+
+.ContainerSetas,
+.Galeria {
+  background-color: #fff;
+  width: 70%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.Botao {
+  width: 80px;
+  height: 50px;
+  border: none;
+  background-color: #333;
+  margin: 5px;
+  font-family: "Arial";
+  font-size: 16px;
+  color: #eee;
+}
+
+.Galeria {
+  margin-top: 25px;
+  width: 90%;
+
+  background-color: #333;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.ItemIMG {
+  width: 80px;
+  height: 80px;
+
+  margin: 5px;
+}
+
+.inativo {
+  border: 3px solid #ffffff;
+}
+
+.ativo {
+  border: 3px solid #1f64ad;
+}

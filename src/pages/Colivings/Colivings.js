@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { Fundo, FirstSection } from './ColivingStyle';
+import { Slide } from './SlideSection';
+import Vantagens from '../Vantagens/Vantagens';
 
 export default function Main() {
   return (
@@ -25,6 +27,8 @@ export default function Main() {
           profissionais que gostam de conviver em comunidade.
         </p>
       </FirstSection>
+      <Vantagens />
+      <Slide />
     </>
   );
 }

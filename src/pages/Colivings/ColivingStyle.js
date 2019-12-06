@@ -99,3 +99,20 @@ export const FirstSection = styled.section`
     display: inline-block;
   }
 `;
+
+export const ColivingSection = styled.section`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+
+  background: #fff;
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+  z-index: 3;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  vertical-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
