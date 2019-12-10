@@ -1,0 +1,44 @@
+{
+  "dados" : [{
+    "nome": "Riachuelo",
+    "endereço": "Rua Riachuelo,714",
+    "descricao": "A RENT COLIVING – Riachuelo é em um prédio histórico da década de 30, todo reformado com pé direito alto, pisos originais de madeira e ladrilho hidráulicos com ambientes aconchegantes combinando o antigo e o moderno. Localizada na Rua Riachuelo, no Centro Histórico a duas quadras do Gasômetro e Casa de Cultura Mario Quintana é ideal para atividades “outdoor” e passeios culturais no Centro Histórico da cidade. O coliving tem 16 quartos individuais completamente mobiliados com bastante luminosidade. As áreas em comum como Sala de TV e Sala de Jogos são amplas e confortáveis.",
+    "quartos": [
+      {
+        "nomeQuarto": "A",
+        "descricaoQuarto": "A",
+        "imagensQuarto": []
+      },
+      {
+        "nomeQuarto": "B",
+        "descricaoQuarto": "B",
+        "imagensQuarto": []
+      }
+    ]
+  },
+   {
+      "nome": "1",
+      "endereço": "1",
+      "descricao": "1",
+      "quartos": [
+        {
+          "nomeQuarto": "",
+          "descricaoQuarto": "",
+          "imagensQuarto": []
+        }
+      ]
+    },
+  {
+      "nome": "1",
+      "endereço": "1",
+      "descricao": "1",
+      "quartos": [
+        {
+          "nomeQuarto": "",
+          "descricaoQuarto": "",
+          "imagensQuarto": []
+        }
+      ]
+    }]
+
+}

@@ -32,6 +32,7 @@ class ColivingItem extends React.Component {
         <Link
           to={`colivings/${this.props.Col}`}
           style={{ width: '0px', textDecoration: 'none' }}
+
         >
           <ContainerImg>
             <Imagem

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, useParams } from 'react-router-dom';
 
 import Main from './pages/Main/Main';
 
@@ -11,7 +11,7 @@ export default function Routes() {
       <Switch>
         <Route path="/" exact component={Main} />
 
-        <Route path="/colivings/:id" children={<Colivings />} />
+        <Route path="/colivings/:id" component={Colivings} />
       </Switch>
     </BrowserRouter>
   );

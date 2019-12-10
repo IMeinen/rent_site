@@ -2,11 +2,6 @@ import React from 'react';
 
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import { ColivingSection } from './ColivingStyle';
-import VIG_30_40_1 from './images/vig_30a40_1.jpg';
-import VIG_30_40_2 from './images/vig_30a40_2.jpg';
-import VIG_30_40_3 from './images/vig_30a40_3.jpg';
-import VIG_30_40_4 from './images/vig_30a40_4.jpg';
-import VIG_30_40_5 from './images/vig_30a40_5.jpg';
 
 import './Styles.css';
 
@@ -14,7 +9,7 @@ class Slide extends React.Component {
   // eslint-disable-next-line react/state-in-constructor
   state = {
     imagem: 0,
-    imagens: [VIG_30_40_1, VIG_30_40_2, VIG_30_40_3, VIG_30_40_4, VIG_30_40_5],
+    imagens: this.props.IMG,
   };
 
   HandleClick = click => {
@@ -23,11 +18,11 @@ class Slide extends React.Component {
       if (ImagemAtual > 0) {
         this.setState({ imagem: ImagemAtual - 1 });
       } else if (ImagemAtual === 0) {
-        this.setState({ imagem: 4 });
+        this.setState({ imagem: this.state.imagens.length - 1 });
       }
-    } else if (ImagemAtual < 4) {
+    } else if (ImagemAtual < this.state.imagens.length - 1) {
       this.setState({ imagem: ImagemAtual + 1 });
-    } else if (ImagemAtual === 4) {
+    } else if (ImagemAtual === this.state.imagens.length - 1) {
       this.setState({ imagem: 0 });
     }
   };
@@ -39,14 +34,8 @@ class Slide extends React.Component {
   render() {
     return (
       <ColivingSection>
-        <h1 className="Header">
-          Studios de 20m2-30m2 (a partir de R$1.400,00)
-        </h1>
-        <p className="Descricao">
-          Studios mobiliados com banheiro, cozinha e ótima luminosidade.
-          Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal
-          tudo incluso em uma só conta.
-        </p>
+        <h1 className="Header">{this.props.Nome}</h1>
+        <p className="Descricao">{this.props.Desc}</p>
         <img
           src={this.state.imagens[this.state.imagem]}
           alt="teste"
