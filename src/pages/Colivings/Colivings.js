@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
+import { useLocation, useParams } from 'react-router-dom';
 
-import { useParams } from 'react-router-dom';
-
-import { Fundo, FirstSection } from './ColivingStyle';
+import SlideShow from '../../components/SlideShow/SlideShow';
+import { Fundo, FirstSection, Description, Container } from './ColivingStyle';
 import { Slide } from './SlideSection';
 import Vantagens from '../Vantagens/Vantagens';
 
@@ -123,15 +123,20 @@ const dados = {
 // eslint-disable-next-line react/prefer-stateless-function
 export default function Colivings() {
   const { id } = useParams();
-  console.log(id);
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
-    <>
+    <Container>
       <Fundo>
-        <div>
+        <SlideShow id={id} />
+        <Description>
           <h1>RENT COLIVING</h1>
           <h1>{dados.dados[id - 1].nome}</h1>
           <h2>{`${dados.dados[id - 1].endereço} - Centro Histórico`}</h2>
-        </div>
+        </Description>
       </Fundo>
       <FirstSection>
         <p>{dados.dados[id - 1].descricao}</p>
@@ -145,6 +150,6 @@ export default function Colivings() {
           IMG={item.imagensQuarto}
         />
       ))}
-    </>
+    </Container>
   );
 }

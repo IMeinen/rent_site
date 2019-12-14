@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Link } from 'react-scroll';
+
 import { Cabec } from '../../styles/globals';
 import logo from './images/logo_192.png';
 import MyMenuAcademia from './MyMenuAcademia';
@@ -10,6 +11,7 @@ export default function Main() {
     <>
       <Cabec>
         <img src={logo} alt="logo" />
+
         <nav>
           <Link to="Home" spy smooth duration={500}>
             HOME
