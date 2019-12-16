@@ -200,6 +200,6 @@ export const MyModal = styled.div`
   }
 
   .myIcon {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 `;
