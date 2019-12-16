@@ -175,7 +175,7 @@ export const GridItem = styled.div`
 
 export const MyModal = styled.div`
   display: inline-block;
-  width: 100%;
+  width: 90%;
   height: 200px;
   z-index: 14px;
   background-color: #fff;
@@ -191,7 +191,8 @@ export const MyModal = styled.div`
     font-weight: bold;
   }
   h1 {
-  font-size: 22px; }
+    font-size: 22px;
+  }
 
   p {
     font-size: 16px;
