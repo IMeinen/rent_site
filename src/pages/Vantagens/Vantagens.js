@@ -15,6 +15,7 @@ import {
   FaCouch,
   FaFileInvoiceDollar,
 } from 'react-icons/fa';
+import { IoIosClose } from 'react-icons/io';
 import { Element } from 'react-scroll';
 import {
   Content,
@@ -86,6 +87,12 @@ export default function Main() {
               <MyModal>
                 <h1>{Desc[index][0]}</h1>
                 <p> {Desc[index][1]}</p>
+                <IoIosClose
+                  size={50}
+                  color="#333"
+                  onClick={() => setShow(!show)}
+                  className="myIcon"
+                />
               </MyModal>
             </Rodal>
             <GridItem
