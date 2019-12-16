@@ -73,7 +73,7 @@ export const Header = styled.div`
   width: 100%;
   height: 15%;
   background-color: #fff;
-  z-index: 5;
+  z-index: 1;
   margin-top: 1%;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     height: 10%;
@@ -170,5 +170,30 @@ export const GridItem = styled.div`
     @media only screen and (min-width: 200px) and (max-width: 1200px) {
       font-size: 16px;
     }
+  }
+`;
+
+export const MyModal = styled.div`
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  z-index: 14px;
+  background-color: #fff;
+
+  h1,
+  p {
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Be Vietnam';
+
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+  }
+  h1 {
+  font-size: 22px; }
+
+  p {
+    font-size: 16px;
   }
 `;
