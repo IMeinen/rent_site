@@ -4,8 +4,9 @@ import { FaMousePointer } from 'react-icons/fa';
 import Col1 from '../Main/images/rent_riachuelo.jpg';
 import Col2 from '../Main/images/coliving_vigario.jpg';
 import Col3 from '../Main/images/coliving_universitario.jpg';
+import Col4 from '../Main/images/bom_fim1.jpeg';
 
-const Imagens = [Col1, Col1, Col2, Col3];
+const Imagens = [Col1, Col1, Col2, Col3, Col4];
 
 export const Fundo = styled.section`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');

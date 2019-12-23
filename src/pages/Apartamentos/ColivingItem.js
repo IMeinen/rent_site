@@ -11,11 +11,12 @@ import {
 import Logo from '../Main/images/logo_so_cama1.svg';
 import Logo2 from '../Main/images/logo_so_cama2.svg';
 
-const Nomes = ['Riachuelo', 'Vigário', 'Universitário'];
+const Nomes = ['Riachuelo', 'Vigário', 'Universitário', 'BomFim'];
 const Endereço = [
   'Rua Riachuelo,714',
   'Rua Vigário José Inácio, 829',
   'Av. João Pessoa, 61',
+  'endereço do bom fim',
 ];
 
 class ColivingItem extends React.Component {

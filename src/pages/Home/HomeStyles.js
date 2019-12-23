@@ -156,3 +156,11 @@ export const Botao = styled.div`
     }
   }
 `;
+
+export const Subtitle = styled.legend`
+  @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
+  font-family: 'Be Vietnam';
+  font-size: 10px;
+  margin-top: -20px;
+  padding: 7px;
+`;

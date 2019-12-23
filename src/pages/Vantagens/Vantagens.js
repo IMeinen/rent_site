@@ -31,29 +31,41 @@ export default function Main() {
   const [index, setIndex] = useState(0);
 
   const Desc = [
-    ['Economia', 'Quartos a partir de R$700 ...'],
+    [
+      'Economia',
+      'Alugueis para todos os bolsos: Quartos Individuais a partir de R$600 Studios a partir de R$1.100',
+    ],
     [
       'Localização privilegiada',
-      'Todos os apartamentos com localizados perto de mercados,bares ...',
+      'Todos colivings perto das Universidades, pontos comerciais, culturais, lazer e de transportes públicos. ',
     ],
     [
       'Internet wi-fi de alta velocidade',
-      'Todos os Colivings são equipados com internet wi-fi de alta velocidade ...',
+      'Todos os colivings são equipados com internet wi-fi cortesia.',
     ],
     [
-      'Apartamentos mobiliados',
-      'Todos os quartos mobiliados com cama,roupeiro e ...',
+      'Quartos e Studios mobiliados',
+      'Quartos mobiliados com cama, roupeiro e escrivaninha.Studios mobiliados com cozinha, banheiro, cama, roupeiro e escrivaninha.',
     ],
     [
       'Única conta para pagar',
-      'Todas as despesas incluidas em uma unica conta (água,luz,) ...',
+      'Todas as despesas inclusas em uma só conta mensal (água, luz, internet, gás, IPTU, condomínio, limpeza)',
     ],
-    ['Studios e quartos individuais', 'Voce pode escolher entre quartos e ...'],
-    ['Área de convivência', 'Todos os colivings tem uma área de conv...'],
-    ['Equipe de manutenção', 'A Rent conta com uma equipe de suporte ...'],
+    [
+      'Studios, Suítes e quartos individuais',
+      'Você pode escolher entre studios, suítes ou quartos individuais ',
+    ],
+    [
+      'Área de convivência',
+      'Todos os colivings tem áreas para convívio e lazer.',
+    ],
+    [
+      'Equipe de manutenção',
+      'A RENT COLIVING oferece todo o suporte de manutenção.',
+    ],
     [
       'Limpeza semanal inclusa',
-      'Limpeza semanal em todos os quartos e duas vezes por semana na casa ...',
+      'Limpeza semanal em todos os quartos, suites, studios e areas em comuns.',
     ],
     ['Melhoria Continua', 'Investimentos constantes na melhoria dos colivings'],
     ['Eventos', 'Eventos para integrar a comunidade dos colivings ...'],

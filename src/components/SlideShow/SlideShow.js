@@ -10,11 +10,15 @@ import Fundouniv3 from '../../pages/Colivings/images/fundo_univ3.jpg';
 import VIG_QUARTO4 from '../../pages/Colivings/images/vig_quarto_4.jpg';
 import VIG_30_40_2 from '../../pages/Colivings/images/vig_30a40_2.jpg';
 import VIG_30_40_3 from '../../pages/Colivings/images/vig_30a40_3.jpg';
+import BF1 from '../../pages/Colivings/images/bom_fim1.jpeg';
+import BF2 from '../../pages/Colivings/images/bom_fim4.jpeg';
+import BF3 from '../../pages/Colivings/images/bom_fim3.jpeg';
 
 const Fundos = [
   [FundoRich1, FundoRich2, FundoRich3],
   [VIG_30_40_2, VIG_30_40_3, VIG_QUARTO4],
   [Fundouniv1, Fundouniv2, Fundouniv3],
+  [BF1, BF2, BF3],
 ];
 
 const properties = {

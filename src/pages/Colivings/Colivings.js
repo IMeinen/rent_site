@@ -36,6 +36,13 @@ import RIACH_3 from './images/riach_3.jpg';
 import RIACH_4 from './images/riach_4.jpg';
 import RIACH_5 from './images/riach_5.jpg';
 import RIACH_6 from './images/riach_1.jpg';
+import BF1 from './images/bom_fim1.jpeg';
+import BF2 from './images/bom_fim2.jpeg';
+import BF3 from './images/bom_fim3.jpeg';
+import BF4 from './images/bom_fim4.jpeg';
+import BF5 from './images/bom_fim5.jpeg';
+import BF6 from './images/bom_fim6.jpeg';
+import BF7 from './images/bom_fim7.jpeg';
 
 const dados = {
   dados: [
@@ -114,6 +121,20 @@ const dados = {
           descricaoQuarto:
             'Quartos privados mobiliados com áreas de uso coletivo como sala de estar com TV a cabo, cozinhas, banheiros, lavanderia e limpeza semanal com todas as contas inclusas.',
           imagensQuarto: [UNIV_1, UNIV_2, UNIV_3, UNIV_4, UNIV_5, UNIV_6],
+        },
+      ],
+    },
+    {
+      nome: 'Bom Fim',
+      endereço: 'Endereço ???',
+      descricao:
+        'Na RENT COLIVING Bom Fim disponibilizamos opções de moradias mais econômicas em ótima localização na Rua Santo Antônio a 3 min UFRGS e UFSCA,  50 metros da redenção, próximo ao centro, supermercados, farmácias e tudo de bom que o bairro bom fim nos oferece. A casa tem 17 quartos com 2 salas de convivência e 2 cozinhas que proporcionam aos nossos moradores um ambiente de companheirismo e amizade. ',
+      quartos: [
+        {
+          nomeQuarto: 'Quartos e Suítes  individuais de R$600 a R$900',
+          descricaoQuarto:
+            'Quartos e suítes privados, mobiliados com áreas de uso coletivo como sala de estar com TV e PLAY 4, cozinhas, banheiros, lavanderia e limpeza semanal com todas as contas inclusas.',
+          imagensQuarto: [BF1, BF3, BF4, BF5, BF6, BF7],
         },
       ],
     },

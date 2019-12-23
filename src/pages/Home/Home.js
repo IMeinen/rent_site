@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link, Element } from 'react-scroll';
 
-import { Container, Centro, Description, Botao } from './HomeStyles';
+import { Container, Centro, Description, Botao, Subtitle } from './HomeStyles';
 
 export default function Main() {
   return (
@@ -38,6 +38,7 @@ export default function Main() {
             quiser saber um pouco mais sobre nós entre em contato!
           </p>
           <Centro />
+          <Subtitle>Gabriella Fuga e Gabriel Culau</Subtitle>
           <Link to="Contato" spy smooth duration={500}>
             <Botao>
               <h1>Agende já sua visita!</h1>

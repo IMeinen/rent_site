@@ -22,6 +22,7 @@ export default function Main() {
           <ColivingItem Col={1} />
           <ColivingItem Col={2} />
           <ColivingItem Col={3} />
+          <ColivingItem Col={4} />
         </Colivings>
       </Fundo>
     </Element>
