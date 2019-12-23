@@ -1,13 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { Link } from 'react-router-dom';
-import {
-  ContainerImg,
-  Imagem,
-  Descricao,
-  StyledPointer,
-  Botao,
-} from './Styles';
+import { ContainerImg, Imagem, Descricao, StyledPointer } from './Styles';
 import Logo from '../Main/images/logo_so_cama1.svg';
 import Logo2 from '../Main/images/logo_so_cama2.svg';
 
