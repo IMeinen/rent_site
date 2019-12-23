@@ -163,4 +163,7 @@ export const Subtitle = styled.legend`
   font-size: 10px;
   margin-top: -20px;
   padding: 7px;
+  @media only screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
 `;

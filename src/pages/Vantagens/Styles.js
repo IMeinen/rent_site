@@ -177,7 +177,7 @@ export const MyModal = styled.div`
   display: inline-block;
   text-align: center;
   width: 100%;
-  height: 200px;
+  height: 250px;
   z-index: 14px;
   background-color: #fff;
 

@@ -41,7 +41,11 @@ export default function Main() {
           <Subtitle>Gabriella Fuga e Gabriel Culau</Subtitle>
           <Link to="Contato" spy smooth duration={500}>
             <Botao>
-              <h1>Agende já sua visita!</h1>
+              <h1>
+                Agende já sua visita!
+                <br />
+                Adoraríamos te conhecer!
+              </h1>
             </Botao>
           </Link>
         </Description>
