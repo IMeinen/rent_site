@@ -117,6 +117,18 @@ const dados = {
         'A RENT COLIVING – Universitário, é a moradia perfeita para estudantes da UFRGS e UFCSPA pois está em frente ao Campus Central e pontos de transporte público direto ao Campus do Vale. Sua localização privilegiada no centro histórico ao lado do R.U. e  de fácil acesso ao Parque da Redenção. O prédio da década de 40 foi todo reformado resgatando sua arquitetura original e projetado nos mínimos detalhes para oferecer conforto e conveniência para viver bem em comunidade. Os quartos individuais, studios e suítes são completamente mobiliados, as áreas em comum como sala de TV, cozinha e banheiros são decorados com estilo e design moderno.',
       quartos: [
         {
+          nomeQuarto: 'Studios de 20m2-30m2 (a partir de R$1.400,00)',
+          descricaoQuarto:
+            'Studios mobiliados com banheiro, cozinha e ótima luminosidade. Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
+          imagensQuarto: [UNIV_1, UNIV_2, UNIV_3, UNIV_4, UNIV_5, UNIV_6],
+        },
+        {
+          nomeQuarto: 'Suites (R$1000,00)',
+          descricaoQuarto:
+            'Suítes mobiliadas com banheiro e ótima luminosidade.  Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
+          imagensQuarto: [UNIV_1, UNIV_2, UNIV_3, UNIV_4, UNIV_5, UNIV_6],
+        },
+        {
           nomeQuarto: 'Quartos individuais de R$750 a R$850',
           descricaoQuarto:
             'Quartos privados mobiliados com áreas de uso coletivo como sala de estar com TV a cabo, cozinhas, banheiros, lavanderia e limpeza semanal com todas as contas inclusas.',
@@ -126,7 +138,7 @@ const dados = {
     },
     {
       nome: 'Bom Fim',
-      endereço: 'Endereço ???',
+      endereço: 'Rua Santo Antônio,832',
       descricao:
         'Na RENT COLIVING Bom Fim disponibilizamos opções de moradias mais econômicas em ótima localização na Rua Santo Antônio a 3 min UFRGS e UFSCA,  50 metros da redenção, próximo ao centro, supermercados, farmácias e tudo de bom que o bairro bom fim nos oferece. A casa tem 17 quartos com 2 salas de convivência e 2 cozinhas que proporcionam aos nossos moradores um ambiente de companheirismo e amizade. ',
       quartos: [
@@ -154,8 +166,8 @@ export default function Colivings() {
       <Fundo>
         <SlideShow id={id} />
         <Description>
-          <h1>RENT COLIVING</h1>
-          <h1>{dados.dados[id - 1].nome}</h1>
+          <h1>RENT COLIVING - {dados.dados[id - 1].nome}</h1>
+
           <h2>{`${dados.dados[id - 1].endereço} - Centro Histórico`}</h2>
         </Description>
       </Fundo>

@@ -16,7 +16,7 @@ export const Container = styled.div`
 
 export const Description = styled.div`
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   position: relative;
   background-color: #333;
 
@@ -36,7 +36,7 @@ export const Description = styled.div`
 
   h2 {
     font-size: 14px;
-    margin-top: 4%;
+    margin-top: 2%;
   }
 `;
 

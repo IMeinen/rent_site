@@ -3,6 +3,7 @@ import React from 'react';
 import { Link, Element } from 'react-scroll';
 
 import { Container, Centro, Description, Botao, Subtitle } from './HomeStyles';
+import video1 from './video1.MP4';
 
 export default function Main() {
   return (
