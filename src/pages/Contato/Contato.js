@@ -93,7 +93,7 @@ export default function Main() {
         </FirstSection>
         <SecondSection>
           <DadosRodape>
-            <h1>Vigário José Inácio 827 - Centro Histórico - Porto Alegre</h1>
+            <h1>Vigário José Inácio 829 - Centro Histórico - Porto Alegre</h1>
             <div>
               <FaWhatsapp color="#fff" size={14} className="icone" />
               <h1>(51) 99660-7940</h1>
