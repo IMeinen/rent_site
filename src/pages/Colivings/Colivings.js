@@ -36,13 +36,25 @@ import RIACH_3 from './images/riach_3.jpg';
 import RIACH_4 from './images/riach_4.jpg';
 import RIACH_5 from './images/riach_5.jpg';
 import RIACH_6 from './images/riach_1.jpg';
+import RIACH_7 from '../Main/images/riachuelo_escada.jpeg';
+import RIACH_8 from '../Main/images/riachuelo_espelho.jpeg';
 import BF1 from './images/bom_fim1.jpeg';
-import BF2 from './images/bom_fim2.jpeg';
+import UNIV_STUDIO1 from './images/UNIV_STUDIO1.jpg';
+import UNIV_STUDIO2 from './images/UNIV_STUDIO2.jpg';
+import UNIV_STUDIO3 from './images/UNIV_STUDIO_3.JPG';
+import UNIV_STUDIO4 from './images/UNIV_STUDIO4.JPG';
+import UNIV_STUDIO5 from './images/UNIV_STUDIO4.jpeg';
+import UNIV_STUDIO6 from './images/UNIV_STUDIO5.jpeg';
+import UNIV_STUDIO7 from './images/UNIV_STUDIO6.jpeg';
+
 import BF3 from './images/bom_fim3.jpeg';
 import BF4 from './images/bom_fim4.jpeg';
 import BF5 from './images/bom_fim5.jpeg';
 import BF6 from './images/bom_fim6.jpeg';
 import BF7 from './images/bom_fim7.jpeg';
+import UNIV_MINI1 from './images/suite_univ1.jpeg';
+import UNIV_MINI2 from './images/suite_univ2.jpeg';
+import UNIV_MINI3 from './images/suite_univ3.jpeg';
 
 const dados = {
   dados: [
@@ -56,7 +68,16 @@ const dados = {
           nomeQuarto: 'Quartos individuais de R$750 a R$850',
           descricaoQuarto:
             'Quartos privados mobiliados com áreas de uso coletivo como sala de estar com TV a cabo, Sala de Jogos com mesa de sinuca e videogames, cozinhas, banheiros, lavanderia e limpeza semanal com todas as contas inclusas.',
-          imagensQuarto: [RIACH_1, RIACH_2, RIACH_3, RIACH_4, RIACH_5, RIACH_6],
+          imagensQuarto: [
+            RIACH_1,
+            RIACH_2,
+            RIACH_3,
+            RIACH_4,
+            RIACH_5,
+            RIACH_6,
+            RIACH_7,
+            RIACH_8,
+          ],
         },
       ],
     },
@@ -120,16 +141,24 @@ const dados = {
           nomeQuarto: 'Studios de 20m2-30m2 (a partir de R$1.400,00)',
           descricaoQuarto:
             'Studios mobiliados com banheiro, cozinha e ótima luminosidade. Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
-          imagensQuarto: [UNIV_1, UNIV_2, UNIV_3, UNIV_4, UNIV_5, UNIV_6],
+          imagensQuarto: [
+            UNIV_STUDIO1,
+            UNIV_STUDIO2,
+            UNIV_STUDIO3,
+            UNIV_STUDIO4,
+            UNIV_STUDIO5,
+            UNIV_STUDIO6,
+            UNIV_STUDIO7,
+          ],
         },
         {
           nomeQuarto: 'Suites (R$1000,00)',
           descricaoQuarto:
             'Suítes mobiliadas com banheiro e ótima luminosidade.  Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
-          imagensQuarto: [UNIV_1, UNIV_2, UNIV_3, UNIV_4, UNIV_5, UNIV_6],
+          imagensQuarto: [UNIV_MINI1, UNIV_MINI2, UNIV_MINI3],
         },
         {
-          nomeQuarto: 'Quartos individuais de R$750 a R$850',
+          nomeQuarto: 'Quartos individuais de R$750 a R$900',
           descricaoQuarto:
             'Quartos privados mobiliados com áreas de uso coletivo como sala de estar com TV a cabo, cozinhas, banheiros, lavanderia e limpeza semanal com todas as contas inclusas.',
           imagensQuarto: [UNIV_1, UNIV_2, UNIV_3, UNIV_4, UNIV_5, UNIV_6],
