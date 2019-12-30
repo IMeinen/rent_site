@@ -30,6 +30,8 @@ import UNIV_3 from './images/univ_quarto_5.jpg';
 import UNIV_4 from './images/univ_quarto_1.jpg';
 import UNIV_5 from './images/univ_quarto_2.jpg';
 import UNIV_6 from './images/univ_quarto_3.jpg';
+import UNIV_7 from './images/univ_7.jpg';
+import UNIV_8 from './images/univ_8.jpg';
 import RIACH_1 from './images/riach_6.jpg';
 import RIACH_2 from './images/riach_2.jpg';
 import RIACH_3 from './images/riach_3.jpg';
@@ -161,7 +163,16 @@ const dados = {
           nomeQuarto: 'Quartos individuais de R$750 a R$900',
           descricaoQuarto:
             'Quartos privados mobiliados com áreas de uso coletivo como sala de estar com TV a cabo, cozinhas, banheiros, lavanderia e limpeza semanal com todas as contas inclusas.',
-          imagensQuarto: [UNIV_1, UNIV_2, UNIV_3, UNIV_4, UNIV_5, UNIV_6],
+          imagensQuarto: [
+            UNIV_1,
+            UNIV_2,
+            UNIV_3,
+            UNIV_4,
+            UNIV_5,
+            UNIV_6,
+            UNIV_7,
+            UNIV_8,
+          ],
         },
       ],
     },

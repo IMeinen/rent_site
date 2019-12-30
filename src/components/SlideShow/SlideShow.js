@@ -17,7 +17,7 @@ import VIG_4 from '../../pages/Main/images/vigario_sala.jpeg';
 import RIAC_4 from '../../pages/Main/images/riachuelo_escada.jpeg';
 
 const Fundos = [
-  [FundoRich1, FundoRich2, FundoRich3, RIAC_4],
+  [FundoRich1, FundoRich2],
   [VIG_QUARTO4, VIG_4, VIG_30_40_2, VIG_30_40_3],
   [Fundouniv1, Fundouniv2, Fundouniv3],
   [BF1, BF2, BF3],
