@@ -82,10 +82,10 @@ export const ContainerImg = styled.div`
     width: 90%;
     height: 24%;
   }
-  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+  @media only screen and (min-width: 768px) {
     width: 30%;
     height: 32%;
-    flex-direction: row;
+    flex-wrap: wrap;
   }
 `;
 export const Imagem = styled.div`
@@ -105,6 +105,7 @@ export const Imagem = styled.div`
     width: 300px;
     height: 300px;
   }
+
   div {
     width: 90%;
     height: 90%;

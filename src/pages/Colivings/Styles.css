@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
 
-.Header, .Descricao {
+.Header, .Descricao, .HeaderVideos{
   color: #222;
     font-family: 'Be Vietnam';
     font-size: 16px;
@@ -11,6 +11,10 @@
     display: inline-block;
     font-weight: bolder;
     align-self: flex-start;
+}
+.HeaderVideos{
+  text-align: center!important;
+  align-self: center;
 }
 .Descricao {
   font-size: 14px;

@@ -6,3 +6,9 @@ export const StyledMenu = styled(slide)`
 
   font-family: 'Be Vietnam';
 `;
+
+export const MenuDiv = styled.div`
+  @media only screen and (min-width: 1200px) {
+    display: none;
+  }
+`;

@@ -5,6 +5,7 @@ import { Link } from 'react-scroll';
 import { Cabec } from '../../styles/globals';
 import logo from './images/logo_192.png';
 import MyMenuAcademia from './MyMenuAcademia';
+import { MenuDiv } from './Styles';
 
 export default function Main() {
   return (
@@ -29,9 +30,9 @@ export default function Main() {
             CONTATO
           </Link>
         </nav>
-
-        <MyMenuAcademia />
-
+        <MenuDiv>
+          <MyMenuAcademia />
+        </MenuDiv>
         <div className="login">
           <h1>LOGIN</h1>
         </div>

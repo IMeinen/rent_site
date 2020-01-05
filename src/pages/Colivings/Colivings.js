@@ -4,6 +4,7 @@ import { useLocation, useParams } from 'react-router-dom';
 import SlideShow from '../../components/SlideShow/SlideShow';
 import { Fundo, FirstSection, Description, Container } from './ColivingStyle';
 import { Slide } from './SlideSection';
+import { SlideVideo } from './VideoSection';
 import Vantagens from '../Vantagens/Vantagens';
 
 import VIG_30_40_1 from './images/vig_30a40_2.jpg';
@@ -48,6 +49,9 @@ import UNIV_STUDIO4 from './images/UNIV_STUDIO4.JPG';
 import UNIV_STUDIO5 from './images/UNIV_STUDIO4.jpeg';
 import UNIV_STUDIO6 from './images/UNIV_STUDIO5.jpeg';
 import UNIV_STUDIO7 from './images/UNIV_STUDIO6.jpeg';
+import video1 from './videos/VIDEO1_STUDIO_UNIV.mp4';
+import video2 from './videos/VIDEO2_STUDIO_UNIV.mp4';
+import video3 from './videos/VIDEO3_STUDIO_UNIV.mp4';
 
 import BF3 from './images/bom_fim3.jpeg';
 import BF4 from './images/bom_fim4.jpeg';
@@ -152,6 +156,7 @@ const dados = {
             UNIV_STUDIO6,
             UNIV_STUDIO7,
           ],
+          videosQuarto: [video1, video2, video3],
         },
         {
           nomeQuarto: 'Suites (R$1000,00)',
@@ -215,13 +220,18 @@ export default function Colivings() {
         <p>{dados.dados[id - 1].descricao}</p>
       </FirstSection>
       <Vantagens />
+
       {dados.dados[id - 1].quartos.map(item => (
-        <Slide
-          Col={1}
-          Nome={item.nomeQuarto}
-          Desc={item.descricaoQuarto}
-          IMG={item.imagensQuarto}
-        />
+        <>
+          <Slide
+            Col={1}
+            Nome={item.nomeQuarto}
+            Desc={item.descricaoQuarto}
+            IMG={item.imagensQuarto}
+          />
+
+          <SlideVideo Video={item.videosQuarto} />
+        </>
       ))}
     </Container>
   );
