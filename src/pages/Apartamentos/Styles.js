@@ -1,10 +1,18 @@
 import styled from 'styled-components';
 
 import { FaMousePointer } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import Col1 from '../Main/images/rent_riachuelo.jpg';
 import Col2 from '../Main/images/rent_vigario_fundo.jpg';
 import Col3 from '../Main/images/univ_fundo.jpeg';
 import Col4 from '../Main/images/bom_fim1.jpeg';
+
+export const MyLink = styled(Link)`
+  text-decoration: none;
+  @media only screen and (max-width: 1100px) {
+    width: 0;
+  }
+`;
 
 const Imagens = [Col1, Col1, Col2, Col3, Col4];
 
@@ -27,14 +35,17 @@ export const Colivings = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   background: #333;
   padding-top: 2%;
   padding-bottom: 5%;
   width: 100%;
+  max-width: 100%;
 
   @media only screen and (min-width: 800px) {
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 `;
 
@@ -77,7 +88,7 @@ export const ContainerImg = styled.div`
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     width: 90%;
     height: 24%;
@@ -86,6 +97,7 @@ export const ContainerImg = styled.div`
     width: 30%;
     height: 32%;
     flex-wrap: wrap;
+    justify-content: flex-start;
   }
 `;
 export const Imagem = styled.div`
@@ -137,7 +149,7 @@ export const Descricao = styled.div`
 
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: flex-start;
   justify-content: flex-start;
   font-weight: bolder;
@@ -162,6 +174,9 @@ export const Descricao = styled.div`
     border-right: 1px solid #fff;
     align-self: center;
     padding-bottom: 15px;
+    @media only screen and (min-width: 1000px) {
+      width: 350px;
+    }
   }
   h1,
   h2,

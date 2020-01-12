@@ -32,11 +32,19 @@ export const Description = styled.div`
 
   h1 {
     font-size: 18px;
+    @media only screen and (min-width: 1100px) {
+      margin-top: 10px;
+      font-size: 20px;
+    }
   }
 
   h2 {
     font-size: 14px;
     margin-top: 2%;
+    @media only screen and (min-width: 1100px) {
+      margin-top: 10px;
+      font-size: 14px;
+    }
   }
 `;
 
@@ -47,10 +55,15 @@ export const FirstSection = styled.section`
   width: 90%;
   margin-left: 5%;
   position: relative;
+
   z-index: 3;
   margin-top: 5%;
   margin-bottom: 5%;
   vertical-align: center;
+  @media only screen and (min-width: 1100px) {
+    margin-top: 2%;
+    margin-bottom: 0px;
+  }
   p {
     color: #222;
     font-family: 'Be Vietnam';
@@ -60,6 +73,9 @@ export const FirstSection = styled.section`
     text-align: left;
     font-weight: bolder;
     display: inline-block;
+    @media only screen and (min-width: 1100px) {
+      font-size: 20px;
+    }
   }
 `;
 

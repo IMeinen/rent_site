@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import './styles.css';
+import './styles.scss';
 import FundoRich1 from '../../pages/Colivings/images/fundo_rich1.jpg';
 import FundoRich2 from '../../pages/Colivings/images/fundo_rich2.jpg';
 import FundoRich3 from '../../pages/Colivings/images/fundo_rich3.jpg';

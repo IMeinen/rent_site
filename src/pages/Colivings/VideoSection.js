@@ -3,7 +3,7 @@ import React from 'react';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import { ColivingSection } from './ColivingStyle';
 
-import './Styles.css';
+import './Styles.scss';
 
 class SlideVideo extends React.Component {
   // eslint-disable-next-line react/state-in-constructor

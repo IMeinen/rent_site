@@ -9,6 +9,8 @@ import {
   SecondSection,
   DadosRodape,
   DadosRodape2,
+  DadosContatoINSTA,
+  DadosContatoWATS,
 } from './Styles2';
 import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 
@@ -75,12 +77,9 @@ export default function Main() {
         <FirstSection>
           <form className="Meuform">
             <h4>CONTATO</h4>
-            <h2>
-              Entre em contato para nos conhecermos melhor! E responda este
-              breve questionário para melhor entender suas intenções de moradia
-              e poder oferecer as opções ideais!
-            </h2>
-            <input name="Nome" placeholder="Nome completo" />
+
+            <h2>Entre em contato para nos conhecermos melhor!</h2>
+            {/* <input name="Nome" placeholder="Nome completo" />
             <input name="Email" placeholder="Email" />
             <input name="Instragam" placeholder="Instagram" />
             <input name="Phone" placeholder="Telefone" />
@@ -88,7 +87,19 @@ export default function Main() {
               <MyRadioButtonAcademia />
             </div>
 
-            <button type="submit"> ENVIAR</button>
+            <button type="submit"> ENVIAR</button> */}
+            <DadosContatoWATS to="https://wa.me/5551996607940">
+              <>
+                <FaWhatsapp size={50} color="#fff" />
+                <h1>WHATSAPP</h1>
+              </>
+            </DadosContatoWATS>
+            <DadosContatoINSTA to="https://www.instagram.com/rentcoliving/">
+              <>
+                <FaInstagram size={50} color="#fff" />
+                <h1>INSTAGRAM</h1>
+              </>
+            </DadosContatoINSTA>
           </form>
         </FirstSection>
         <SecondSection>

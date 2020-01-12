@@ -1,7 +1,12 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-import { ContainerImg, Imagem, Descricao, StyledPointer } from './Styles';
+import {
+  ContainerImg,
+  Imagem,
+  Descricao,
+  StyledPointer,
+  MyLink,
+} from './Styles';
 import Logo from '../Main/images/logo_so_cama1.svg';
 import Logo2 from '../Main/images/logo_so_cama2.svg';
 
@@ -24,10 +29,7 @@ class ColivingItem extends React.Component {
   render() {
     return (
       <>
-        <Link
-          to={`colivings/${this.props.Col}`}
-          style={{ width: '0px', textDecoration: 'none' }}
-        >
+        <MyLink to={`colivings/${this.props.Col}`}>
           <ContainerImg>
             <Imagem
               Col={this.props.Col}
@@ -60,7 +62,7 @@ class ColivingItem extends React.Component {
             </Botao> */}
             </Descricao>
           </ContainerImg>
-        </Link>
+        </MyLink>
       </>
     );
   }

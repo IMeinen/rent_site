@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Footer = styled.footer`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
@@ -159,5 +160,64 @@ export const DadosRodape2 = styled.div`
     @media only screen and (min-width: 200px) and (max-width: 767px) {
       font-size: 8px;
     }
+  }
+`;
+export const DadosContatoINSTA = styled(Link)`
+  width: 90%;
+  height: 80px;
+  border-radius: 4px;
+  margin: 5px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  @media only screen and (min-width: 1100px) {
+    width: 500px !important;
+    height: 80px !important;
+    margin: 20px !important;
+  }
+
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+
+  h1 {
+    margin: 5px !important;
+    font-size: 18px;
+    color: #fff;
+
+    font-family: 'Be Vietnam';
+  }
+`;
+
+export const DadosContatoWATS = styled(Link)`
+  width: 90%;
+  height: 80px;
+  border-radius: 4px;
+  margin: 5px !important;
+  background: linear-gradient(#69ca3b, #56a61e);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  @media only screen and (min-width: 1100px) {
+    width: 500px !important;
+    height: 80px !important;
+    margin: 20px !important;
+  }
+
+  h1 {
+    margin: 5px !important;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Be Vietnam';
   }
 `;
