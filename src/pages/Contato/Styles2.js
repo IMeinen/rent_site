@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 export const Footer = styled.footer`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
@@ -162,7 +161,7 @@ export const DadosRodape2 = styled.div`
     }
   }
 `;
-export const DadosContatoINSTA = styled(Link)`
+export const DadosContatoINSTA = styled.a`
   width: 90%;
   height: 80px;
   border-radius: 4px;
@@ -196,7 +195,7 @@ export const DadosContatoINSTA = styled(Link)`
   }
 `;
 
-export const DadosContatoWATS = styled(Link)`
+export const DadosContatoWATS = styled.a`
   width: 90%;
   height: 80px;
   border-radius: 4px;

@@ -88,13 +88,13 @@ export default function Main() {
             </div>
 
             <button type="submit"> ENVIAR</button> */}
-            <DadosContatoWATS to="https://wa.me/5551996607940">
+            <DadosContatoWATS href="https://wa.me/5551996607940">
               <>
                 <FaWhatsapp size={50} color="#fff" />
                 <h1>WHATSAPP</h1>
               </>
             </DadosContatoWATS>
-            <DadosContatoINSTA to="https://www.instagram.com/rentcoliving/">
+            <DadosContatoINSTA href="https://www.instagram.com/rentcoliving/">
               <>
                 <FaInstagram size={50} color="#fff" />
                 <h1>INSTAGRAM</h1>
