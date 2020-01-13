@@ -96,7 +96,7 @@ const dados = {
         {
           nomeQuarto: 'Studios de 30m²-40m² (a partir de R$1.400,00)',
           descricaoQuarto:
-            'Studios mobiliados com banheiro, cozinha e ótima luminosidade.  Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta',
+            'Studios mobiliados com banheiro, cozinha e ótima luminosidade.  Internet wi-fi, luz, água, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta',
           imagensQuarto: [
             VIG_30_40_1,
             VIG_30_40_2,
@@ -108,7 +108,7 @@ const dados = {
         {
           nomeQuarto: 'Studios de 20m²-30m² (a partir de R$1.200,00)',
           descricaoQuarto:
-            'Studios mobiliados com banheiro, cozinha.  Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
+            'Studios mobiliados com banheiro, cozinha.  Internet wi-fi, luz, água, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
           imagensQuarto: [
             VIG_20_30_1,
             VIG_20_30_2,
@@ -118,9 +118,9 @@ const dados = {
           ],
         },
         {
-          nomeQuarto: 'Mini-Studios e Mini-Suites(a partir de R$900,00)',
+          nomeQuarto: 'Mini-Studios e Mini-Suítes(a partir de R$900,00)',
           descricaoQuarto:
-            'Studios mobiliados com cozinha privativa e banheiro compartilhado com outro quarto. Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
+            'Studios mobiliados com cozinha privativa e banheiro compartilhado com outro quarto. Internet wi-fi, luz, água, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
           imagensQuarto: [VIG_MIN_SUI1, VIG_MIN_SUI2, VIG_MIN_SUI3],
         },
         {
@@ -146,7 +146,7 @@ const dados = {
         {
           nomeQuarto: 'Studios de 20m2-30m2 (a partir de R$1.400,00)',
           descricaoQuarto:
-            'Studios mobiliados com banheiro, cozinha e ótima luminosidade. Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
+            'Studios mobiliados com banheiro, cozinha e ótima luminosidade. Internet wi-fi, luz, água, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
           imagensQuarto: [
             UNIV_STUDIO1,
             UNIV_STUDIO2,
@@ -159,9 +159,9 @@ const dados = {
           videosQuarto: [video1, video2, video3],
         },
         {
-          nomeQuarto: 'Suites (R$1000,00)',
+          nomeQuarto: 'Suítes (R$1000,00)',
           descricaoQuarto:
-            'Suítes mobiliadas com banheiro e ótima luminosidade.  Internet wi-fi, luz, agua, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
+            'Suítes mobiliadas com banheiro e ótima luminosidade.  Internet wi-fi, luz, água, manutenção, limpeza e lavanderia semanal tudo incluso em uma só conta.',
           imagensQuarto: [UNIV_MINI1, UNIV_MINI2, UNIV_MINI3],
         },
         {
