@@ -7,20 +7,32 @@ import {
 } from 'react-icons/fa';
 import Fundo1 from '../Main/images/fundo1.jpg';
 import Fundo2 from '../Main/images/fundo2.jpg';
+import Fundo3 from '../Colivings/images/riach_1_opac.png';
 
 import LogoC from '../Main/images/logo_vect.svg';
 
+export const FundoDoFundo = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 90%;
+  background: #fff;
+`;
 export const Fundo = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Be+Vietnam:100&display=swap');
   display: flex;
+  padding-top: 5%;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 5%;
+  background: transparent;
   width: 100%;
   height: 100vh;
+  position: relative;
 
-  background-color: transparent;
+
   /* background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,20 +72,22 @@ export const Filtro = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90%;
-  height: 90%;
-  border: 2px solid #fff;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #f7532c;
   position: relative;
-  background-color: #333;
+  background-color: transparent;
   flex-wrap: wrap;
-
+  background: url(${Fundo3});
+  background-size: cover;
+  background-position: center bottom;
   z-index: 2;
 
   h1 {
     font-family: 'Be Vietnam';
     font-size: 40px;
     margin-left: 0px;
-    color: #fff;
+    color: #333;
 
     @media only screen and (min-width: 558px) and (max-width: 1399px) {
       font-size: 34px;
@@ -139,7 +153,7 @@ export const LogoCama = styled.div`
 `;
 export const StyledSeta = styled(FaAngleDoubleDown)`
   margin-top: 20px;
-  color: #fff;
+  color: #333;
   font-size: 70px;
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
@@ -204,7 +218,7 @@ export const StyledSeta = styled(FaAngleDoubleDown)`
 `;
 
 export const StyledFaFacebook = styled(FaFacebook)`
-  color: #fff;
+  color: #333;
   font-size: 46px;
   @media only screen and (min-width: 200px) and (max-width: 1199px) {
     font-size: 32px;
@@ -212,7 +226,7 @@ export const StyledFaFacebook = styled(FaFacebook)`
 `;
 
 export const StyledFaInstagram = styled(FaInstagram)`
-  color: #fff;
+  color: #333;
   font-size: 46px;
   @media only screen and (min-width: 200px) and (max-width: 1199px) {
     font-size: 32px;
@@ -220,7 +234,7 @@ export const StyledFaInstagram = styled(FaInstagram)`
 `;
 
 export const StyledFaWhatsapp = styled(FaWhatsapp)`
-  color: #fff;
+  color: #333;
   font-size: 46px;
   @media only screen and (min-width: 200px) and (max-width: 1199px) {
     font-size: 32px;
