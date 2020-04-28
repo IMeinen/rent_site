@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa';
 
@@ -66,6 +66,27 @@ import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 // }
 
 export default function Main() {
+  const [status, setStatus] = useState();
+
+  const handleSubmit = ev => {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader('Accept', 'application/json');
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        setStatus({ status: 'SUCCESS' });
+      } else {
+        setStatus({ status: 'ERROR' });
+      }
+    };
+    xhr.send(data);
+  };
+
   return (
     <Element
       name="Contato"
@@ -75,20 +96,32 @@ export default function Main() {
     >
       <Footer>
         <FirstSection>
-          <form className="Meuform">
+          <form
+            className="Meuform"
+            onSubmit={event => handleSubmit(event)}
+            action="https://formspree.io/mnqgadwg"
+            method="POST"
+          >
             <h4>CONTATO</h4>
 
             <h2>Entre em contato para nos conhecermos melhor!</h2>
-            {/* <input name="Nome" placeholder="Nome completo" />
+            <input name="Nome" placeholder="Nome completo" />
             <input name="Email" placeholder="Email" />
             <input name="Instragam" placeholder="Instagram" />
             <input name="Phone" placeholder="Telefone" />
-            <div>
-              <MyRadioButtonAcademia />
-            </div>
+            {/* <label className="container">
+              One
+              <input type="radio" checked="checked" name="radio1" />
+              <span className="checkmark" />
+            </label>
+            <label className="container">
+              Two
+              <input type="radio" checked="checked" name="radio2" />
+              <span className="checkmark" />
+            </label> */}
 
-            <button type="submit"> ENVIAR</button> */}
-            <DadosContatoWATS href="https://wa.me/5551996607940">
+            <button type="submit"> ENVIAR</button>
+            {/* <DadosContatoWATS href="https://wa.me/5551996607940">
               <>
                 <FaWhatsapp size={50} color="#fff" />
                 <h1>WHATSAPP</h1>
@@ -99,7 +132,7 @@ export default function Main() {
                 <FaInstagram size={50} color="#fff" />
                 <h1>INSTAGRAM</h1>
               </>
-            </DadosContatoINSTA>
+            </DadosContatoINSTA> */}
           </form>
         </FirstSection>
         <SecondSection>

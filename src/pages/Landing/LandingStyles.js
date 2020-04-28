@@ -80,7 +80,7 @@ export const Filtro = styled.div`
   flex-wrap: wrap;
   background: url(${Fundo3});
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   z-index: 2;
 
   h1 {
