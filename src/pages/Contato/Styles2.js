@@ -20,7 +20,15 @@ export const FirstSection = styled.section`
   z-index: 3;
 
   vertical-align: baseline;
-
+  .loading-box {
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   form {
     display: flex;
     flex-direction: column;
@@ -39,6 +47,9 @@ export const FirstSection = styled.section`
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
+      @media only screen and (max-width: 1100px) {
+        font-size: 12px;
+      }
     }
 
     /* Hide the browser's default radio button */
@@ -46,6 +57,9 @@ export const FirstSection = styled.section`
       position: absolute;
       opacity: 0;
       cursor: pointer;
+      @media only screen and (max-width: 1100px) {
+        font-size: 12px;
+      }
     }
 
     /* Create a custom radio button */
@@ -57,6 +71,11 @@ export const FirstSection = styled.section`
       width: 25px;
       background-color: #eee;
       border-radius: 50%;
+      @media only screen and (max-width: 1100px) {
+        font-size: 12px;
+        height: 18px;
+        width: 18px;
+      }
     }
 
     /* On mouse-over, add a grey background color */
@@ -66,7 +85,7 @@ export const FirstSection = styled.section`
 
     /* When the radio button is checked, add a blue background */
     .container input:checked ~ .checkmark {
-      background-color: #2196f3;
+      background-color: #f7532c;
     }
 
     /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -83,12 +102,36 @@ export const FirstSection = styled.section`
 
     /* Style the indicator (dot/circle) */
     .container .checkmark:after {
-      top: 9px;
-      left: 9px;
-      width: 8px;
-      height: 8px;
+      top: 4px;
+      left: 4px;
+      width: 14px;
+      height: 14px;
       border-radius: 50%;
       background: white;
+      @media only screen and (max-width: 1100px) {
+        font-size: 12px;
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    .input_box {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      font-family: 'Be Vietnam';
+      padding-left: 3%;
+      @media only screen and (max-width: 1100px) {
+        font-size: 12px;
+      }
+      h1 {
+        font-size: 18px;
+
+        @media only screen and (max-width: 1100px) {
+          font-size: 12px;
+        }
+      }
     }
     input {
       border-left: none;

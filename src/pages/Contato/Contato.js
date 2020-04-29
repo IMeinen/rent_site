@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 
 import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa';
-
 import { Element } from 'react-scroll';
+import { ToastContainer, toast } from 'react-toastify';
+import Loading from '../../components/Loading';
+import 'react-toastify/dist/ReactToastify.css';
 import {
   Footer,
   FirstSection,
@@ -67,9 +69,11 @@ import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 
 export default function Main() {
   const [status, setStatus] = useState();
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = ev => {
     ev.preventDefault();
+    setLoading(true);
     const form = ev.target;
     const data = new FormData(form);
     const xhr = new XMLHttpRequest();
@@ -85,6 +89,8 @@ export default function Main() {
       }
     };
     xhr.send(data);
+    setLoading(false);
+    toast.success('Informações enviadas!');
   };
 
   return (
@@ -96,32 +102,223 @@ export default function Main() {
     >
       <Footer>
         <FirstSection>
-          <form
-            className="Meuform"
-            onSubmit={event => handleSubmit(event)}
-            action="https://formspree.io/mnqgadwg"
-            method="POST"
-          >
-            <h4>CONTATO</h4>
-
-            <h2>Entre em contato para nos conhecermos melhor!</h2>
-            <input name="Nome" placeholder="Nome completo" />
-            <input name="Email" placeholder="Email" />
-            <input name="Instragam" placeholder="Instagram" />
-            <input name="Phone" placeholder="Telefone" />
-            {/* <label className="container">
-              One
-              <input type="radio" checked="checked" name="radio1" />
-              <span className="checkmark" />
-            </label>
-            <label className="container">
-              Two
-              <input type="radio" checked="checked" name="radio2" />
-              <span className="checkmark" />
-            </label> */}
-
-            <button type="submit"> ENVIAR</button>
-            {/* <DadosContatoWATS href="https://wa.me/5551996607940">
+          {loading && (
+            <div className="loading-box">
+              <Loading />
+            </div>
+          )}
+          {!loading && (
+            <form
+              className="Meuform"
+              onSubmit={event => handleSubmit(event)}
+              action="https://formspree.io/mnqgadwg"
+              method="POST"
+            >
+              <h4>CONTATO</h4>
+              <h2>Entre em contato para nos conhecermos melhor!</h2>
+              <input name="Nome" placeholder="Nome completo" />
+              <input name="Email" placeholder="Email" />
+              <input name="Instragam" placeholder="Instagram" />
+              <input name="Phone" placeholder="Telefone" />
+              <div className="input_box">
+                <h1>Qual modalidade de moradia que você procura?</h1>
+                <label className="container">
+                  Quarto individual
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="tipo_de_quarto"
+                    value="quarto_individual"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Studio
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="tipo_de_quarto"
+                    value="studio"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Suíte
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="tipo_de_quarto"
+                    value="suite"
+                  />
+                  <span className="checkmark" />
+                </label>
+              </div>
+              <div className="input_box">
+                <h1>Qual bairro você procura moradia?</h1>
+                <label className="container">
+                  Próximo da UFRGS
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="bairro_moradia"
+                    value="proximo_a_ufrgs"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Próximo do Gasômetro
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="bairro_moradia"
+                    value="proximo_do_gasometro"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Auxiliadora
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="bairro_moradia"
+                    value="Auxiliadora"
+                  />
+                  <span className="checkmark" />
+                </label>
+              </div>
+              <div className="input_box">
+                <h1>Qual tamanho de Coliving que você gostaria de morar?</h1>
+                <label className="container">
+                  Até 10 moradores
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="tamanho_coliving"
+                    value="ate_10_moradores"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Até 20 moradores
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="tamanho_coliving"
+                    value="ate_20_moradores"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Até 30 moradores
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="tamanho_coliving"
+                    value="ate_30_moradores"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Não importa
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="tamanho_coliving"
+                    value="nao_importa"
+                  />
+                  <span className="checkmark" />
+                </label>
+              </div>
+              <div className="input_box">
+                <h1>
+                  Qual valor você pretende gastar com todas as contas inclusas?
+                </h1>
+                <label className="container">
+                  Até R$750
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="preco_maximo"
+                    value="ate_750"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Até R$850
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="preco_maximo"
+                    value="ate_850"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Até R$1000
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="preco_maximo"
+                    value="ate_1000"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Até R$1300
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="preco_maximo"
+                    value="ate_1300"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Até R$1500
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="preco_maximo"
+                    value="ate_1500"
+                  />
+                  <span className="checkmark" />
+                </label>
+              </div>
+              <div className="input_box">
+                <h1>O que você faz?</h1>
+                <label className="container">
+                  Trabalho
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="o_que_faz"
+                    value="trabalho"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Estudo
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="o_que_faz"
+                    value="estudo"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Ambos
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="o_que_faz"
+                    value="ambos"
+                  />
+                  <span className="checkmark" />
+                </label>
+              </div>
+              <button type="submit"> ENVIAR</button>
+              {/* <DadosContatoWATS href="https://wa.me/5551996607940">
               <>
                 <FaWhatsapp size={50} color="#fff" />
                 <h1>WHATSAPP</h1>
@@ -133,7 +330,8 @@ export default function Main() {
                 <h1>INSTAGRAM</h1>
               </>
             </DadosContatoINSTA> */}
-          </form>
+            </form>
+          )}
         </FirstSection>
         <SecondSection>
           <DadosRodape>
