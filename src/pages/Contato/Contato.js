@@ -370,6 +370,17 @@ export default function Main() {
                   <span className="checkmark" />
                 </label>
               </div>
+              <div className="input_box">
+                <h1>
+                  O que te atrai a morar em um coliving?E em que você agregaria
+                  para a nossa comunidade?
+                </h1>
+                <input
+                  name="motivos"
+                  placeholder="O que te atrai a morar em um coliving?E em que você agregaria
+                  para a nossa comunidade?"
+                />
+              </div>
               <button type="submit"> ENVIAR</button>
               {/* <DadosContatoWATS href="https://wa.me/5551996607940">
               <>
