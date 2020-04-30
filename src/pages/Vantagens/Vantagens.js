@@ -217,7 +217,7 @@ export default function Main() {
                 setIndex(12);
               }}
             >
-              <FaSave className="Item" />
+              <FaCheck className="Item" />
               <h1>Contratos Flexíveis</h1>
             </GridItem>
           </VantagensGrid>
