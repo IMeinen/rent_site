@@ -14,6 +14,7 @@ import {
   FaWifi,
   FaCouch,
   FaFileInvoiceDollar,
+  FaCheck,
 } from 'react-icons/fa';
 import { IoIosClose } from 'react-icons/io';
 import { Element } from 'react-scroll';
@@ -73,6 +74,7 @@ export default function Main() {
     ],
     ['Eventos', 'Eventos para integrar a comunidade dos colivings.'],
     ['Lavanderia', 'Todos os Colivings equipados com lavanderia.'],
+    ['Contratos Flexíveis', 'Contratos sem fiador ou amarras contratuais'],
   ];
   return (
     <Element
@@ -208,6 +210,15 @@ export default function Main() {
             >
               <FaSave className="Item" />
               <h1>Lavanderia</h1>
+            </GridItem>
+            <GridItem
+              onClick={() => {
+                setShow(!show);
+                setIndex(12);
+              }}
+            >
+              <FaSave className="Item" />
+              <h1>Contratos Flexíveis</h1>
             </GridItem>
           </VantagensGrid>
         </QuadroVantagens>

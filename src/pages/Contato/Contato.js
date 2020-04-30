@@ -90,7 +90,7 @@ export default function Main() {
     };
     xhr.send(data);
     setLoading(false);
-    toast.success('Informações enviadas!');
+    toast.success('Obrigado por enviar!');
   };
 
   return (

@@ -28,7 +28,6 @@ export const QuadroVantagens = styled.div`
   justify-content: flex-start;
   flex-wrap: nowrap;
   width: 90%;
-  height: 95%;
 
   background-color: #fff;
 
@@ -43,7 +42,7 @@ export const QuadroVantagensSombra = styled.div`
   justify-content: flex-start;
   flex-wrap: nowrap;
   width: 60%;
-  height: 80%;
+
   background-color: #e74d29;
   margin-top: -2%;
   margin-left: 3%;
@@ -55,12 +54,10 @@ export const QuadroVantagensSombra = styled.div`
 
   @media only screen and (min-width: 768px) and (max-width: 1100px) {
     width: 75%;
-    height: 60%;
   }
 
   @media only screen and (min-width: 200px) and (max-width: 767px) {
     width: 90%;
-    height: 90%;
   }
 `;
 
@@ -98,7 +95,7 @@ export const VantagensGrid = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   width: 90%;
-  height: 92%;
+
   background-color: #fff;
   z-index: 4;
 `;
@@ -118,16 +115,21 @@ export const GridItem = styled.div`
   z-index: 4;
 
   @media only screen and (min-width: 1301px) {
-    height: 28%;
+    height: 200px;
   }
 
   @media only screen and (min-width: 1000px) and (max-width: 1300px) {
-    height: 23%;
+    height: 120px;
   }
 
-  @media only screen and (min-width: 200px) and (max-width: 767px) {
+  @media only screen and (min-width: 340px) and (max-width: 767px) {
     width: 45%;
-    height: 15%;
+    height: 100px;
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 339px) {
+    width: 45%;
+    height: 80px;
   }
 
   &:hover {
