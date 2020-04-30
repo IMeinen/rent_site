@@ -317,6 +317,59 @@ export default function Main() {
                   <span className="checkmark" />
                 </label>
               </div>
+              <div className="input_box">
+                <h1>Como você conheceu a Rent Coliving?</h1>
+                <label className="container">
+                  Facebook
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="como_conheceu_a_rent"
+                    value="facebook"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Instagram
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="como_conheceu_a_rent"
+                    value="instagram"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Amigo que mora na Rent
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="como_conheceu_a_rent"
+                    value="amigo_que_mora_na_rent"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Busca por colivings na internet
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="como_conheceu_a_rent"
+                    value="busca_por_colivings_na_internet"
+                  />
+                  <span className="checkmark" />
+                </label>
+                <label className="container">
+                  Outros
+                  <input
+                    type="radio"
+                    checked="checked"
+                    name="como_conheceu_a_rent"
+                    value="outros"
+                  />
+                  <span className="checkmark" />
+                </label>
+              </div>
               <button type="submit"> ENVIAR</button>
               {/* <DadosContatoWATS href="https://wa.me/5551996607940">
               <>

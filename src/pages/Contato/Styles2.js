@@ -122,6 +122,9 @@ export const FirstSection = styled.section`
       justify-content: flex-start;
       font-family: 'Be Vietnam';
       padding-left: 3%;
+      h1 {
+        margin-bottom: 12px;
+      }
       @media only screen and (max-width: 1100px) {
         font-size: 12px;
       }
