@@ -16,6 +16,10 @@ import {
   FaFileInvoiceDollar,
   FaCheck,
 } from 'react-icons/fa';
+
+import { GiWeightLiftingUp } from 'react-icons/gi';
+import { AiOutlineScissor } from 'react-icons/ai';
+
 import { IoIosClose } from 'react-icons/io';
 import { Element } from 'react-scroll';
 import {
@@ -74,7 +78,9 @@ export default function Main() {
     ],
     ['Eventos', 'Eventos para integrar a comunidade dos colivings.'],
     ['Lavanderia', 'Todos os Colivings equipados com lavanderia.'],
-    ['Contratos Flexíveis', 'Contratos sem fiador ou amarras contratuais'],
+    ['Contratos Flexíveis', 'Contratos sem fiador ou amarras contratuais.'],
+    ['Crossfit', 'Crosfit outdoor no rooftop do COLIVING VIGÁRIO.'],
+    ['Estética e beleza', 'Corte masculino,feminino,manicure e depilação.'],
   ];
   return (
     <Element
@@ -219,6 +225,24 @@ export default function Main() {
             >
               <FaCheck className="Item" />
               <h1>Contratos Flexíveis</h1>
+            </GridItem>
+            <GridItem
+              onClick={() => {
+                setShow(!show);
+                setIndex(13);
+              }}
+            >
+              <GiWeightLiftingUp className="Item" />
+              <h1>Crossfit</h1>
+            </GridItem>
+            <GridItem
+              onClick={() => {
+                setShow(!show);
+                setIndex(14);
+              }}
+            >
+              <AiOutlineScissor className="Item" />
+              <h1>Estética e beleza</h1>
             </GridItem>
           </VantagensGrid>
         </QuadroVantagens>

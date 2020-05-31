@@ -202,6 +202,6 @@ export const MyModal = styled.div`
   }
 
   .myIcon {
-    margin-top: 40px;
+    margin-top: auto;
   }
 `;
