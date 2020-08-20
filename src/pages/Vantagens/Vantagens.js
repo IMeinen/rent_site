@@ -79,7 +79,7 @@ export default function Main() {
     ['Eventos', 'Eventos para integrar a comunidade dos colivings.'],
     ['Lavanderia', 'Todos os Colivings equipados com lavanderia.'],
     ['Contratos Flexíveis', 'Contratos sem fiador ou amarras contratuais.'],
-    ['Crossfit', 'Crosfit outdoor no rooftop do COLIVING VIGÁRIO.'],
+    ['RENTCO-BOX', 'Treinamento funcional outdoor no rooftop do COLIVING VIGÁRIO.'],
     ['Estética e beleza', 'Corte masculino,feminino,manicure e depilação.'],
   ];
   return (
@@ -233,17 +233,9 @@ export default function Main() {
               }}
             >
               <GiWeightLiftingUp className="Item" />
-              <h1>Crossfit</h1>
+              <h1>RENTCO-BOX</h1>
             </GridItem>
-            <GridItem
-              onClick={() => {
-                setShow(!show);
-                setIndex(14);
-              }}
-            >
-              <AiOutlineScissor className="Item" />
-              <h1>Estética e beleza</h1>
-            </GridItem>
+          
           </VantagensGrid>
         </QuadroVantagens>
       </Content>
