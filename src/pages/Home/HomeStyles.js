@@ -12,6 +12,7 @@ export const Container = styled.div`
   width: 90%;
   margin-left: 5%;
   text-align: center;
+  margin-bottom: 100px;
 `;
 
 export const Centro = styled.div`
