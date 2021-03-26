@@ -111,7 +111,7 @@ export default function Main() {
             <form
               className="Meuform"
               onSubmit={event => handleSubmit(event)}
-              action="https://formspree.io/mnqgadwg"
+              action="https://formspree.io/f/mgerwprw"
               method="POST"
             >
               <h4>CONTATO</h4>
