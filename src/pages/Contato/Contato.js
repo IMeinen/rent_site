@@ -187,12 +187,12 @@ export default function Main() {
               <div className="input_box">
                 <h1>Qual tamanho de Coliving que você gostaria de morar?</h1>
                 <label className="container">
-                  Até 10 moradores
+                  Até 15 moradores
                   <input
                     type="radio"
                     checked="checked"
                     name="tamanho_coliving"
-                    value="ate_10_moradores"
+                    value="ate_15_moradores"
                   />
                   <span className="checkmark" />
                 </label>
