@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa';
 import { Element } from 'react-scroll';
@@ -70,27 +70,35 @@ import MyRadioButtonAcademia from './MyRadioButtonAcademia';
 export default function Main() {
   const [status, setStatus] = useState();
   const [loading, setLoading] = useState(false);
+  const nameRef = useRef(null);
+  const phoneRef = useRef(null);
 
   const handleSubmit = ev => {
     ev.preventDefault();
-    setLoading(true);
-    const form = ev.target;
-    const data = new FormData(form);
-    const xhr = new XMLHttpRequest();
-    xhr.open(form.method, form.action);
-    xhr.setRequestHeader('Accept', 'application/json');
-    xhr.onreadystatechange = () => {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
-        form.reset();
-        setStatus({ status: 'SUCCESS' });
-      } else {
-        setStatus({ status: 'ERROR' });
-      }
-    };
-    xhr.send(data);
-    setLoading(false);
-    toast.success('Obrigado por enviar!');
+    // setLoading(true);
+
+    if (!nameRef.current.value || phoneRef.current.value) {
+      toast.error('É necessário preencher nome e telefone!');
+    } else {
+      const form = ev.target;
+      const data = new FormData(form);
+
+      const xhr = new XMLHttpRequest();
+      xhr.open(form.method, form.action);
+      xhr.setRequestHeader('Accept', 'application/json');
+      xhr.onreadystatechange = () => {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+          form.reset();
+          setStatus({ status: 'SUCCESS' });
+        } else {
+          setStatus({ status: 'ERROR' });
+        }
+      };
+      xhr.send(data);
+      setLoading(false);
+      toast.success('Obrigado por enviar!');
+    }
   };
 
   return (
@@ -116,10 +124,10 @@ export default function Main() {
             >
               <h4>CONTATO</h4>
               <h2>Entre em contato para nos conhecermos melhor!</h2>
-              <input name="Nome" placeholder="Nome completo" />
+              <input name="Nome" placeholder="Nome completo" ref={nameRef} />
               <input name="Email" placeholder="Email" />
               <input name="Instragam" placeholder="Instagram" />
-              <input name="Phone" placeholder="Telefone" />
+              <input name="Phone" placeholder="Telefone" ref={phoneRef} />
               <div className="input_box">
                 <h1>Qual modalidade de moradia que você procura?</h1>
                 <label className="container">
@@ -172,16 +180,6 @@ export default function Main() {
                     checked="checked"
                     name="bairro_moradia"
                     value="proximo_do_gasometro"
-                  />
-                  <span className="checkmark" />
-                </label>
-                <label className="container">
-                  Auxiliadora
-                  <input
-                    type="radio"
-                    checked="checked"
-                    name="bairro_moradia"
-                    value="Auxiliadora"
                   />
                   <span className="checkmark" />
                 </label>
