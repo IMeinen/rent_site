@@ -77,7 +77,7 @@ export default function Main() {
     ev.preventDefault();
     // setLoading(true);
 
-    if (!nameRef.current.value || phoneRef.current.value) {
+    if (!nameRef.current.value || !phoneRef.current.value) {
       toast.error('É necessário preencher nome e telefone!');
     } else {
       const form = ev.target;
