@@ -38,7 +38,7 @@ export default function Main() {
   const Desc = [
     [
       'Economia',
-      'Aluguéis para todos os bolsos: Quartos Individuais a partir de R$600 e Studios a partir de R$1.100',
+      'Aluguéis para todos os bolsos: Quartos Individuais a partir de R$850 e Studios a partir de R$1.100',
     ],
     [
       'Localização privilegiada',
