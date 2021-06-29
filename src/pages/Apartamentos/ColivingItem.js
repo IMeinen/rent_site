@@ -29,7 +29,7 @@ class ColivingItem extends React.Component {
   render() {
     return (
       <>
-        <MyLink to={`colivings/${this.props.Col}`}>
+        <MyLink >
           <ContainerImg>
             <Imagem
               Col={this.props.Col}
