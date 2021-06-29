@@ -227,20 +227,7 @@ export default function Main() {
                   <span className="checkmark" />
                 </label>
               </div>
-              <div className="input_box">
-                <h1>
-                  Qual valor você pretende gastar com todas as contas inclusas?
-                </h1>
-                <label className="container">
-                  Até R$750
-                  <input
-                    type="radio"
-                    checked="checked"
-                    name="preco_maximo"
-                    value="ate_750"
-                  />
-                  <span className="checkmark" />
-                </label>
+              <div className="input_box">               
                 <label className="container">
                   Até R$850
                   <input
